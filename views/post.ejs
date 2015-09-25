@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>登录</title>
+    <link rel='stylesheet' href='/stylesheets/style.css'/>
+</head>
+<body>
+<div id="main">
+    <% include top %>
+    <p>我是发表文章界面</p>
+
+    <form class="login_form" method="post">
+        <div>标题：<input id="title" type="text" name="title"></div>
+        <div>内容：<input type="content" id="content" name="content"></div>
+
+        <div>
+            <button type="submit">提交</button>
+            <button type="reset">重置</button>
+        </div>
+        <% if (success) { %>
+        <div><%= success %></div>
+        <% } %>
+        <% if (error) { %>
+        <div><%= error %> </div>
+        <% } %>
+    </form>
+    <% include bottom %>
+
+</div>
+</body>
+</html>

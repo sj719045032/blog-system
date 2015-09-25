@@ -1,0 +1,69 @@
+
+html, body, div, span, iframe, map, font, img, a img, samp, strong, hr,
+h1, h2, h3, h4, h5, h6, b, p, blockquote, a, address, code, dl, dt, dd, ol,
+ul, li, form, label, table, tr, td, th {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-weight: normal;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+}
+
+body {
+    background: #fff;
+}
+
+ul, li {
+    list-style: none;
+}
+
+dl {
+}
+
+.f_l {
+    float: left;
+}
+
+.f_r {
+    float: right;
+}
+
+#main {
+    width: 1000px;
+    margin: 0px auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+#top {
+    background-color: black;
+    height: 80px;
+    vertical-align: middle;
+}
+
+#top img {
+    margin-left: 50px;
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    line-height: 80px;
+}
+
+#top a {
+    margin-left: 30px;
+    text-align: center;
+    vertical-align: middle;
+    height: 80px;
+    line-height: 80px;
+    color: white;
+    font-size: 30px;
+    font-family: "Î¢ÈíÑÅºÚ";
+}
+
+#content {
+    height: 800px;
+}
