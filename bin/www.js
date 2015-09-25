@@ -3,7 +3,7 @@
 /**
  * Module dependencies.
  */
-    var hehe;
+
 var app = require('../app');
 var debug = require('debug')('untitled4:server');
 var http = require('http');
@@ -31,7 +31,9 @@ server.on('listening', onListening);
 /**
  * Normalize a port into a number, string, or false.
  */
-
+function xixi (){
+    console.log('hehe');
+}
 function normalizePort(val) {
     var port = parseInt(val, 10);
 
