@@ -29,7 +29,8 @@ Post.prototype.save = function (callback) {
         name: this.name,
         time: time,
         title: this.title,
-        post: this.post
+        post: this.post,
+        comments: []
     };
 
     mongodb.open(function (err, db) {
@@ -110,6 +111,75 @@ Post.getOne= function (name, day,title,callback) {
                     return callback(err);
 
                 callback(null, doc);
+            })
+
+        })
+
+    });
+};
+Post.update=function (name, day,title,post,callback) {
+    mongodb.open(function (err, db) {
+        if (err) {
+            mongodb.close();
+            return callback(err);
+        }
+        db.collection('posts', function (err, collection) {
+            if (err) {
+                mongodb.close();
+                return callback(err);
+            }
+
+            var query = {
+                'name':name,
+                'title':title,
+                'time.day':day
+
+            };
+
+
+            collection.update(query,{
+                $set: {post: post}
+            },function (err) {
+
+                mongodb.close();
+                if (err)
+                    return callback(err);
+
+                callback(null);
+            })
+
+        })
+
+    });
+};
+
+Post.remove= function (name, day,title,callback) {
+    mongodb.open(function (err, db) {
+        if (err) {
+            mongodb.close();
+            return callback(err);
+        }
+        db.collection('posts', function (err, collection) {
+            if (err) {
+                mongodb.close();
+                return callback(err);
+            }
+
+            var query = {
+                'name':name,
+                'title':title,
+                'time.day':day
+
+            };
+
+
+            collection.remove(query,{w:1},function (err) {
+
+                mongodb.close();
+                if (err)
+                    return callback(err);
+
+                callback(null);
             })
 
         })

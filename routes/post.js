@@ -28,7 +28,7 @@ router.post('/', function (req, res, next) {
             return res.redirect('post');
         }
 
-        req.flash('sucess', '发表成功');
+        req.flash('success', '发表成功');
         res.redirect('/');
     });
 });
