@@ -20,9 +20,9 @@ Post.prototype.save = function (callback) {
     var time = {
         date: date,
         year: date.getFullYear(),
-        month: date.getFullYear() + "-" + date.getMonth(),
-        day: date.getFullYear() + "-" + date.getMonth() + "-" + date.getDay(),
-        minute: date.getFullYear() + "-" + date.getMonth() + "-" + date.getDay() + ":" + (date.getMinutes() < 10 ? "0" + date.getMinutes() : date.getMinutes()),
+        month: date.getFullYear() + "-" + (date.getMonth()+1),
+        day: date.getFullYear() + "-" + (date.getMonth()+1) + "-" + date.getDate(),
+        minute: date.getFullYear() + "-" +( date.getMonth()+1) + "-" + date.getDate()+ " "+date.getHours()+":" + (date.getMinutes() < 10 ? "0" + date.getMinutes() : date.getMinutes()),
 
     };
     var post = {
@@ -53,7 +53,7 @@ Post.prototype.save = function (callback) {
     })
 };
 
-Post.get = function (name, callback) {
+Post.getAll= function (name, callback) {
     mongodb.open(function (err, db) {
         if (err) {
             mongodb.close();
@@ -77,6 +77,39 @@ Post.get = function (name, callback) {
                     return callback(err);
 
                 callback(null, docs);
+            })
+
+        })
+
+    });
+};
+Post.getOne= function (name, day,title,callback) {
+    mongodb.open(function (err, db) {
+        if (err) {
+            mongodb.close();
+            return callback(err);
+        }
+        db.collection('posts', function (err, collection) {
+            if (err) {
+                mongodb.close();
+                return callback(err);
+            }
+
+            var query = {
+                'name':name,
+                'title':title,
+                'time.day':day
+
+            };
+
+
+            collection.findOne(query,function (err, doc) {
+
+                mongodb.close();
+                if (err)
+                    return callback(err);
+
+                callback(null, doc);
             })
 
         })
