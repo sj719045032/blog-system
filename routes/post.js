@@ -5,7 +5,10 @@ var express = require('express');
 var router = express.Router();
 var stateCheck = require('../modules/statecheck');
 var Post = require('../modules/post.js');
-/* »ñÈ¡·¢±íÎÄÕÂÒ³ */
+var formidable = require('formidable');
+var fs=require('fs');
+/* è·å–å‘è¡¨é¡µ
+* */
 router.get('/', stateCheck.checkLogin);
 router.get('/', function (req, res, next) {
     res.render('post', {
@@ -15,6 +18,7 @@ router.get('/', function (req, res, next) {
     });
 });
 router.post('/', stateCheck.checkLogin);
+
 router.post('/', function (req, res, next) {
     var user = req.session.user;
     var post = new Post(user.name, req.body.title, req.body.content);
@@ -24,9 +28,42 @@ router.post('/', function (req, res, next) {
             return res.redirect('post');
         }
 
-        req.flash('sucess', '·¢±í³É¹¦£¡');
+        req.flash('success', 'å‘è¡¨æˆåŠŸ');
         res.redirect('/');
     });
 });
+router.post('/img', stateCheck.checkLogin);
+router.post('/img', function (req, res, next) {
+        var form = new formidable.IncomingForm();
+    form.keepExtensions = true;
+    form.uploadDir = __dirname + '/../public/img';
+    form.parse(req, function (err, fields, files) {
+        if (err)
+            throw err;
 
+        var image = files.imgFile;
+        var path = image.path;
+        var type = image.type;
+        type = type.substr(0, type.indexOf('/'));
+        console.log(files);
+        if (type!="image") {
+            var info = {
+                "error": 1,
+                "message": "è¯·ä¸Šä¼ å›¾ç‰‡"
+            };
+            fs.unlink(path);
+           return res.send(info);
+        }
+        path = path.replace('/\\/g', '/');
+        var url = '/img' + path.substr(path.lastIndexOf('\\'), path.length);
+
+        var info = {
+            "error": 0,
+            "url": url
+        };
+        res.send(info);
+    });
+
+
+});
 module.exports = router;

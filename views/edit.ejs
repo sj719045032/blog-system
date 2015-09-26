@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>登录</title>
+    <title><%= title %></title>
     <link rel='stylesheet' href='/stylesheets/style.css'/>
     <script charset="utf-8" src="/js/kindeditor/kindeditor-min.js"></script>
     <script charset="utf-8" src="/js/kindeditor/lang/zh_CN.js"></script>
@@ -20,27 +20,25 @@
                     'insertorderedlist', 'insertunorderedlist', '|', 'emoticons', 'image', 'link']
             });
         });
-    </script>
+        </script>
 </head>
 <body>
+
 <div id="main">
-    <% include top %>
-
-    <form class="login_form" method="post">
-        <div>标题：<input id="title" type="text" name="title"></div>
-        <div>内容：<textarea type="content" id="content" name="content"></textarea></div>
-
-        <div>
-            <button type="submit">提交</button>
-            <button type="reset">重置</button>
-        </div>
-        <% if (success) { %>
-        <div><%= success %></div>
-        <% } %>
-        <% if (error) { %>
-        <div><%= error %> </div>
-        <% } %>
-    </form>
+    <% include top%>
+<form method="post">
+    标题：<br />
+    <input type="text" name="title" value="<%= post.title %>" disabled="disabled" /><br />
+    正文：<br />
+    <textarea name="post" rows="20" cols="100"><%= post.post %></textarea><br />
+    <input type="submit" value="保存修改" />
+</form>
+    <% if (success) { %>
+    <div><%= success %></div>
+    <% } %>
+    <% if (error) { %>
+    <div><%= error %> </div>
+    <% } %>
     <% include bottom %>
 </div>
 </body>

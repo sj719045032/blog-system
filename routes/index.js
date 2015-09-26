@@ -4,7 +4,7 @@ var Post = require('../modules/post.js');
 /* GET home page. */
 router.get('/', function (req, res, next) {
     var posts;
-    Post.get(null, function (err, posts) {
+    Post.getAll(null, function (err, posts) {
         if (err)
             posts = [];
         res.render('index', {
