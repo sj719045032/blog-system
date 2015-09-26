@@ -9,6 +9,9 @@ var login = require('./routes/login');
 var logout = require('./routes/logout');
 var post = require('./routes/post');
 var reg = require('./routes/reg');
+var edit = require('./routes/edit');
+var del = require('./routes/delete');
+var comment=require('./routes/comment');
 var MongoStore = require('connect-mongo')(session);
 var settings = require('./settings');
 var flash = require('connect-flash');
@@ -38,6 +41,9 @@ app.use('/login', login);
 app.use('/reg', reg);
 app.use('/logout', logout);
 app.use('/post', post);
+app.use('/edit', edit);
+app.use('/remove', del);
+app.use('/comment', comment);
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {
     var err = new Error('Not Found');
