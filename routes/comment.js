@@ -10,7 +10,7 @@ router.post('/:name/:day/:title', function (req, res, next) {
         time = date.getFullYear() + "-" + (date.getMonth() + 1) + "-" + date.getDate() + " " +
             date.getHours() + ":" + (date.getMinutes() < 10 ? '0' + date.getMinutes() : date.getMinutes());
     var comment = {
-        name: req.session.user.name?req.session.user.name:"",
+        name: req.session.user?req.session.user.name:"",
         email: req.body.email,
         website: req.body.website,
         time: time,
