@@ -8,7 +8,7 @@
 var Db = require('./db');
 var poolModule=require('generic-pool');
 var pool=poolModule.Pool({
-    name:'mongoPool',
+    name: 'mongoPool_post',
     create: function (cb) {
         var mongoDb=Db();
         mongoDb.open(function (err, db) {

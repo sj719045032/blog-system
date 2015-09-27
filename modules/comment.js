@@ -1,7 +1,24 @@
 /**
  * Created by shijin on 2015/9/26.
  */
-var mongodb = require('./db');
+var Db = require('./db');
+var poolModule = require('generic-pool');
+var pool = poolModule.Pool({
+    name: 'mongoPool_comment',
+    create: function (cb) {
+        var mongoDb = Db();
+        mongoDb.open(function (err, db) {
+            cb(err, db);
+        })
+    },
+    destroy: function (mongodb) {
+        mongodb.close();
+    },
+    max: 100,
+    min: 5,
+    idleTimeoutMills: 30000,
+    log: true
+});
 function Comment(name,day,title,comment){
     this.name = name;
     this.day = day;
@@ -16,13 +33,13 @@ Comment.prototype.save=function(callback){
         day = this.day,
         title = this.title,
         comment = this.comment;
-    mongodb.open(function (err, db) {
+    pool.acquire(function (err, db) {
         if(err)
         return callback(err);
 
         db.collection('posts',function(err,collection){
             if(err){
-                mongodb.close();
+                pool.release();
                 return callback(err);
             }
             var query={
