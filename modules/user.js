@@ -31,7 +31,7 @@ module.exports = User;
 User.prototype.save = function save(callback) {
     var user = {
         name: this.name,
-        password: this.password,
+        password: this.password
     };
     pool.acquire(function (err, db) {
         if (err) {
