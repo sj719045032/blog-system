@@ -5,13 +5,12 @@ var express = require('express');
 var router = express.Router();
 var stateCheck = require('../modules/statecheck');
 var Comment=require('../modules/comment.js');
-router.post('/:name/:day/:title', stateCheck.checkLogin);
 router.post('/:name/:day/:title', function (req, res, next) {
     var date = new Date(),
         time = date.getFullYear() + "-" + (date.getMonth() + 1) + "-" + date.getDate() + " " +
             date.getHours() + ":" + (date.getMinutes() < 10 ? '0' + date.getMinutes() : date.getMinutes());
     var comment = {
-        name: req.body.name,
+        name: req.session.user.name?req.session.user.name:"",
         email: req.body.email,
         website: req.body.website,
         time: time,

@@ -7,7 +7,7 @@ var User = require('../modules/user');
 var Post = require('../modules/post.js');
 /* GET user page. */
 router.get('/', function (req, res, next) {
-    res.render("users", {username: "不存在"})
+    res.redirect('back');
 });
 router.get('/:username', function (req, res, next) {
    User.get(req.params.username, function (err,user) {
