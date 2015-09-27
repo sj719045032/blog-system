@@ -4,7 +4,7 @@
 /*
  ÎÄÕÂÄ£ÐÍ
  */
-
+var ObjectID = require('mongodb').ObjectID;
 var Db = require('./db');
 var poolModule=require('generic-pool');
 var pool=poolModule.Pool({
@@ -104,7 +104,7 @@ Post.getSome = function (name, page,number, callback) {
 
     });
 };
-Post.getOne = function (name, day, title, callback) {
+Post.getOne = function (_id, callback) {
     pool.acquire(function (err, db) {
         if (err) {
             pool.release(db);
@@ -117,9 +117,7 @@ Post.getOne = function (name, day, title, callback) {
             }
 
             var query = {
-                'name': name,
-                'title': title,
-                'time.day': day
+                '_id': new ObjectID(_id)
 
             };
 
@@ -137,7 +135,7 @@ Post.getOne = function (name, day, title, callback) {
 
     });
 };
-Post.update = function (name, day, title, post, callback) {
+Post.update = function (_id, post, callback) {
     pool.acquire(function (err, db) {
         if (err) {
             pool.release(db);
@@ -150,9 +148,7 @@ Post.update = function (name, day, title, post, callback) {
             }
 
             var query = {
-                'name': name,
-                'title': title,
-                'time.day': day
+                '_id': new ObjectID(_id)
 
             };
 
@@ -205,7 +201,7 @@ Post.getTotalNumber=function (name,callback) {
 
     });
 };
-Post.remove = function (name, day, title, callback) {
+Post.remove = function (_id, callback) {
     pool.acquire(function (err, db) {
         if (err) {
             pool.release(db);
@@ -218,9 +214,7 @@ Post.remove = function (name, day, title, callback) {
             }
 
             var query = {
-                'name': name,
-                'title': title,
-                'time.day': day
+                '_id': new ObjectID(_id)
 
             };
 

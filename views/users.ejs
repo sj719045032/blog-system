@@ -10,7 +10,9 @@
 <%- include top %>
 <% posts.forEach(function (post, index) { %>
     <div style="border: 1px solid black;margin-bottom: 10px">
-<p><h2><a href="/users/<%= post.name %>/<%= post.time.day %>/<%= post.title %>"><%= post.title %></a></h2></p>
+        <p>
+
+        <h2><a href="/users/p/<%= post._id %>"><%= post.title %></a></h2></p>
 <p class="info">
     作者：<a href="/users/<%= post.name %>"><%= post.name %></a> |
     日期：<%= post.time.minute %>

@@ -17,8 +17,8 @@
     <% include top %>
     <div id="content">
         <% if (user && (user.name == post.name)) { %>
-        <span><a class="edit" href="/edit/<%= post.name %>/<%= post.time.day %>/<%= post.title %>">编辑</a></span>
-        <span><form action="/remove/<%= post.name %>/<%= post.time.day %>/<%= post.title %>" target="_blank" method="get">
+        <span><a class="edit" href="/edit/<%= post._id %>">编辑</a></span>
+        <span><form action="/remove/<%= post._id %>" target="_blank" method="get">
                 <input name="" type="submit" value="删除" onClick="delcfm()" /></form></span>
         <% } %>
         <p class="info">

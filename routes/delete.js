@@ -6,16 +6,24 @@ var express = require('express');
 var router = express.Router();
 var stateCheck = require('../modules/statecheck');
 var Post = require('../modules/post.js');
-router.get('/:name/:day/:title', stateCheck.checkLogin);
-router.get('/:name/:day/:title',function(req,res,next){
+router.get('/:_id', stateCheck.checkLogin);
+router.get('/:_id', function (req, res) {
     var currentUser = req.session.user;
-    Post.remove(currentUser.name, req.params.day, req.params.title, function (err) {
+    Post.getOne(req.params._id, function (err, doc) {
         if (err) {
             req.flash('error', err);
             return res.redirect('back');
         }
-        req.flash('success', '删除成功!');
-        res.redirect('/');
+        if (doc.name != currentUser.name)
+            return res.redirect('back');
+        Post.remove(req.params._id, function (err) {
+            if (err) {
+                req.flash('error', err);
+                return res.redirect('back');
+            }
+            req.flash('success', '删除成功!');
+            res.redirect('/');
+        });
     });
 });
 
