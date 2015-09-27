@@ -4,7 +4,24 @@
 /*
  用户模型
  */
-var mongodb = require('./db');
+var Db = require('./db');
+var poolModule=require('generic-pool');
+var pool=poolModule.Pool({
+    name:'mongoPool',
+    create: function (cb) {
+        var mongoDb=Db();
+        mongoDb.open(function (err, db) {
+            cb(err,db);
+        })
+    },
+    destroy: function (mongodb) {
+        mongodb.close();
+    },
+    max:100,
+    min:5,
+    idleTimeoutMills:30000,
+    log:true
+});
 function User(user) {
     this.name = user.name;
     this.password = user.password;
@@ -16,19 +33,19 @@ User.prototype.save = function save(callback) {
         name: this.name,
         password: this.password,
     };
-    mongodb.open(function (err, db) {
+    pool.acquire(function (err, db) {
         if (err) {
-            mongodb.close();
+           pool.release(db);
             return callback(err);
         }
         db.collection('users', function (err, collection) {
             if (err) {
-                mongodb.close();
+               pool.release(db);
                 return callback(err);
             }
             collection.ensureIndex('name', {unique: true});
             collection.insert(user, {safe: true}, function (err, user) {
-                mongodb.close();
+               pool.release(db);
                 callback(err, user);
             });
         });
@@ -36,17 +53,17 @@ User.prototype.save = function save(callback) {
 
 };
 User.get = function get(username, callback) {
-    mongodb.open(function (err, db) {
+    pool.acquire(function (err, db) {
         if (err)
             return callback(err);
         db.collection('users', function (err, collection) {
             if (err) {
-                mongodb.close();
+               pool.release(db);
                 return callback(err);
             }
 
             collection.findOne({name: username}, function (err, doc) {
-                mongodb.close();
+               pool.release(db);
                 if (doc) {
                     var user = new User(doc);
                     callback(err, user);

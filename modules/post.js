@@ -5,7 +5,24 @@
  ÎÄÕÂÄ£ÐÍ
  */
 
-var mongodb = require('./db');
+var Db = require('./db');
+var poolModule=require('generic-pool');
+var pool=poolModule.Pool({
+    name:'mongoPool',
+    create: function (cb) {
+        var mongoDb=Db();
+        mongoDb.open(function (err, db) {
+            cb(err,db);
+        })
+    },
+    destroy: function (mongodb) {
+        mongodb.close();
+    },
+    max:100,
+    min:5,
+    idleTimeoutMills:30000,
+    log:true
+});
 function Post(name, title, post) {
     this.name = name;
     this.title = title;
@@ -33,17 +50,17 @@ Post.prototype.save = function (callback) {
         comments: []
     };
 
-    mongodb.open(function (err, db) {
+    pool.acquire(function (err, db) {
         if (err)
             return callback(err);
         db.collection('posts', function (err, collection) {
             if (err) {
-                mongodb.close();
+                pool.release(db);
                 return callback(err);
             }
 
             collection.insert(post, {safe: true}, function (err) {
-                mongodb.close();
+                pool.release(db);
                 if (err) {
                     return callback(err);
                 }
@@ -55,14 +72,14 @@ Post.prototype.save = function (callback) {
 };
 
 Post.getSome = function (name, page,number, callback) {
-    mongodb.open(function (err, db) {
+    pool.acquire(function (err, db) {
         if (err) {
-            mongodb.close();
+            pool.release(db);
             return callback(err);
         }
         db.collection('posts', function (err, collection) {
             if (err) {
-                mongodb.close();
+                pool.release(db);
                 return callback(err);
             }
 
@@ -76,9 +93,9 @@ Post.getSome = function (name, page,number, callback) {
                     skip: (page - 1) * number,
                     limit: number
                 }).sort({time: -1}).toArray(function (err, docs) {
-                    mongodb.close();
+                    pool.release(db);
                     if(err)
-                    callback(err)
+                    callback(err);
                    callback(null,docs);
                 });
 
@@ -88,14 +105,14 @@ Post.getSome = function (name, page,number, callback) {
     });
 };
 Post.getOne = function (name, day, title, callback) {
-    mongodb.open(function (err, db) {
+    pool.acquire(function (err, db) {
         if (err) {
-            mongodb.close();
+            pool.release(db);
             return callback(err);
         }
         db.collection('posts', function (err, collection) {
             if (err) {
-                mongodb.close();
+                pool.release(db);
                 return callback(err);
             }
 
@@ -109,7 +126,7 @@ Post.getOne = function (name, day, title, callback) {
 
             collection.findOne(query, function (err, doc) {
 
-                mongodb.close();
+                pool.release(db);
                 if (err)
                     return callback(err);
 
@@ -121,14 +138,14 @@ Post.getOne = function (name, day, title, callback) {
     });
 };
 Post.update = function (name, day, title, post, callback) {
-    mongodb.open(function (err, db) {
+    pool.acquire(function (err, db) {
         if (err) {
-            mongodb.close();
+            pool.release(db);
             return callback(err);
         }
         db.collection('posts', function (err, collection) {
             if (err) {
-                mongodb.close();
+                pool.release(db);
                 return callback(err);
             }
 
@@ -144,7 +161,7 @@ Post.update = function (name, day, title, post, callback) {
                 $set: {post: post}
             }, function (err) {
 
-                mongodb.close();
+                pool.release(db);
                 if (err)
                     return callback(err);
 
@@ -156,14 +173,14 @@ Post.update = function (name, day, title, post, callback) {
     });
 };
 Post.getTotalNumber=function (name,callback) {
-    mongodb.open(function (err, db) {
+    pool.acquire(function (err, db) {
         if (err) {
-            mongodb.close();
+            pool.release(db);
             return callback(err);
         }
         db.collection('posts', function (err, collection) {
             if (err) {
-                mongodb.close();
+                pool.release(db);
                 return callback(err);
             }
 
@@ -173,7 +190,7 @@ Post.getTotalNumber=function (name,callback) {
             }
 
             collection.count(query, function (err, total) {
-                mongodb.close();
+                pool.release(db);
                 if(err)
                 {
 
@@ -189,14 +206,14 @@ Post.getTotalNumber=function (name,callback) {
     });
 };
 Post.remove = function (name, day, title, callback) {
-    mongodb.open(function (err, db) {
+    pool.acquire(function (err, db) {
         if (err) {
-            mongodb.close();
+            pool.release(db);
             return callback(err);
         }
         db.collection('posts', function (err, collection) {
             if (err) {
-                mongodb.close();
+                pool.release(db);
                 return callback(err);
             }
 
@@ -210,7 +227,7 @@ Post.remove = function (name, day, title, callback) {
 
             collection.remove(query, {w: 1}, function (err) {
 
-                mongodb.close();
+                pool.release(db);
                 if (err)
                     return callback(err);
 
