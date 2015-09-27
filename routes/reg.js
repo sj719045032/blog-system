@@ -20,6 +20,8 @@ router.get('/', function (req, res, next) {
 });
 
 /* 提交注册信息 */
+router.post('/', stateCheck.checkNotLogin
+);
 router.post('/', function (req, res, next) {
     if (req.body['password'] != req.body['rpassword']) {
         req.flash('error', '两次输入的密码不一致!');

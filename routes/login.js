@@ -19,6 +19,7 @@ router.get('/', function (req, res, next) {
 });
 
 /* 登录*/
+router.post('/', stateCheck.checkNotLogin);
 router.post('/', function (req, res, next) {
     var md5 = crypto.createHash('md5');
     var password = md5.update(req.body.password).digest('base64');
