@@ -20,9 +20,9 @@ Post.prototype.save = function (callback) {
     var time = {
         date: date,
         year: date.getFullYear(),
-        month: date.getFullYear() + "-" + (date.getMonth()+1),
-        day: date.getFullYear() + "-" + (date.getMonth()+1) + "-" + date.getDate(),
-        minute: date.getFullYear() + "-" +( date.getMonth()+1) + "-" + date.getDate()+ " "+date.getHours()+":" + (date.getMinutes() < 10 ? "0" + date.getMinutes() : date.getMinutes()),
+        month: date.getFullYear() + "-" + (date.getMonth() + 1),
+        day: date.getFullYear() + "-" + (date.getMonth() + 1) + "-" + date.getDate(),
+        minute: date.getFullYear() + "-" + ( date.getMonth() + 1) + "-" + date.getDate() + " " + date.getHours() + ":" + (date.getMinutes() < 10 ? "0" + date.getMinutes() : date.getMinutes()),
 
     };
     var post = {
@@ -54,7 +54,7 @@ Post.prototype.save = function (callback) {
     })
 };
 
-Post.getAll= function (name, callback) {
+Post.getSome = function (name, page,number, callback) {
     mongodb.open(function (err, db) {
         if (err) {
             mongodb.close();
@@ -71,20 +71,23 @@ Post.getAll= function (name, callback) {
                 query.name = name;
             }
 
-            collection.find(query).sort({time: -1}).toArray(function (err, docs) {
 
-                mongodb.close();
-                if (err)
-                    return callback(err);
+                collection.find(query, {
+                    skip: (page - 1) * number,
+                    limit: number
+                }).sort({time: -1}).toArray(function (err, docs) {
+                    mongodb.close();
+                    if(err)
+                    callback(err)
+                   callback(null,docs);
+                });
 
-                callback(null, docs);
-            })
 
-        })
+        });
 
     });
 };
-Post.getOne= function (name, day,title,callback) {
+Post.getOne = function (name, day, title, callback) {
     mongodb.open(function (err, db) {
         if (err) {
             mongodb.close();
@@ -97,14 +100,14 @@ Post.getOne= function (name, day,title,callback) {
             }
 
             var query = {
-                'name':name,
-                'title':title,
-                'time.day':day
+                'name': name,
+                'title': title,
+                'time.day': day
 
             };
 
 
-            collection.findOne(query,function (err, doc) {
+            collection.findOne(query, function (err, doc) {
 
                 mongodb.close();
                 if (err)
@@ -117,7 +120,7 @@ Post.getOne= function (name, day,title,callback) {
 
     });
 };
-Post.update=function (name, day,title,post,callback) {
+Post.update = function (name, day, title, post, callback) {
     mongodb.open(function (err, db) {
         if (err) {
             mongodb.close();
@@ -130,16 +133,16 @@ Post.update=function (name, day,title,post,callback) {
             }
 
             var query = {
-                'name':name,
-                'title':title,
-                'time.day':day
+                'name': name,
+                'title': title,
+                'time.day': day
 
             };
 
 
-            collection.update(query,{
+            collection.update(query, {
                 $set: {post: post}
-            },function (err) {
+            }, function (err) {
 
                 mongodb.close();
                 if (err)
@@ -152,8 +155,40 @@ Post.update=function (name, day,title,post,callback) {
 
     });
 };
+Post.getTotalNumber=function (name,callback) {
+    mongodb.open(function (err, db) {
+        if (err) {
+            mongodb.close();
+            return callback(err);
+        }
+        db.collection('posts', function (err, collection) {
+            if (err) {
+                mongodb.close();
+                return callback(err);
+            }
 
-Post.remove= function (name, day,title,callback) {
+            var query = {};
+            if (name) {
+                query.name = name;
+            }
+
+            collection.count(query, function (err, total) {
+                mongodb.close();
+                if(err)
+                {
+
+                    callback(err)
+                }
+
+                    callback(null,total);
+
+            });
+
+        });
+
+    });
+};
+Post.remove = function (name, day, title, callback) {
     mongodb.open(function (err, db) {
         if (err) {
             mongodb.close();
@@ -166,14 +201,14 @@ Post.remove= function (name, day,title,callback) {
             }
 
             var query = {
-                'name':name,
-                'title':title,
-                'time.day':day
+                'name': name,
+                'title': title,
+                'time.day': day
 
             };
 
 
-            collection.remove(query,{w:1},function (err) {
+            collection.remove(query, {w: 1}, function (err) {
 
                 mongodb.close();
                 if (err)

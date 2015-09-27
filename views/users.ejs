@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>用户信息</title>
+    <title><%=title%></title>
     <link rel='stylesheet' href='/stylesheets/style.css'/>
 </head>
 <body>
@@ -16,6 +16,7 @@
 </p>
 <p><%- post.post %></p>
 <% }) %>
+    <% include pageing.ejs%>
 <%- include bottom %>
     </div>
 </body>

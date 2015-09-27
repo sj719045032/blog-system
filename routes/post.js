@@ -45,7 +45,6 @@ router.post('/img', function (req, res, next) {
         var path = image.path;
         var type = image.type;
         type = type.substr(0, type.indexOf('/'));
-        console.log(files);
         if (type!="image") {
             var info = {
                 "error": 1,

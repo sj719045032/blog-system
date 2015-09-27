@@ -16,21 +16,34 @@ router.get('/:username', function (req, res, next) {
            req.flash('error','用户不存在！');
            return res.redirect('/');
        }
-       Post.getAll(user.name, function (err, posts) {
-           if(err)
-           {
-               req.flash('error',err);
-               return res.redirect('/');
-           }
+       var page = req.query.p ? req.query.p : 1;
+       page = parseInt(page);
+       var number=2;
+       Post.getTotalNumber(null, function (err, total) {
+           if (page > Math.ceil(total /number) || page <= 0||isNaN(page))
+               page=1;
 
-           res.render('users',{
-               title: user.name,
-               posts: posts,
-               user : req.session.user,
-               success : req.flash('success').toString(),
-               error : req.flash('error').toString()
-           });
-       })
+           Post.getSome(null, page,number, function (err, posts) {
+               if (err)
+                   posts = [];
+               if(posts)
+
+
+
+                   res.render('users', {
+                       title: '用户页',
+                       user: req.session.user,
+                       page: page,
+                       isFirstPage: page == 1,
+                       isLastPage: ((page - 1) * 10 + posts.length) == total,
+                       posts: posts,
+                       total: Math.ceil(total /number),
+                       error: req.flash('error').toString(),
+                       success: req.flash('success').toString()
+                   });
+           })
+       });
+
 
    });
 

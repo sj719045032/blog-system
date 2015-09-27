@@ -22,6 +22,7 @@
                 <input name="" type="submit" value="删除" onClick="delcfm()" /></form></span>
         <% } %>
         <p class="info">
+            <%= post.title %><br>
             作者：<a href="/users/<%= post.name %>"><%= post.name %></a> |
             日期：<%= post.time.minute %>
         </p>

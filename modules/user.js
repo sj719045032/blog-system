@@ -23,7 +23,7 @@ User.prototype.save = function save(callback) {
         }
         db.collection('users', function (err, collection) {
             if (err) {
-                mongodb.colse();
+                mongodb.close();
                 return callback(err);
             }
             collection.ensureIndex('name', {unique: true});
@@ -41,7 +41,7 @@ User.get = function get(username, callback) {
             return callback(err);
         db.collection('users', function (err, collection) {
             if (err) {
-                mongodb.colse();
+                mongodb.close();
                 return callback(err);
             }
 
