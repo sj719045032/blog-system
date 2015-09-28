@@ -1,12 +1,15 @@
 
-<% post.comments.forEach(function (comment, index) { %>
-<p><a href="/users/<%= comment.name %>"><%= comment.name?comment.name:"匿名用户" %></a>
-    <span class="info"> 回复于 <%= comment.time %></span></p>
-<p><%- comment.content %></p>
-<% }) %>
+<div class="ds-thread" data-thread-key="<%=post._id%>" data-title="<%=post.title%>" data-url="/user/p/<%=post._id%>"></div>
 
-    <form method="post" action="/comment/<%= post.name %>/<%= post.time.day %>/<%= post.title %>">
+<script type="text/javascript">
+    var duoshuoQuery = {short_name:"stoneshijin"};
+    (function() {
+        var ds = document.createElement('script');
+        ds.type = 'text/javascript';ds.async = true;
+        ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+        ds.charset = 'UTF-8';
+        (document.getElementsByTagName('head')[0]
+        || document.getElementsByTagName('body')[0]).appendChild(ds);
+    })();
+</script>
 
-        <textarea name="content" rows="5" cols="80"></textarea><br />
-        <input type="submit" value="留言" />
-    </form>
