@@ -13,7 +13,9 @@ var pool = poolModule.Pool({
     create: function (cb) {
         var mongoDb = Db();
         mongoDb.open(function (err, db) {
-            cb(err, db);
+            mongoDb.authenticate("sj719045032", "shijin821", function () {
+                cb(err, db);
+            });
         })
     },
     destroy: function (mongodb) {
@@ -165,7 +167,7 @@ Post.getSome = function (name, page, number, callback) {
         }).sort({time: -1}).toArray(function (err, docs) {
             cb(err, docs, db);
         })
-    }], function (err,docs, db) {
+    }], function (err, docs, db) {
         pool.release(db);
         callback(err, docs);
     });
@@ -388,7 +390,7 @@ Post.remove = function (_id, callback) {
 
         };
         collection.remove(query, {w: 1}, function (err) {
-            cb(err,db);
+            cb(err, db);
         });
     }], function (err, db) {
         pool.release(db);
