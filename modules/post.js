@@ -22,7 +22,7 @@ var pool = poolModule.Pool({
     max: 100,
     min: 5,
     idleTimeoutMills: 30000,
-    log: true
+    log: false
 });
 function Post(name, title, post) {
     this.name = name;

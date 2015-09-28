@@ -17,7 +17,7 @@ var pool = poolModule.Pool({
     max: 100,
     min: 5,
     idleTimeoutMills: 30000,
-    log: true
+    log: false
 });
 function Comment(name,day,title,comment){
     this.name = name;
