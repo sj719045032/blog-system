@@ -11,9 +11,13 @@ var pool = poolModule.Pool({
     name: 'mongoPool_user',
     create: function (cb) {
         var mongoDb = Db();
+
         mongoDb.open(function (err, db) {
-            cb(err, db);
-        })
+            mongoDb.authenticate("sj719045032", "shijin821", function () {
+                cb(err, db);
+            });
+
+        });
     },
     destroy: function (mongodb) {
         mongodb.close();
@@ -21,7 +25,7 @@ var pool = poolModule.Pool({
     max: 100,
     min: 5,
     idleTimeoutMills: 30000,
-    log: true
+    log: false
 });
 function User(user) {
     this.name = user.name;
@@ -94,12 +98,12 @@ User.prototype.save = function (callback) {
             return callback(err);
         db.collection('users', function (err, collection) {
             if (err) {
-                pool.release(db);
+ pool.release(db);
                 return callback(err);
             }
 
             collection.findOne({name: username}, function (err, doc) {
-                pool.release(db);
+ pool.release(db);
                 if (doc) {
                     var user = new User(doc);
                     callback(err, user);
@@ -111,7 +115,7 @@ User.prototype.save = function (callback) {
         });
     });
 
-};*/
+ };*/
 
 User.get = function (username, callback) {
     async.waterfall([function (cb) {
@@ -129,7 +133,7 @@ User.get = function (username, callback) {
             });
         }
 
-    ], function (err,user, db) {
+    ], function (err, user, db) {
         pool.release(db);
         callback(err, user);
 

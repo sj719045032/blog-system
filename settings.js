@@ -4,5 +4,6 @@
 module.exports = {
     cookieSecret: 'microblogbyvoid',
     db: 'stone',
-    host: 'localhost',
+    host: 'ds051953.mongolab.com',
+    port: "51953"
 };
