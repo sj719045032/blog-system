@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title><%=title%></title>
+    <link rel='stylesheet' href='/stylesheets/style.css'/>
+</head>
+<body>
+<div id="main">
+    <% include top %>
+    <div id="content">
+        <ul class="archive">
+            <% var lastYear = 0 %>
+            <% posts.forEach(function (post, index) { %>
+            <% if(lastYear != post.time.year) { %>
+            <li><h3><%= post.time.year %></h3></li>
+            <% lastYear = post.time.year } %>
+            <li><time><%= post.time.day %></time></li>
+            <li><a href="/users/p/<%= post._id %>"><%= post.title %></a></li>
+            <% }) %>
+        </ul>
+    </div>
+    <% include bottom %>
+</div>
+</body>
+</html>

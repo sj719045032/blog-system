@@ -12,6 +12,7 @@ var reg = require('./routes/reg');
 var edit = require('./routes/edit');
 var del = require('./routes/delete');
 var comment=require('./routes/comment');
+var search=require('./routes/search');
 var MongoStore = require('connect-mongo')(session);
 var settings = require('./settings');
 var flash = require('connect-flash');
@@ -29,12 +30,7 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(session({secret: settings.cookieSecret, store: new MongoStore({db: settings.db})}));
 
-app.use(function (req, res, next) {
 
-
-    res.locals.message = req.session.message;
-    next();
-});
 app.use('/', index);
 app.use('/users', users);
 app.use('/login', login);
@@ -43,6 +39,7 @@ app.use('/logout', logout);
 app.use('/post', post);
 app.use('/edit', edit);
 app.use('/remove', del);
+app.use('/search', search);
 /*app.use('/comment', comment);*/
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {

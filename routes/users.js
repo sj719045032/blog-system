@@ -49,11 +49,19 @@ router.get('/:username', function (req, res, next) {
 
 });
 router.get('/p/:_id', function (req, res) {
-    Post.getOne(req.params._id, function (err, post) {
+    Post.getOne(req.params._id.toString().trim(), function (err, post) {
         if (err) {
             req.flash('error', err);
             return res.redirect('/');
         }
+        if(!post){
+            res.status( 500);
+            res.render('error', {
+                message:'此文章不存在！',
+                error: {status:404,stack:''}
+            });
+        }
+         else
         res.render('article', {
             title: req.params.title,
             post: post,

@@ -89,6 +89,7 @@ Post.prototype.save = function (callback) {
         time: time,
         title: this.title,
         post: this.post,
+        pv: 0,
         comments: []
     };
     async.waterfall([function (cb) {
@@ -206,30 +207,43 @@ Post.getSome = function (name, page, number, callback) {
  });
  };
  */
-
 Post.getOne = function (_id, callback) {
-    async.waterfall([function (cb) {
-        pool.acquire(function (err, db) {
-            cb(err, db);
-        });
-    }, function (db, cb) {
-        db.collection('posts', function (err, collection) {
-
-            cb(err, collection, db);
-        })
-    }, function (collection, db, cb) {
+    try {
         var query = {
             '_id': new ObjectID(_id)
         };
-        collection.findOne(query, function (err, doc) {
-            cb(err, doc, db);
-        })
-
-    }], function (err, doc, db) {
-        pool.release(db);
-        callback(err, doc);
+    }catch(err){
+ return callback(null,null);
+    }
+async.waterfall([function (cb) {
+    pool.acquire(function (err, db) {
+        cb(err, db);
     });
-};
+}, function (db, cb) {
+    db.collection('posts', function (err, collection) {
+
+        cb(err, collection, db);
+    });
+}, function (collection, db, cb) {
+
+
+    collection.findOne(query, function (err, doc) {
+        cb(err, doc, db, collection);
+    });
+
+}, function (doc, db,  collection, cb) {
+
+    collection.update(query, {
+        $inc: {"pv": 1}
+    }, function (err) {
+        cb(err, doc, db);
+    });
+}], function (err, doc, db) {
+    pool.release(db);
+    callback(err, doc);
+});
+}
+;
 /*Post.update = function (_id, post, callback) {
  pool.acquire(function (err, db) {
  if (err) {
@@ -398,3 +412,27 @@ Post.remove = function (_id, callback) {
     });
 
 };
+Post.search = function (keyword, callback) {
+    async.waterfall([
+        function (cb) {
+            pool.acquire(function (err, db) {
+                cb(err, db);
+            });
+
+        }
+        , function (db, cb) {
+            db.collection('posts', function (err, collection) {
+                cb(err, collection, db);
+            });
+        }, function (collection, db, cb) {
+            var pattern = new RegExp(keyword, 'i');
+            collection.find({'title': pattern}, {'name': 1, 'title': 1, 'time': 1}).sort({
+                time: -1
+            }).toArray(function (err, docs) {
+                cb(err, docs, db);
+            });
+        }], function (err, docs, db) {
+        pool.release(db);
+        callback(err, docs);
+    });
+}

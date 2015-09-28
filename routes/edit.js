@@ -13,6 +13,9 @@ router.get('/:_id', function (req, res, next) {
         req.flash('error', err);
         return res.redirect('back');
     }
+        console.log(doc);
+        if(!doc)
+            return res.redirect('/');
         if (currentUser.name != doc.name)
             return res.redirect('back');
         res.render('edit',{
@@ -22,6 +25,7 @@ router.get('/:_id', function (req, res, next) {
             success: req.flash('success').toString(),
             error: req.flash('error').toString()
         });
+
     });
 });
 router.post('/:_id', stateCheck.checkLogin);
