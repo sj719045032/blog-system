@@ -12,28 +12,8 @@
 <body>
 <div id="main">
     <% include top %>
-    <div classs="container">
-        <div class="table-responsive">
-        <table class="table">
-            <caption>基本的表格布局</caption>
-            <thead>
-            <tr >
-                <th>名称</th>
-                <th>城市</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <td>Tanmay</td>
-                <td>Bangalore</td>
-            </tr>
-            <tr>
-                <td>Sachin</td>
-                <td>Mumbai</td>
-            </tr>
-            </tbody>
-        </table>
-        </div>
+    <div class="container">
+
         <% if (success) { %>
         <div><%= success %></div>
         <% } %>
@@ -42,7 +22,7 @@
         <% } %>
         <div class="row">
         <% posts.forEach(function (post, index) { %>
-        <div class="col-md-12">
+        <div class="col-md-3 col-sm-6">
 
             <h2><a href="/users/p/<%= post._id %>"><%= post.title %></a></h2></p>
             <p class="info">
