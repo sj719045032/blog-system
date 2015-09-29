@@ -2,21 +2,47 @@
 <html>
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><%= title %></title>
     <link rel='stylesheet' href='/stylesheets/style.css'/>
+    <link rel="stylesheet" href="/js/bootstrap3/css/bootstrap.min.css"/>
+    <script  src="/js/jquery-2.1.4.min.js"> </script>
+    <script  src="/js/bootstrap3/js/bootstrap.min.js"> </script>
 </head>
 <body>
 <div id="main">
     <% include top %>
-    <div id="content">
+    <div classs="container">
+        <div class="table-responsive">
+        <table class="table">
+            <caption>基本的表格布局</caption>
+            <thead>
+            <tr >
+                <th>名称</th>
+                <th>城市</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Tanmay</td>
+                <td>Bangalore</td>
+            </tr>
+            <tr>
+                <td>Sachin</td>
+                <td>Mumbai</td>
+            </tr>
+            </tbody>
+        </table>
+        </div>
         <% if (success) { %>
         <div><%= success %></div>
         <% } %>
         <% if (error) { %>
         <div><%= error %> </div>
         <% } %>
+        <div class="row">
         <% posts.forEach(function (post, index) { %>
-        <div style="border: 1px solid black;margin-bottom: 10px">
+        <div class="col-md-12">
 
             <h2><a href="/users/p/<%= post._id %>"><%= post.title %></a></h2></p>
             <p class="info">
@@ -33,6 +59,7 @@
             <p><%- post.post %></p>
         </div>
         <% }) %>
+        </div>
     </div>
     <% include pageing %>
     <% include bottom %>
