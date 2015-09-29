@@ -16,7 +16,13 @@
 <p class="info">
     作者：<a href="/users/<%= post.name %>"><%= post.name %></a> |
     日期：<%= post.time.minute %>|
-    点击量：<%= post.pv?post.pv:"0" %>
+    点击量：<%= post.pv?post.pv:"0" %>|
+    转载：
+    <% if (post.reprint_info.reprint_to) { %>
+    <%= post.reprint_info.reprint_to.length %>
+    <% } else { %>
+    <%= 0 %>
+    <% } %>
 </p>
 <p><%- post.post %></p>
         </div>

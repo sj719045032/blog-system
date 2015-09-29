@@ -33,7 +33,6 @@ router.post('/', function (req, res) {
         if ((user.password + '') != (password + '')) {
             req.flash('error', '密码错误');
             return res.redirect('/login');
-            s
         }
         req.session.user = user;
         req.flash('success', '登陆成功!');

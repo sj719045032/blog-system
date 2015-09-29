@@ -3,7 +3,6 @@ var router = express.Router();
 var Post = require('../modules/post.js');
 /* GET home page. */
 router.get('/', function (req, res) {
-
     var page = req.query.p ? req.query.p : 1;
     var number=10;
    Post.getTotalNumber(null, function (err, total) {

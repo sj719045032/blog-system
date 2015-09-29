@@ -2,7 +2,7 @@
  * Created by shijin on 2015/9/25.
  */
 /*
- ����ģ��
+ ����ģ��
  */
 var ObjectID = require('mongodb').ObjectID;
 var Db = require('./db');
@@ -90,6 +90,7 @@ Post.prototype.save = function (callback) {
         title: this.title,
         post: this.post,
         pv: 0,
+        reprint_info: {},
         comments: []
     };
     async.waterfall([function (cb) {
@@ -212,36 +213,36 @@ Post.getOne = function (_id, callback) {
         var query = {
             '_id': new ObjectID(_id)
         };
-    }catch(err){
- return callback(null,null);
+    } catch (err) {
+        return callback(null, null);
     }
-async.waterfall([function (cb) {
-    pool.acquire(function (err, db) {
-        cb(err, db);
+    async.waterfall([function (cb) {
+        pool.acquire(function (err, db) {
+            cb(err, db);
+        });
+    }, function (db, cb) {
+        db.collection('posts', function (err, collection) {
+
+            cb(err, collection, db);
+        });
+    }, function (collection, db, cb) {
+
+
+        collection.findOne(query, function (err, doc) {
+            cb(err, doc, db, collection);
+        });
+
+    }, function (doc, db, collection, cb) {
+
+        collection.update(query, {
+            $inc: {"pv": 1}
+        }, function (err) {
+            cb(err, doc, db);
+        });
+    }], function (err, doc, db) {
+        pool.release(db);
+        callback(err, doc);
     });
-}, function (db, cb) {
-    db.collection('posts', function (err, collection) {
-
-        cb(err, collection, db);
-    });
-}, function (collection, db, cb) {
-
-
-    collection.findOne(query, function (err, doc) {
-        cb(err, doc, db, collection);
-    });
-
-}, function (doc, db,  collection, cb) {
-
-    collection.update(query, {
-        $inc: {"pv": 1}
-    }, function (err) {
-        cb(err, doc, db);
-    });
-}], function (err, doc, db) {
-    pool.release(db);
-    callback(err, doc);
-});
 }
 ;
 /*Post.update = function (_id, post, callback) {
@@ -403,6 +404,31 @@ Post.remove = function (_id, callback) {
             '_id': new ObjectID(_id)
 
         };
+        collection.findOne(query, function (err, doc) {
+            var reprint_from = "";
+            if (doc.reprint_info.reprint_from) {
+                reprint_from = doc.reprint_info.reprint_from;
+            }
+            if (reprint_from != "") {
+                //更新原文章所在文档的 reprint_to
+                collection.update({
+                    "_id": reprint_from._id,
+                }, {
+                    $pull: {
+                        "reprint_info.reprint_to": {
+                            "name": doc.name,
+                            "day": doc.time.day,
+                            "title": doc.title
+                        }
+                    }
+                }, function (err) {
+
+                    if (err) {
+                        cb(err);
+                    }
+                });
+            }
+        });
         collection.remove(query, {w: 1}, function (err) {
             cb(err, db);
         });
@@ -410,7 +436,6 @@ Post.remove = function (_id, callback) {
         pool.release(db);
         callback(err);
     });
-
 };
 Post.search = function (keyword, callback) {
     async.waterfall([
@@ -418,7 +443,6 @@ Post.search = function (keyword, callback) {
             pool.acquire(function (err, db) {
                 cb(err, db);
             });
-
         }
         , function (db, cb) {
             db.collection('posts', function (err, collection) {
@@ -435,4 +459,66 @@ Post.search = function (keyword, callback) {
         pool.release(db);
         callback(err, docs);
     });
-}
+};
+Post.reprint = function (rp_from, rp_to, callback) {
+    async.waterfall([
+        function (cb) {
+            pool.acquire(function (err, db) {
+                cb(err, db);
+            });
+        }, function (db, cb) {
+            db.collection('posts', function (err, collection) {
+                cb(err, collection, db);
+            });
+        }, function (collection, db, cb) {
+
+            collection.findOne({
+                _id: rp_from._id
+            }, function (err, doc) {
+                cb(err, doc, collection, db);
+            });
+        }, function (doc, collection, db, cb) {
+            var date = new Date();
+            var time = {
+                date: date,
+                year: date.getFullYear(),
+                month: date.getFullYear() + "-" + (date.getMonth() + 1),
+                day: date.getFullYear() + "-" + (date.getMonth() + 1) + "-" + date.getDate(),
+                minute: date.getFullYear() + "-" + (date.getMonth() + 1) + "-" + date.getDate() + " " +
+                date.getHours() + ":" + (date.getMinutes() < 10 ? '0' + date.getMinutes() : date.getMinutes())
+            }
+            delete doc._id;
+            doc.name = rp_to.name;
+            doc.time = time;
+            doc.title = (doc.title.search(/[转载]/) > -1) ? doc.title : "[转载]" + doc.title;
+            doc.comments = [];
+            doc.reprint_info = {"reprint_from": rp_from};
+            doc.pv = 0;
+            collection.update({
+                _id: rp_from._id
+            }, {
+                $push: {
+                    "reprint_info.reprint_to": {
+                        "name": doc.name,
+                        "day": time.day,
+                        "title": doc.title
+                    }
+                }
+            }, function (err) {
+                if (err)
+                    cb(err, db);
+            });
+
+            collection.insert(doc, {
+                safe: true
+            }, function (err, post) {
+                cb(err, db, post.ops[0]);
+            });
+
+        }
+    ], function (err, db, post) {
+        pool.release(db);
+        callback(err, post);
+
+    });
+};

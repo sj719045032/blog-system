@@ -13,7 +13,6 @@ router.get('/:_id', function (req, res, next) {
         req.flash('error', err);
         return res.redirect('back');
     }
-        console.log(doc);
         if(!doc)
             return res.redirect('/');
         if (currentUser.name != doc.name)

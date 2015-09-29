@@ -1,5 +1,6 @@
 var express = require('express');
 var session = require('express-session');
+var logger = require('morgan');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
@@ -13,11 +14,16 @@ var edit = require('./routes/edit');
 var del = require('./routes/delete');
 var comment=require('./routes/comment');
 var search=require('./routes/search');
+var reprint=require('./routes/reprint');
 var MongoStore = require('connect-mongo')(session);
 var settings = require('./settings');
 var flash = require('connect-flash');
-var app = express();
 
+/*var fs = require('fs');
+var accessLog = fs.createWriteStream(__dirname+'access.log', {flags: 'a'});
+var errorLog = fs.createWriteStream('error.log', {flags: 'a'});*/
+var app = express();
+/*app.use(logger('combined', {stream: accessLog}));*/
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
@@ -29,7 +35,11 @@ app.use(bodyParser.urlencoded({extended: false}));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(session({secret: settings.cookieSecret, store: new MongoStore({db: settings.db})}));
-
+/*app.use(function (err, req, res, next) {
+    var meta = '[' + new Date() + '] ' + req.url + '\n';
+    errorLog.write(meta + err.stack + '\n');
+    next();
+});*/
 
 app.use('/', index);
 app.use('/users', users);
@@ -40,6 +50,7 @@ app.use('/post', post);
 app.use('/edit', edit);
 app.use('/remove', del);
 app.use('/search', search);
+app.use('/reprint',reprint);
 /*app.use('/comment', comment);*/
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {

@@ -21,11 +21,35 @@
         <span><form action="/remove/<%= post._id %>" target="_blank" method="get">
                 <input name="" type="submit" value="删除" onClick="delcfm()" /></form></span>
         <% } %>
+        <% var flag = 1 %>
+        <% if (user && (user.name != post.name)) { %>
+        <% if ((post.reprint_info.reprint_from != undefined) && (user.name == post.reprint_info.reprint_from.name)) { %>
+        <% flag = 0 %>
+        <% } %>
+        <% if ((post.reprint_info.reprint_to != undefined)) { %>
+        <% post.reprint_info.reprint_to.forEach(function (reprint_to, index) { %>
+        <% if (user.name == reprint_to.name) { %>
+        <% flag = 0 %>
+        <% } %>
+        <% }) %>
+        <% } %>
+        <% } else { %>
+        <% flag = 0 %>
+        <% } %>
+        <% if (flag) { %>
+        <span><a class="edit" href="/reprint/<%= post._id %>">转载</a></span>
+        <% } %>
         <p class="info">
             <%= post.title %><br>
             作者：<a href="/users/<%= post.name %>"><%= post.name %></a> |
             日期：<%= post.time.minute %>|
-            点击量：<%= post.pv?post.pv:"0" %>
+            点击量：<%= post.pv?post.pv:"0" %>|
+            转载：
+            <% if (post.reprint_info.reprint_to) { %>
+            <%= post.reprint_info.reprint_to.length %>
+            <% } else { %>
+            <%= 0 %>
+            <% } %>
         </p>
         <p><%- post.post %></p>
         <%- include comment %>

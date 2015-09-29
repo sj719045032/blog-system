@@ -5,7 +5,6 @@ var express = require('express');
 var router = express.Router();
 var Post = require('../modules/post.js');
 router.get('/', function (req, res) {
-    console.log(req.query.keyword);
     Post.search(req.query.keyword, function (err, docs) {
         if(err){
             req.flash('error', err);
