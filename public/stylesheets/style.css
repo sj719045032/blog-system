@@ -45,7 +45,8 @@ a {
     vertical-align: middle;
 }
 
-#top img {
+#top .img {
+    display: inline-block;
     margin-left: 50px;
     vertical-align: middle;
     width: 50px;

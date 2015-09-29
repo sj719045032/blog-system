@@ -1,9 +1,11 @@
-<div id="top" class="container"><img src="/images/icon.png">
+<div id="top" class="container">
+    <div class="img"><img class="img-rounded img-responsive" src="/images/icon.png"></div>
     <a href="/">首页</a>
     <% if(user){ %>
     <a href="/post">发表</a><a href="/logout">登出</a>
     <% }else { %>
     <a href="/login">登录</a><a href="/reg">注册</a>
     <% } %>
-    <div style="float:right;margin-top: 30px"><form action="/search" method="GET"><input type="text" name="keyword" placeholder="SEARCH" class="search" /></form></div>
+    <form class="pull-right" action="/search" method="GET"><input type="text" name="keyword" placeholder="SEARCH"
+                                                                  class="search"/></form>
 </div>
