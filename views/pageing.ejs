@@ -1,11 +1,11 @@
 <br />
-<div>
+<div class="pager">
     <% if (!isFirstPage) { %>
-    <span class="prepage"><a title="上一页" href="?p=<%= page-1 %>">上一页</a></span>
+    <li class="prepage"><a title="上一页" href="?p=<%= page-1 %>">上一页</a></li>
     <% } %>
 
     <% if (!isLastPage) { %>
-    <span class="nextpage"><a title="下一页" href="?p=<%= page+1 %>">下一页</a></span>
+    <li class="nextpage"><a title="下一页" href="?p=<%= page+1 %>">下一页</a></li>
     <% } %>
-    <span class="pagetotal">共<%= total %>页</span>
+    <li class="pagetotal">共<%= total %>页</li>
 </div>

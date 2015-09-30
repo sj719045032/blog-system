@@ -21,21 +21,21 @@
         <% } %>
         <div class="row">
         <% posts.forEach(function (post, index) { %>
-        <div class="col-md-3 col-sm-6">
+        <div class="col-md-12 col-sm-12 table-bordered">
 
-            <h2><a href="/users/p/<%= post._id %>"><%= post.title %></a></h2></p>
+          <a class="h2 label label-default" href="/users/p/<%= post._id %>"><%= post.title %></a>
             <p class="info">
-                作者：<a href="/users/<%= post.name %>"><%= post.name %></a> |
-                日期：<%= post.time.minute %>|
-                点击量：<%= post.pv ? post.pv : "0" %>|转载：
+               <span class="label label-info">作者：<a href="/users/<%= post.name %>"><%= post.name %></a>  |
+                日期：<%= post.time.minute %> |
+                点击量：<%= post.pv ? post.pv : "0" %> | 转载：
                 <% if (post.reprint_info.reprint_to) { %>
                 <%= post.reprint_info.reprint_to.length %>
                 <% } else { %>
                 <%= 0 %>
                 <% } %>
+               </span>
 
-
-            <p><%- post.post %></p>
+            <p style=""><%- post.post %></p>
         </div>
         <% }) %>
         </div>
