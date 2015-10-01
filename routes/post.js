@@ -7,6 +7,7 @@ var stateCheck = require('../modules/statecheck');
 var Post = require('../modules/post.js');
 var formidable = require('formidable');
 var fs=require('fs');
+var FileManager = require('../modules/filemanager.js');
 /* 获取发表页
 * */
 router.get('/', stateCheck.checkLogin);
@@ -36,14 +37,20 @@ router.post('/img', stateCheck.checkLogin);
 router.post('/img', function (req, res, next) {
         var form = new formidable.IncomingForm();
     form.keepExtensions = true;
-    form.uploadDir = __dirname + '/../public/img';
+    form.uploadDir = __dirname + '/../uploads/img';
     form.parse(req, function (err, fields, files) {
         if (err)
             throw err;
-
+        console.log(files);
         var image = files.imgFile;
         var path = image.path;
         var type = image.type;
+        path = path.replace('/\\/g', '/');
+        var storename = path.substr(path.lastIndexOf('\\') + 1, path.length);
+        var url = '/img' + path.substr(path.lastIndexOf('\\'), path.length);
+        var filemanager = new FileManager(storename, image.name, req.session.user.name, url);
+        filemanager.save(function (err) {
+        });
         type = type.substr(0, type.indexOf('/'));
         if (type!="image") {
             var info = {
@@ -51,10 +58,12 @@ router.post('/img', function (req, res, next) {
                 "message": "请上传图片"
             };
             fs.unlink(path);
+            FileManager.remove(storename);
            return res.send(info);
         }
-        path = path.replace('/\\/g', '/');
-        var url = '/img' + path.substr(path.lastIndexOf('\\'), path.length);
+
+        console.log(path);
+
 
         var info = {
             "error": 0,
