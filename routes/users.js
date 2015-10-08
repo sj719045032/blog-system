@@ -38,6 +38,7 @@ router.get('/:username', function (req, res, next) {
                        isLastPage: ((page - 1) * 10 + posts.length) == total,
                        posts: posts,
                        total: Math.ceil(total /number),
+                       type:"",
                        error: req.flash('error').toString(),
                        success: req.flash('success').toString()
                    });
@@ -66,6 +67,7 @@ router.get('/p/:_id', function (req, res) {
             title: req.params.title,
             post: post,
             user: req.session.user,
+            type:"",
             success: req.flash('success').toString(),
             error: req.flash('error').toString()
         });

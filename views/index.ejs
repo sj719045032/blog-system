@@ -22,7 +22,7 @@
         <div class="row">
             <% if(posts) %>
         <% posts.forEach(function (post, index) { %>
-        <div class="col-md-12 col-sm-12 table-bordered">
+        <div class="col-md-12 col-sm-12 table-bordered" style="padding:20px;">
 
           <a class="h2 label label-default" href="/users/p/<%= post._id %>"><%= post.title %></a>
             <p class="info">
