@@ -71,11 +71,11 @@ FileManager.getOne = function (storeName, cb) {
         pool.acquire(function (err, db) {
             cb(err, db)
         });
-    }, function (db) {
+    }, function (db, cb) {
         db.collection('files', function (err, collection) {
             cb(err, collection, db);
         });
-    }, function (collection, db) {
+    }, function (collection, db, cb) {
         collection.findOne({storeName: storeName}, function (err, fileMessage) {
             cb(err, fileMessage, db);
         });
@@ -98,8 +98,8 @@ FileManager.getSome = function (upLoadUserName, page, number, callback) {
         });
     }, function (collection, db, cb) {
         var query = {};
-        if (name) {
-            query.upLoadUserName = name;
+        if (upLoadUserName) {
+            query.upLoadUserName = upLoadUserName;
         }
         collection.find(query, {
             skip: (page - 1) * number,

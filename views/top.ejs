@@ -1,11 +1,29 @@
-<div id="top" class="container">
-    <div class="img"><img class="img-rounded img-responsive" src="/images/icon.png"></div>
-    <a href="/">首页</a>
+<nav class="navbar navbar-default nav-justified navbar-inverse" role="navigation">
+
+    <ul class="nav navbar-nav " style="width: 100%">
+        <li><img class="img-rounded img-responsive" src="/images/icon.png"></li>
+        <li id="index"><a href="/">首页</a></li>
     <% if(user){ %>
-    <a href="/post">发表</a><a href="/logout">登出</a>
-    <% }else { %>
-    <a href="/login">登录</a><a href="/reg">注册</a>
-    <% } %>
-    <form style="display: inline-block" class="pull-right" action="/search" method="GET"><input type="text" name="keyword" placeholder="SEARCH"
-                                                                  class="search"/></form>
-</div>
+
+        <li id="post"><a href="/post">发表</a></li>
+        <li><a href="/logout">登出</a></li>
+        <li id="filemanage"><a href="/filemanage">文件管理</a></li>
+
+        <% }else { %>
+
+        <li id="login"><a href="/login">登录</a></li>
+        <li id="reg"><a href="/reg">注册</a></li>
+
+        <% } %>
+        <script type="text/javascript">
+            $('ul.nav > li').removeClass('active');
+            $('#' + '<%=type%>').addClass('active');
+        </script>
+        <form class="navbar-form pull-right" role="search" action="/search" method="GET">
+            <div class="form-group">
+                <input type="text" name="keyword" placeholder="SEARCH" class="form-control" placeholder="Search"/>
+            </div>
+            <button type="submit" class="btn btn-default">提交</button>
+        </form>
+    </ul>
+</nav>

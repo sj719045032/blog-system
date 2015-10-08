@@ -1,7 +1,9 @@
 var express = require('express');
 var router = express.Router();
 var Post = require('../modules/post.js');
+var stateCheck = require('../modules/statecheck');
 /* GET home page. */
+router.get('/', stateCheck.checkLogin);
 router.get('/', function (req, res) {
     var page = req.query.p ? req.query.p : 1;
     var number=10;
@@ -16,8 +18,9 @@ router.get('/', function (req, res) {
 
 
 
-               res.render('index', {
+               return res.render('index', {
                    title: '主页',
+                   type: 'index',
                    user: req.session.user,
                    page: page,
                    isFirstPage: page == 1,

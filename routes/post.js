@@ -15,7 +15,8 @@ router.get('/', function (req, res, next) {
     res.render('post', {
         user: req.session.user,
         error: req.flash('error').toString(),
-        success: req.flash('success').toString()
+        success: req.flash('success').toString(),
+        type:'post'
     });
 });
 router.post('/', stateCheck.checkLogin);
@@ -41,14 +42,13 @@ router.post('/img', function (req, res, next) {
     form.parse(req, function (err, fields, files) {
         if (err)
             throw err;
-        console.log(files);
         var image = files.imgFile;
         var path = image.path;
         var type = image.type;
         path = path.replace('/\\/g', '/');
         var storename = path.substr(path.lastIndexOf('\\') + 1, path.length);
         var url = '/img' + path.substr(path.lastIndexOf('\\'), path.length);
-        var filemanager = new FileManager(storename, image.name, req.session.user.name, url);
+        var filemanager = new FileManager(storename, image.name, req.session.user.name, path);
         filemanager.save(function (err) {
         });
         type = type.substr(0, type.indexOf('/'));

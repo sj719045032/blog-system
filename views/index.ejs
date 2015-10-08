@@ -8,18 +8,19 @@
     <link rel="stylesheet" href="/js/bootstrap3/css/bootstrap.min.css"/>
     <script  src="/js/jquery-2.1.4.min.js"> </script>
     <script  src="/js/bootstrap3/js/bootstrap.min.js"> </script>
+
 </head>
 <body>
+<div class="container">
     <% include top %>
-    <div class="container">
-
-        <% if (success) { %>
-        <div><%= success %></div>
-        <% } %>
-        <% if (error) { %>
-        <div><%= error %> </div>
-        <% } %>
+    <% if (success) { %>
+    <div class="alert alert-success"><%= success %></div>
+    <% } %>
+    <% if (error) { %>
+    <div class="alert alert-danger"><%= error %> </div>
+    <% } %>
         <div class="row">
+            <% if(posts) %>
         <% posts.forEach(function (post, index) { %>
         <div class="col-md-12 col-sm-12 table-bordered">
 
