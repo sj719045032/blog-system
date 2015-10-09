@@ -8,25 +8,6 @@
     <link rel="stylesheet" href="/js/bootstrap3/css/bootstrap.min.css"/>
     <script src="/js/jquery-2.1.4.min.js"></script>
     <script src="/js/bootstrap3/js/bootstrap.min.js"></script>
-    <script charset="utf-8" src="/js/kindeditor/kindeditor-min.js"></script>
-    <script charset="utf-8" src="/js/kindeditor/lang/zh_CN.js"></script>
-    <script>
-        var editor;
-        KindEditor.ready(function(K) {
-            editor = K.create('textarea', {
-                width:'560px',
-                height:200,
-                minWidth:560,
-                maxWidth:560,
-                allowImageUpload : true,
-                uploadJson:'/post/img',
-                items : [
-                    'fontname', 'fontsize', '|', 'forecolor', 'hilitecolor', 'bold', 'italic',
-                    'underline', 'removeformat', '|', 'justifyleft', 'justifycenter', 'justifyright',
-                    'insertorderedlist', 'insertunorderedlist', '|', 'emoticons', 'image', 'link']
-            });
-        });
-    </script>
 </head>
 <body style="background: #73CFF1 url('/images/index_bg.jpg' ) center top no-repeat; ">
 <% include top %>
@@ -74,7 +55,7 @@
                         <% } else { %>
                         <% flag = 0 %>
                         <% } %>
-                        <% if (1) { %>
+                        <% if (flag) { %>
                         <a class="edit btn btn-primary btn-sm" href="/reprint/<%= post._id %>">转载</a>
                         <% } %>
                     </div>

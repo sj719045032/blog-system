@@ -14,9 +14,9 @@
     </form>
     <ul class="nav navbar-nav pull-left " style="margin-left: 100px;">
 
-        <li class="" id="index"><a href="/"><span class="glyphicon glyphicon-home"></span> 首页</a></li>
+        <li id="index"><a href="/"><span class="glyphicon glyphicon-home"></span> 首页</a></li>
         <% if(user){ %>
-        <li class=""><a href="/users/<%= user.name %>"><span class="glyphicon glyphicon-user"></span> <%= user.name %>
+        <li id="user"><a href="/users/<%= user.name %>"><span class="glyphicon glyphicon-user"></span> <%= user.name %>
             </a></li>
         <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">
                 <span style="border-left: solid 1px black;padding-left:20px " class="glyphicon glyphicon-cog"></span>
@@ -58,7 +58,9 @@
             <form action="/post" class="login_form" method="post">
             <div class="modal-body">
                     <div>标题：<input id="title" type="text" name="title"></div>
-                    <div>内容：<textarea style="resize: none" type="content" id="content" name="content"></textarea></div>
+                <div><input id="title" type="file" name="title"></div>
+                <div>内容：<textarea style="width:560px;height:100px;resize: none" type="content" id="content"
+                                  name="content"></textarea></div>
             </div>
             <div class="modal-footer">
                 <button type="submit" class="btn btn-primary">提交</button>

@@ -27,18 +27,15 @@ router.get('/:username', function (req, res, next) {
                if (err)
                    posts = [];
                if(posts)
-
-
-
                    res.render('users', {
                        title: '用户页',
                        user: req.session.user,
                        page: page,
                        isFirstPage: page == 1,
-                       isLastPage: ((page - 1) * 10 + posts.length) == total,
+                       isLastPage: ((page - 1) * number + posts.length) == total,
                        posts: posts,
                        total: Math.ceil(total /number),
-                       type:"",
+                       type: "user",
                        error: req.flash('error').toString(),
                        success: req.flash('success').toString()
                    });
@@ -67,7 +64,7 @@ router.get('/p/:_id', function (req, res) {
             title: req.params.title,
             post: post,
             user: req.session.user,
-            type:"",
+            type: "user",
             success: req.flash('success').toString(),
             error: req.flash('error').toString()
         });

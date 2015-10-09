@@ -15,19 +15,19 @@ router.get('/', function (req, res) {
            if (err)
                posts = [];
            if(posts)
-          return res.send("hehe");
-               /*return res.render('index', {
+
+               return res.render('index', {
                    title: '主页',
                    type: 'index',
                    user: req.session.user,
                    page: page,
                    isFirstPage: page == 1,
-                   isLastPage: ((page - 1) * 10 + posts.length) == total,
+                   isLastPage: ((page - 1) * number + posts.length) == total,
                    posts: posts,
                    total: Math.ceil(total /number),
                    error: req.flash('error').toString(),
                    success: req.flash('success').toString()
-               });*/
+               });
        })
    });
 

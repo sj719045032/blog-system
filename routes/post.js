@@ -61,17 +61,11 @@ router.post('/img', function (req, res, next) {
             FileManager.remove(storename);
            return res.send(info);
         }
-
-        console.log(path);
-
-
         var info = {
             "error": 0,
             "url": url
         };
         res.send(info);
     });
-
-
 });
 module.exports = router;
