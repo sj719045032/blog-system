@@ -6,7 +6,7 @@ var stateCheck = require('../modules/statecheck');
 router.get('/', stateCheck.checkLogin);
 router.get('/', function (req, res) {
     var page = req.query.p ? req.query.p : 1;
-    var number=10;
+    var number=5;
    Post.getTotalNumber(null, function (err, total) {
       if (page > Math.ceil(total /number) || page <= 0||isNaN(page))
           page=1;
@@ -15,10 +15,8 @@ router.get('/', function (req, res) {
            if (err)
                posts = [];
            if(posts)
-
-
-
-               return res.render('index', {
+          return res.send("hehe");
+               /*return res.render('index', {
                    title: '主页',
                    type: 'index',
                    user: req.session.user,
@@ -29,7 +27,7 @@ router.get('/', function (req, res) {
                    total: Math.ceil(total /number),
                    error: req.flash('error').toString(),
                    success: req.flash('success').toString()
-               });
+               });*/
        })
    });
 

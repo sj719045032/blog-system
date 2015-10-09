@@ -11,7 +11,9 @@
     <file url="file://$PROJECT_DIR$/routes/logout.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/routes/post.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/routes/reg.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/routes/reprint.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/routes/users.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/views/pageing.ejs" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

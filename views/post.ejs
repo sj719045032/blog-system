@@ -25,11 +25,11 @@
         });
     </script>
 </head>
-<body>
+<body style="background: #73CFF1 url('/images/index_bg.jpg' ) center top no-repeat; ">
 <div class="container">
     <% include top %>
 
-    <form class="login_form" method="post">
+    <form action="/post" class="login_form" method="post">
         <div>标题：<input id="title" type="text" name="title"></div>
         <div>内容：<textarea type="content" id="content" name="content"></textarea></div>
 
@@ -37,12 +37,7 @@
             <button type="submit">提交</button>
             <button type="reset">重置</button>
         </div>
-        <% if (success) { %>
-        <div><%= success %></div>
-        <% } %>
-        <% if (error) { %>
-        <div><%= error %> </div>
-        <% } %>
+
     </form>
     <% include bottom %>
 </div>

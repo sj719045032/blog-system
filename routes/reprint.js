@@ -20,9 +20,8 @@ router.get('/:_id', function (req, res) {
                 req.flash('error', err);
                 return res.redirect('back');
             }
-            req.flash('success', '转载成功!');
+            req.flash('success', '杞浇鎴愬姛!');
             var url = encodeURI('/users/p/' + post._id);
-            //跳转到转载后的文章页面
             res.redirect(url);
         });
     });

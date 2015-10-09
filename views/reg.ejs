@@ -8,18 +8,11 @@
     <script src="/js/jquery-2.1.4.min.js"></script>
     <script src="/js/bootstrap3/js/bootstrap.min.js"></script>
 </head>
-<body>
+<body style="background: url('/images/lg_bg.jpg' ) no-repeat; ">
 <div class="container">
-
-    <% include top %>
-    <% if (success) { %>
-    <div class="alert alert-success"><%= success %></div>
-    <% } %>
-    <% if (error) { %>
-    <div class="alert alert-danger"><%= error %> </div>
-    <% } %>
-    <form style="width: 400px;margin-top: 100px;padding: 50px 50px"
-          class="login_form form-horizontal  table-bordered center-block" role="form" method="post">
+    <% include prompt.ejs%>
+    <form  style="width: 350px;margin-top: 100px;padding: 50px 50px;background-color: white"
+          class="login_form form-horizontal  table-bordered btn btn-default pull-left" role="form" method="post">
         <div class="form-group">
 
             <div class="input-group "><span class="input-group-addon">用户名</span><input class="form-control"
@@ -47,7 +40,6 @@
         </div>
 
     </form>
-    <% include bottom %>
 </div>
 </body>
 </html>

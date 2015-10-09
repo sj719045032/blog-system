@@ -9,16 +9,10 @@
     <script src="/js/jquery-2.1.4.min.js"></script>
     <script src="/js/bootstrap3/js/bootstrap.min.js"></script>
 </head>
-<body>
-
+<body style="background: #73CFF1 url('/images/index_bg.jpg' ) center top no-repeat; ">
+<% include top %>
 <div class="container">
-    <% include top %>
-    <% if (success) { %>
-    <div><%= success %></div>
-    <% } %>
-    <% if (error) { %>
-    <div><%= error %> </div>
-    <% } %>
+    <% include prompt.ejs%>
     <div class="row">
         <% if(filelist) %>
         <% filelist.forEach(function (file, index) { %>

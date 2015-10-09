@@ -5,64 +5,71 @@
     <title><%= title %></title>
     <link rel='stylesheet' href='/stylesheets/style.css'/>
     <link rel="stylesheet" href="/js/bootstrap3/css/bootstrap.min.css"/>
-    <script  src="/js/jquery-2.1.4.min.js"> </script>
-    <script  src="/js/bootstrap3/js/bootstrap.min.js"> </script>
+    <script src="/js/jquery-2.1.4.min.js"></script>
+    <script src="/js/bootstrap3/js/bootstrap.min.js"></script>
     <script>
-        function delcfm(){
+        function delcfm() {
             if (!confirm("确认要删除？")) {
                 window.event.returnValue = false;
             }
         }
     </script>
 </head>
-<body>
-<div id="main">
-    <% include top %>
-    <div id="content">
-        <% if (user && (user.name == post.name)) { %>
-        <span><a class="edit" href="/edit/<%= post._id %>">编辑</a></span>
-        <span><form action="/remove/<%= post._id %>" target="_blank" method="get">
-                <input name="" type="submit" value="删除" onClick="delcfm()" /></form></span>
-        <% } %>
-        <% var flag = 1 %>
-        <% if (user && (user.name != post.name)) { %>
-        <% if ((post.reprint_info.reprint_from != undefined) && (user.name == post.reprint_info.reprint_from.name)) { %>
-        <% flag = 0 %>
-        <% } %>
-        <% if ((post.reprint_info.reprint_to != undefined)) { %>
-        <% post.reprint_info.reprint_to.forEach(function (reprint_to, index) { %>
-        <% if (user.name == reprint_to.name) { %>
-        <% flag = 0 %>
-        <% } %>
-        <% }) %>
-        <% } %>
-        <% } else { %>
-        <% flag = 0 %>
-        <% } %>
-        <% if (flag) { %>
-        <span><a class="edit" href="/reprint/<%= post._id %>">转载</a></span>
-        <% } %>
-        <p class="info">
-            <%= post.title %><br>
-           <span class="label label-info">作者：<a href="/users/<%= post.name %>"><%= post.name %></a></span>  |
+<body style="background: #73CFF1 url('/images/index_bg.jpg' ) center top no-repeat; ">
+<% include top %>
+<div class="container">
+
+    <% include prompt.ejs %>
+
+    <div class="panel panel-default">
+        <div class="panel-heading"><span class="panel-title h3 label label-primary"><%= post.title %></span>
+           <span class="label label-info">作者：<a href="/users/<%= post.name %>"><%= post.name %></a> |
             日期：<%= post.time.minute %>|
-            点击量：<%= post.pv?post.pv:"0" %>|
+            点击量：<%= post.pv ? post.pv : "0" %>|
             转载：
-            <% if (post.reprint_info.reprint_to) { %>
-            <%= post.reprint_info.reprint_to.length %>
-            <% } else { %>
-            <%= 0 %>
-            <% } %>
-        </p>
-        <p><%- post.post %></p>
-        <%- include comment %>
+               <% if (post.reprint_info.reprint_to) { %>
+               <%= post.reprint_info.reprint_to.length %>
+               <% } else { %>
+               <%= 0 %>
+               <% } %>
+           </span>
+        </div>
+        <div class="panel-body" style="margin-bottom: 20px;"><p><%- post.post %></p></div>
+        <div class="panel-footer clearfix">
+
+            <form action="/remove" target="_blank" method="post">
+                <div class="btn-group pull-right ">
+                    <% if (user && (user.name == post.name)) { %>
+                    <a class="edit btn btn-primary btn-sm" href="/edit/<%= post._id %>">编辑</a>
+                    <input type="hidden" name="id" value="<%= post._id %>">
+                    <input class=" btn btn-primary btn-sm" name="" type="submit" value="删除" onClick="delcfm()">
+
+                    <% } %>
+                    <% var flag = 1 %>
+                    <% if (user && (user.name != post.name)) { %>
+                    <% if ((post.reprint_info.reprint_from != undefined) && (user.name == post.reprint_info.reprint_from.name)) { %>
+                    <% flag = 0 %>
+                    <% } %>
+                    <% if ((post.reprint_info.reprint_to != undefined)) { %>
+                    <% post.reprint_info.reprint_to.forEach(function (reprint_to, index) { %>
+                    <% if (user.name == reprint_to.name) { %>
+                    <% flag = 0 %>
+                    <% } %>
+                    <% }) %>
+                    <% } %>
+                    <% } else { %>
+                    <% flag = 0 %>
+                    <% } %>
+                    <% if (1) { %>
+                    <a class="edit btn btn-primary btn-sm" href="/reprint/<%= post._id %>">转载</a>
+                    <% } %>
+                </div>
+            </form>
+
+
+        </div>
     </div>
-    <% if (success) { %>
-    <div><%= success %></div>
-    <% } %>
-    <% if (error) { %>
-    <div><%= error %> </div>
-    <% } %>
+    <%- include comment %>
     <% include bottom %>
 </div>
 </body>

@@ -21,6 +21,7 @@ router.get('/:_id', function (req, res, next) {
             title: '编辑',
             post: doc,
             user: req.session.user,
+            type:"",
             success: req.flash('success').toString(),
             error: req.flash('error').toString()
         });

@@ -15,6 +15,7 @@ var del = require('./routes/delete');
 var comment=require('./routes/comment');
 var search=require('./routes/search');
 var reprint=require('./routes/reprint');
+var filemanage=require('./routes/filemanage');
 var MongoStore = require('connect-mongo')(session);
 var settings = require('./settings');
 var flash = require('connect-flash');
@@ -34,7 +35,10 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: false}));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
-app.use(session({secret: settings.cookieSecret, store: new MongoStore({db: settings.db})}));
+app.use(express.static(path.join(__dirname, 'uploads')));
+app.use(session({secret: settings.cookieSecret, store: new MongoStore({db: settings.db}),proxy: true,
+    resave: true,
+    saveUninitialized: true}));
 /*app.use(function (err, req, res, next) {
     var meta = '[' + new Date() + '] ' + req.url + '\n';
     errorLog.write(meta + err.stack + '\n');
@@ -51,6 +55,7 @@ app.use('/edit', edit);
 app.use('/remove', del);
 app.use('/search', search);
 app.use('/reprint',reprint);
+app.use('/filemanage',filemanage);
 /*app.use('/comment', comment);*/
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {
