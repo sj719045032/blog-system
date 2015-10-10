@@ -2,7 +2,7 @@
  * Created by shijin on 2015/9/25.
  */
 /*
- 用户模型
+ 锟矫伙拷模锟斤拷
  */
 var Db = require('./db');
 var poolModule = require('generic-pool');
@@ -62,7 +62,8 @@ User.prototype.save = function (callback) {
 
     var user = {
         name: this.name,
-        password: this.password
+        password: this.password,
+        attention:[]
     };
 
     async.waterfall([
@@ -137,5 +138,42 @@ User.get = function (username, callback) {
         pool.release(db);
         callback(err, user);
 
+    });
+};
+User.attention= function (username,attentionName, callback) {
+   async.waterfall([function (cb) {
+       pool.acquire(function (err, db) {
+           cb(err,db);
+       });
+   }, function (db, cb) {
+       db.collection('users', function (err, collection) {
+           cb(err,collection,db);
+       });
+   }, function (collection, db, cb) {
+       collection.update({name:username},{$addToSet:{attention:attentionName}}, function (err) {
+           cb(err,db);
+       });
+   }],function(err,db){
+       pool.release(db);
+       callback(err);
+   });
+};
+
+User.removeAttention= function (username,attentionName, callback) {
+    async.waterfall([function (cb) {
+        pool.acquire(function (err, db) {
+            cb(err,db);
+        });
+    }, function (db, cb) {
+        db.collection('users', function (err, collection) {
+            cb(err,collection,cb);
+        });
+    }, function (collection, db, cb) {
+        collection.update({name:username},{$pull:{attention:attentionName}}, function (err) {
+            cb(err,db);
+        });
+    }],function(err,total,db){
+        pool.release(db);
+        callback(err,total);
     });
 };

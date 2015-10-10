@@ -16,6 +16,7 @@
 
     <% include prompt.ejs%>
     <div class="row">
+        <div class="col-md-8 col-sm-8">
         <% if(posts) %>
         <% posts.forEach(function (post, index) { %>
         <div class="panel  panel-default col-md-12 col-sm-12 table-bordered" style="padding:10px 0px 0px 0px;margin-bottom: 30px;max-height: 200px;overflow: hidden">
@@ -67,9 +68,12 @@
             </div>
         </div>
         <% }) %>
+            <% include pageing %>
+        </div>
+        <div class="col-md-4 col-sm-4 clearfix" > </div>
     </div>
 
-    <% include pageing %>
+
     <% include bottom %>
 </div>
 </body>

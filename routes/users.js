@@ -3,12 +3,14 @@
  */
 var express = require('express');
 var router = express.Router();
+var stateCheck = require('../modules/statecheck');
 var User = require('../modules/user');
 var Post = require('../modules/post.js');
 /* GET user page. */
 router.get('/', function (req, res, next) {
     res.redirect('back');
 });
+router.get('/:username', stateCheck.checkLogin);
 router.get('/:username', function (req, res, next) {
    User.get(req.params.username, function (err,user) {
        if(!user)
@@ -46,6 +48,7 @@ router.get('/:username', function (req, res, next) {
    });
 
 });
+router.get('/p/:_id', stateCheck.checkLogin);
 router.get('/p/:_id', function (req, res) {
     Post.getOne(req.params._id.toString().trim(), function (err, post) {
         if (err) {
@@ -69,5 +72,13 @@ router.get('/p/:_id', function (req, res) {
             error: req.flash('error').toString()
         });
     });
+});
+router.post('/attention', stateCheck.checkLogin);
+router.get('/attention/:attentionName', function (req, res) {
+      User.attention(req.session.user.name,req.params.attentionName.toString().trim(), function (err) {
+          if(err)
+          res.send(err);
+          res.send('关注成功!');
+      });
 });
 module.exports = router;
