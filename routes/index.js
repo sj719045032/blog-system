@@ -42,10 +42,16 @@ router.get('/mobile', function (req, res) {
         Post.getSome(null, page, number, function (err, posts) {
             if (err)
                 posts = [];
-            if (posts) {
+
+            if (req.query && req.query.callback) {
+                //console.log(params.query.callback);
+                var str = req.query.callback + '(' + JSON.stringify(posts) + ')';//jsonp
+                res.send(str);
+            }
+           /* if (posts) {
                 res.type('application/json');
                 res.send(posts);
-            }
+            }*/
             /* return res.render('index', {
              title: '主页',
              type: 'index',

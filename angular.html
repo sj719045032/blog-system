@@ -1,17 +1,37 @@
 <!DOCTYPE html>
-<html ng-app="Clock">
+<html >
 <head>
     <meta charset="UTF-8">
     <title></title>
-    <script charset="utf-8" src="public/js/angular.min.js"></script>
-
+   <!-- <script charset="utf-8" src="public/js/angular.min.js"></script>-->
+    <script src="public/js/jquery-2.1.4.min.js"></script>
 </head>
 <body>
-<div ng-controller="MyController">
+<!--<div ng-controller="MyController">
     <h1>Hello {{ clock.now }}!</h1>
-</div>
+</div>-->
+
+<button id="btn">start</button>
+<script>
+    $('#btn').click(function(){
+        $.ajax(
+                {
+                    type:'get',
+                    url : 'http://192.168.1.117:3000/mobile',
+                    dataType : 'jsonp',
+                    success  : function(data) {
+
+                        console.log( data[0]._id);
+                    },
+                    error : function(err) {
+                        console.log('hehe');
+                    }
+                }
+        );
+    });
+</script>
 <script type="text/javascript">
-    angular.module('Clock', []).controller('MyController', function ($scope) {
+   /* angular.module('Clock', []).controller('MyController', function ($scope) {
         $scope.clock = {
             now: new Date()
         };
@@ -22,7 +42,9 @@
             $scope.$apply(updateClock);
         }, 1000);
         updateClock();
-    });
+    });*/
+
+
 </script>
 </body>
 </html>

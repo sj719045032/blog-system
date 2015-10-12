@@ -8,6 +8,8 @@ var ObjectID = require('mongodb').ObjectID;
 var Db = require('./db');
 var poolModule = require('generic-pool');
 var async = require('async');
+var events=require('events');
+var proxy=new events.EventEmitter();
 var pool = poolModule.Pool({
     name: 'mongoPool_post',
     create: function (cb) {
@@ -146,34 +148,41 @@ Post.prototype.save = function (callback) {
 
  });
  };*/
-
+var status='ready';
 Post.getSome = function (name, page, number, callback) {
 
-    async.waterfall([function (cb) {
-        pool.acquire(function (err, db) {
-            cb(err, db);
-        });
-    }, function (db, cb) {
-        db.collection('posts', function (err, collection) {
-            cb(err, collection, db);
 
-        });
-    }, function (collection, db, cb) {
-        var query = {};
-        if (name) {
-            query.name = name;
-        }
-        collection.find(query, {
-            skip: (page - 1) * number,
-            limit: number
-        }).sort({time: -1}).toArray(function (err, docs) {
-            cb(err, docs, db);
-        })
-    }], function (err, docs, db) {
-        pool.release(db);
-        callback(err, docs);
-    });
+    proxy.once('selected',callback);
+    if(status=='ready') {
+        status = "pending";
+        async.waterfall([function (cb) {
+            pool.acquire(function (err, db) {
+                cb(err, db);
+            });
+        }, function (db, cb) {
+            db.collection('posts', function (err, collection) {
+                cb(err, collection, db);
 
+            });
+        }, function (collection, db, cb) {
+
+            var query = {};
+            if (name) {
+                query.name = name;
+            }
+            collection.find(query, {
+                skip: (page - 1) * number,
+                limit: number
+            }).sort({time: -1}).toArray(function (err, docs) {
+                cb(err, docs, db);
+            })
+        }], function (err, docs, db) {
+            pool.release(db);
+            status = 'ready';
+            proxy.emit('selected', err, docs);
+            /*callback(err, docs);*/
+        });
+    }
 };
 /*
  Post.getOne = function (_id, callback) {
