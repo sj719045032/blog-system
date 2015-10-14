@@ -7,27 +7,35 @@
 var app = require('../app');
 var debug = require('debug')('untitled4:server');
 var http = require('http');
+var cluster=require('cluster');
+var numCPUs=require('os').cpus().length;
 /**
  * Get port from environment and store in Express.
  */
-
 var port = normalizePort(process.env.PORT || '3000');
-app.set('port', port);
+if(cluster.isMaster){
+    for(var i=0;i<numCPUs;i++)
+    cluster.fork();
 
-/**
- * Create HTTP server.
- */
+    cluster.on('exit', function(worker, code, signal) {
+        console.log('worker ' + worker.process.pid + ' died');
+        cluster.fork();
+    });
+}
+else {
+    app.set('port', port);
+    /**
+     * Create HTTP server.
+     */
+    var server = http.createServer(app);
+    server.listen(3000);
+    /**
+     * Listen on provided port, on all network interfaces.
+     */
 
-var server = http.createServer(app);
-
-/**
- * Listen on provided port, on all network interfaces.
- */
-
-server.listen(port);
-server.on('error', onError);
-server.on('listening', onListening);
-
+    server.on('error', onError);
+    server.on('listening', onListening);
+}
 /**
  * Normalize a port into a number, string, or false.
  */

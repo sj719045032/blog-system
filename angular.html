@@ -12,16 +12,21 @@
 </div>-->
 
 <button id="btn">start</button>
+<div id="content"></div>
 <script>
     $('#btn').click(function(){
+        for(i=0;i<100;i++)
         $.ajax(
                 {
                     type:'get',
                     url : 'http://192.168.1.117:3000/mobile',
                     dataType : 'jsonp',
+                    jsonp:'cb',
+                    jsonpCallback:'sj',
                     success  : function(data) {
-
-                        console.log( data[0]._id);
+                        $('#content').empty();
+                           for(i in data)
+                       $('#content').append('<div style="color:red">'+data[i].name+'</div>');
                     },
                     error : function(err) {
                         console.log('hehe');

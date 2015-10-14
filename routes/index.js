@@ -5,6 +5,7 @@ var stateCheck = require('../modules/statecheck');
 /* GET home page. */
 router.get('/', stateCheck.checkLogin);
 router.get('/', function (req, res) {
+    console.log(process.pid);
     var page = req.query.p ? req.query.p : 1;
     var number = 5;
     Post.getTotalNumber(null, function (err, total) {
@@ -39,20 +40,20 @@ router.get('/mobile', function (req, res) {
         if (page > Math.ceil(total / number) || page <= 0 || isNaN(page))
             page = 1;
         page = parseInt(page);
-        Post.getSome(null, page, number, function (err, posts) {
+        Post.getSome(null, page, number, function (err, ss) {
             if (err)
                 posts = [];
 
-            if (req.query && req.query.callback) {
-                //console.log(params.query.callback);
-                var str = req.query.callback + '(' + JSON.stringify(posts) + ')';//jsonp
+          /*  if (req.query && req.query.cb) {
+                var str = req.query.cb + '(' + JSON.stringify(posts) + ')';//jsonp
                 res.send(str);
-            }
+            }*/
            /* if (posts) {
                 res.type('application/json');
                 res.send(posts);
             }*/
-            /* return res.render('index', {
+
+             return res.render('index', {
              title: '主页',
              type: 'index',
              user: req.session.user,
@@ -63,7 +64,7 @@ router.get('/mobile', function (req, res) {
              total: Math.ceil(total /number),
              error: req.flash('error').toString(),
              success: req.flash('success').toString()
-             });*/
+             });
         })
     });
 
