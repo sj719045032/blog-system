@@ -77,7 +77,6 @@ module.exports = Post;
  })
  };*/
 Post.prototype.save = function (callback) {
-
     var date = new Date();
     var time = {
         date: date,
@@ -105,12 +104,20 @@ Post.prototype.save = function (callback) {
             cb(err, collection, db);
 
         });
-    }, function (colletion, db, cb) {
-        colletion.insert(post, {safe: true}, function (err) {
+    }, function (collection, db, cb) {
+        collection.insert(post, {safe: true}, function (err) {
             cb(err, db);
         });
-    }
-    ], function (err, db) {
+    }, function (db, cb) {
+        db.collection('users', function (err, collection) {
+            cb(err,collection,db);
+        });
+    }, function (collection,db,cb) {
+        collection.update({name:post.name},{$inc:{'article_number':1}}, function (err) {
+            cb(err,db);
+        });
+
+    }], function (err, db) {
         pool.release(db);
         callback(err);
     });
@@ -438,6 +445,15 @@ Post.remove = function (_id, callback) {
         collection.remove(query, {w: 1}, function (err) {
             cb(err, db);
         });
+    }, function (db, cb) {
+        db.collection('users', function (err, collection) {
+            cb(err,collection);
+        });
+    }, function (collection,cb) {
+        collection.update({username:this.name},{$inc:{'article_number':-1}}, function (err) {
+            cb(err,db);
+        });
+
     }], function (err, db) {
         pool.release(db);
         callback(err);

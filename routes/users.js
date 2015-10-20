@@ -24,7 +24,6 @@ router.get('/:username', function (req, res, next) {
        Post.getTotalNumber(null, function (err, total) {
            if (page > Math.ceil(total /number) || page <= 0||isNaN(page))
                page=1;
-
            Post.getSome(null, page,number, function (err, posts) {
                if (err)
                    posts = [];
@@ -32,6 +31,7 @@ router.get('/:username', function (req, res, next) {
                    res.render('users', {
                        title: '用户页',
                        user: req.session.user,
+                       other_user:user,
                        page: page,
                        isFirstPage: page == 1,
                        isLastPage: ((page - 1) * number + posts.length) == total,
@@ -73,12 +73,20 @@ router.get('/p/:_id', function (req, res) {
         });
     });
 });
-router.post('/attention', stateCheck.checkLogin);
+router.get('/attention/:attentionName', stateCheck.checkLogin);
 router.get('/attention/:attentionName', function (req, res) {
       User.attention(req.session.user.name,req.params.attentionName.toString().trim(), function (err) {
           if(err)
           res.send(err);
           res.send('关注成功!');
       });
+});
+router.get('/remove_attention/:remove_attentionName', stateCheck.checkLogin);
+router.get('/remove_attention/:remove_attentionName', function (req, res) {
+    User.removeAttention(req.session.user.name,req.params.reomve_attentionName.toString().trim(), function (err) {
+        if(err)
+            res.send(err);
+        res.send('取消关注成功!');
+    });
 });
 module.exports = router;

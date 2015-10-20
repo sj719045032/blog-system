@@ -5,6 +5,7 @@ var express = require('express');
 var router = express.Router();
 var stateCheck = require('../modules/statecheck');
 var Post = require('../modules/post.js');
+var User = require('../modules/user.js');
 var formidable = require('formidable');
 var fs=require('fs');
 var FileManager = require('../modules/filemanager.js');
@@ -21,21 +22,27 @@ router.get('/', function (req, res, next) {
 });
 router.post('/', stateCheck.checkLogin);
 
-router.post('/', function (req, res, next) {
+router.post('/', function (req, res) {
     var user = req.session.user;
     var post = new Post(user.name, req.body.title, req.body.content);
     post.save(function (err) {
         if (err) {
             req.flash('error', err);
-            return res.redirect('post');
+            return res.redirect('/');
         }
+        User.get(user.name, function (err,user) {
+            if (err) {
+                req.flash('error', err);
+                return res.redirect('/');
+            }
+        });
 
         req.flash('success', '发表成功');
-        res.redirect('/');
+       return res.redirect('/');
     });
 });
 router.post('/img', stateCheck.checkLogin);
-router.post('/img', function (req, res, next) {
+router.post('/img', function (req, res) {
         var form = new formidable.IncomingForm();
     form.keepExtensions = true;
     form.uploadDir = __dirname + '/../uploads/img';

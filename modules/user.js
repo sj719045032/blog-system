@@ -61,9 +61,11 @@ module.exports = User;
 User.prototype.save = function (callback) {
 
     var user = {
-        name: this.name,
-        password: this.password,
-        attention:[]
+        name : this.name,
+        password : this.password,
+        attention : [],
+        by_attention : [],
+        article_number : 0
     };
 
     async.waterfall([
@@ -151,6 +153,12 @@ User.attention= function (username,attentionName, callback) {
        });
    }, function (collection, db, cb) {
        collection.update({name:username},{$addToSet:{attention:attentionName}}, function (err) {
+           cb(err,collection,db);
+       });
+
+   }, function (collection, db, cb) {
+
+       collection.update({name:attentionName},{$addToSet:{by_attention:username}}, function (err) {
            cb(err,db);
        });
    }],function(err,db){
@@ -170,10 +178,16 @@ User.removeAttention= function (username,attentionName, callback) {
         });
     }, function (collection, db, cb) {
         collection.update({name:username},{$pull:{attention:attentionName}}, function (err) {
+            cb(err,collection,db);
+        });
+
+    }, function (collection, db, cb) {
+        collection.update({name:attentionName},{$pull:{by_attention:username}}, function (err) {
             cb(err,db);
         });
-    }],function(err,total,db){
+    }
+    ],function(err,db){
         pool.release(db);
-        callback(err,total);
+        callback(err);
     });
 };

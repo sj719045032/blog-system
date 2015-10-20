@@ -1,6 +1,7 @@
 var express = require('express');
 var session = require('express-session');
 var logger = require('morgan');
+var fs=require('fs');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
@@ -44,7 +45,11 @@ app.use(session({secret: settings.cookieSecret, store: new MongoStore({db: setti
     errorLog.write(meta + err.stack + '\n');
     next();
 });*/
-
+// create a write stream (in append mode)
+var accessLogStream = fs.createWriteStream(__dirname + '/access.log', {flags: 'a'});
+var errorLogStream = fs.createWriteStream(__dirname + '/error.log', {flags: 'a'});
+// setup the logger
+app.use(logger('combined', {stream: accessLogStream}));
 app.use('/', index);
 app.use('/users', users);
 app.use('/login', login);
@@ -81,6 +86,8 @@ if (app.get('env') === 'development') {
 // production error handler
 // no stacktraces leaked to user
 app.use(function (err, req, res, next) {
+    var meta = '[' + new Date() + '] ' + req.url + '\n';
+    errorLogStream.write(meta + err.stack + '\n');
     res.status(err.status || 500);
     res.render('error', {
         message: err.message,
