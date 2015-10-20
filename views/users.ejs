@@ -78,7 +78,7 @@
             <div id="user_info">
                 <div class="user_head">
                     <div class="user_head_portrait"><img src="/images/head_portrait_default.png"><span
-                                class="head_name"><%= user.name %>
+                                class="head_name"><%= other_user.name %>
                             <% if(user.name != other_user.name) {%>
                             <a class="attention" href="/users/attention/<%= other_user.name %>">关注</a>
                             <% }%>
@@ -87,8 +87,8 @@
                     <div class="user_message">
                         <ul>
                             <li>广播<br><%= other_user.article_number ?other_user.article_number : 0 %></li>
-                            <li>关注<br><%= user.attention?user.attention.length:0 %></li>
-                            <li>被关注<br><%= user.by_attention?user.by_attention.length:0 %></li>
+                            <li>关注<br><%= other_user.attention?other_user.attention.length:0 %></li>
+                            <li>被关注<br><%=other_user.by_attention?other_user.by_attention.length:0 %></li>
                             <li></li>
                         </ul>
                     </div>

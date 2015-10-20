@@ -21,6 +21,7 @@ router.get('/:username', function (req, res, next) {
        var page = req.query.p ? req.query.p : 1;
        page = parseInt(page);
        var number=5;
+       console.log(user);
        Post.getTotalNumber(null, function (err, total) {
            if (page > Math.ceil(total /number) || page <= 0||isNaN(page))
                page=1;
