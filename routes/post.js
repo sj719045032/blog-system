@@ -30,13 +30,6 @@ router.post('/', function (req, res) {
             req.flash('error', err);
             return res.redirect('/');
         }
-        User.get(user.name, function (err,user) {
-            if (err) {
-                req.flash('error', err);
-                return res.redirect('/');
-            }
-        });
-
         req.flash('success', '发表成功');
        return res.redirect('/');
     });
