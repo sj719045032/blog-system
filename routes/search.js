@@ -10,8 +10,6 @@ router.get('/', function (req, res) {
             req.flash('error', err);
             return res.redirect('/');
         }
-        console.log(posts[0]);
-
         res.render('search', {
             title: "SEARCH:" + req.query.keyword,
             posts: posts,

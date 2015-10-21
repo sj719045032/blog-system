@@ -8,9 +8,9 @@ var ObjectID = require('mongodb').ObjectID;
 var Db = require('./db');
 var poolModule = require('generic-pool');
 var async = require('async');
-var events=require('events');
-var proxy=new events.EventEmitter();
-var status='ready';
+var events = require('events');
+var proxy = new events.EventEmitter();
+var status = 'ready';
 var pool = poolModule.Pool({
     name: 'mongoPool_post',
     create: function (cb) {
@@ -29,10 +29,11 @@ var pool = poolModule.Pool({
     idleTimeoutMills: 30000,
     log: false
 });
-function Post(name, title, post) {
+function Post(name, title, post, img) {
     this.name = name;
     this.title = title;
     this.post = post;
+    this.img = img;
 }
 
 module.exports = Post;
@@ -93,8 +94,11 @@ Post.prototype.save = function (callback) {
         post: this.post,
         pv: 0,
         reprint_info: {},
-        comments: []
+        comments: [],
+        img: this.img
     };
+    if(typeof this.img =="string")
+    post.img=[this.img];
     async.waterfall([function (cb) {
         pool.acquire(function (err, db) {
             cb(err, db);
@@ -110,11 +114,11 @@ Post.prototype.save = function (callback) {
         });
     }, function (db, cb) {
         db.collection('users', function (err, collection) {
-            cb(err,collection,db);
+            cb(err, collection, db);
         });
-    }, function (collection,db,cb) {
-        collection.update({name:post.name},{$inc:{'article_number':1}}, function (err) {
-            cb(err,db);
+    }, function (collection, db, cb) {
+        collection.update({name: post.name}, {$inc: {'article_number': 1}}, function (err) {
+            cb(err, db);
         });
 
     }], function (err, db) {
@@ -159,8 +163,8 @@ Post.prototype.save = function (callback) {
 
 Post.getSome = function (name, page, number, callback) {
 
-    proxy.once('selected'+page,callback);
-    if(status=='ready');
+    proxy.once('selected' + page, callback);
+    if (status == 'ready');
     async.waterfall([function (cb) {
         pool.acquire(function (err, db) {
             cb(err, db);
@@ -183,7 +187,7 @@ Post.getSome = function (name, page, number, callback) {
         })
     }], function (err, docs, db) {
         pool.release(db);
-        proxy.emit('selected'+page,err,docs);
+        proxy.emit('selected' + page, err, docs);
         /*callback(err, docs);*/
     });
 
@@ -405,59 +409,67 @@ Post.getTotalNumber = function (name, callback) {
 
 Post.remove = function (_id, callback) {
     async.waterfall([function (cb) {
-        pool.acquire(function (err, db) {
-            cb(err, db);
-        });
-    }, function (db, cb) {
-        db.collection('posts', function (err, collection) {
-            cb(err, collection, db);
-        });
-    }, function (collection, db, cb) {
-        var query = {
-            '_id': new ObjectID(_id)
+            pool.acquire(function (err, db) {
+                cb(err, db);
+            });
+        }, function (db, cb) {
+            db.collection('posts', function (err, collection) {
+                cb(err, collection, db);
+            });
+        }, function (collection, db, cb) {
+            var query = {
+                '_id': new ObjectID(_id)
 
-        };
-        collection.findOne(query, function (err, doc) {
-            var reprint_from = "";
-            if (doc.reprint_info.reprint_from) {
-                reprint_from = doc.reprint_info.reprint_from;
-            }
-            if (reprint_from != "") {
-                //更新原文章所在文档的 reprint_to
-                collection.update({
-                    "_id": reprint_from._id,
-                }, {
-                    $pull: {
-                        "reprint_info.reprint_to": {
-                            "name": doc.name,
-                            "day": doc.time.day,
-                            "title": doc.title
+            };
+            collection.findOne(query, function (err, doc) {
+                    var reprint_from = "";
+                    if (doc.reprint_info) {
+                        if (doc.reprint_info.reprint_from) {
+                            reprint_from = doc.reprint_info.reprint_from;
+                        }
+                        if (reprint_from != "") {
+                            //更新原文章所在文档的 reprint_to
+                            collection.update({
+                                "_id": reprint_from._id,
+                            }, {
+                                $pull: {
+                                    "reprint_info.reprint_to": {
+                                        "name": doc.name,
+                                        "day": doc.time.day,
+                                        "title": doc.title
+                                    }
+                                }
+                            }, function (err) {
+
+                                if (err) {
+                                    cb(err);
+                                }
+                            });
                         }
                     }
-                }, function (err) {
+                }
+            )
+            ;
+            collection.remove(query, {w: 1}, function (err) {
+                cb(err, db);
+            });
+        }, function (db, cb) {
+            db.collection('users', function (err, collection) {
+                cb(err, collection, db);
+            });
+        }, function (collection, db, cb) {
+            collection.update({username: this.name}, {$inc: {'article_number': -1}}, function (err) {
+                cb(err, db);
+            });
 
-                    if (err) {
-                        cb(err);
-                    }
-                });
-            }
-        });
-        collection.remove(query, {w: 1}, function (err) {
-            cb(err, db);
-        });
-    }, function (db, cb) {
-        db.collection('users', function (err, collection) {
-            cb(err,collection);
-        });
-    }, function (collection,cb) {
-        collection.update({username:this.name},{$inc:{'article_number':-1}}, function (err) {
-            cb(err,db);
-        });
-
-    }], function (err, db) {
-        pool.release(db);
-        callback(err);
-    });
+        }
+        ],
+        function (err, db) {
+            pool.release(db);
+            callback(err);
+        }
+    )
+    ;
 };
 Post.search = function (keyword, callback) {
     async.waterfall([

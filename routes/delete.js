@@ -14,6 +14,7 @@ router.post('/', function (req, res) {
             req.flash('error', err);
             return res.redirect('back');
         }
+        if(doc)
         if (doc.name != currentUser.name)
             return res.redirect('back');
         Post.remove(req.body.id, function (err) {
@@ -22,7 +23,7 @@ router.post('/', function (req, res) {
                 return res.redirect('back');
             }
             req.flash('success', '删除成功!');
-            res.redirect('/');
+            return res.redirect('/');
         });
     });
 });

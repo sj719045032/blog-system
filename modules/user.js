@@ -174,7 +174,7 @@ User.removeAttention= function (username,attentionName, callback) {
         });
     }, function (db, cb) {
         db.collection('users', function (err, collection) {
-            cb(err,collection,cb);
+            cb(err,collection,db);
         });
     }, function (collection, db, cb) {
         collection.update({name:username},{$pull:{attention:attentionName}}, function (err) {

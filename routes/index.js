@@ -5,7 +5,6 @@ var stateCheck = require('../modules/statecheck');
 /* GET home page. */
 router.get('/', stateCheck.checkLogin);
 router.get('/', function (req, res) {
-    console.log(process.pid);
     var page =  req.query.p || 1;
     var number = 5;
     Post.getTotalNumber(null, function (err, total) {

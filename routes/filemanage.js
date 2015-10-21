@@ -15,18 +15,18 @@ router.get('/', function (req, res) {
             req.flash('error', err);
             return res.redirect('/');
         }
-
+        page = parseInt(page);
         FileManager.getSome(user.name, page, number, function (err, filelist) {
             if (err) {
                 req.flash('error', err);
                 return res.redirect('/');
             }
             res.render('filemanage', {
-                title: '��ҳ',
+                title: '文件管理',
                 user: req.session.user,
                 page: page,
                 isFirstPage: page == 1,
-                isLastPage: ((page - 1) * 10 + filelist.length) == total,
+                isLastPage: ((page - 1) * number + filelist.length) == total,
                 filelist: filelist,
                 total: Math.ceil(total / number),
                 error: req.flash('error').toString(),
@@ -40,7 +40,6 @@ router.get('/', function (req, res) {
 });
 router.get('/d/:storeName', function (req, res) {
     FileManager.getOne(req.params.storeName, function (err, file) {
-        console.log(file);
         if (err) {
             req.flash('error', err);
             return res.redirect('/');
