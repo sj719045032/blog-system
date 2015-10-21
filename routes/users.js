@@ -12,40 +12,45 @@ router.get('/', function (req, res, next) {
 });
 router.get('/:username', stateCheck.checkLogin);
 router.get('/:username', function (req, res, next) {
-   User.get(req.params.username, function (err,user) {
-       if(!user)
-       {
-           req.flash('error','用户不存在！');
-           return res.redirect('/');
-       }
-       var page = req.query.p ? req.query.p : 1;
-       page = parseInt(page);
-       var number=5;
-       Post.getTotalNumber(null, function (err, total) {
-           if (page > Math.ceil(total /number) || page <= 0||isNaN(page))
-               page=1;
-           Post.getSome(null, page,number, function (err, posts) {
-               if (err)
-                   posts = [];
-               if(posts)
-                   res.render('users', {
-                       title: '用户页',
-                       user: req.session.user,
-                       other_user:user,
-                       page: page,
-                       isFirstPage: page == 1,
-                       isLastPage: ((page - 1) * number + posts.length) == total,
-                       posts: posts,
-                       total: Math.ceil(total /number),
-                       type: "user",
-                       error: req.flash('error').toString(),
-                       success: req.flash('success').toString()
-                   });
-           })
-       });
+    User.get(req.params.username, function (err, user) {
+        var isAttention = false;
+        if (!user) {
+            req.flash('error', '用户不存在！');
+            return res.redirect('/');
+        }
+        for (var name in req.session.user.attention)
+            if (req.session.user.attention[name] == user.name)
+                isAttention = true;
+        var page = req.query.p ? req.query.p : 1;
+        page = parseInt(page);
+        var number = 5;
+        Post.getTotalNumber(null, function (err, total) {
+            if (page > Math.ceil(total / number) || page <= 0 || isNaN(page))
+                page = 1;
+
+            Post.getSome(null, page, number, function (err, posts) {
+                if (err)
+                    posts = [];
+                if (posts)
+                    res.render('users', {
+                        title: '用户页',
+                        user: req.session.user,
+                        other_user: user,
+                        page: page,
+                        isFirstPage: page == 1,
+                        isLastPage: ((page - 1) * number + posts.length) == total,
+                        posts: posts,
+                        total: Math.ceil(total / number),
+                        type: "user",
+                        error: req.flash('error').toString(),
+                        success: req.flash('success').toString(),
+                        isAttention: isAttention
+                    });
+            })
+        });
 
 
-   });
+    });
 
 });
 router.get('/p/:_id', stateCheck.checkLogin);
@@ -55,38 +60,54 @@ router.get('/p/:_id', function (req, res) {
             req.flash('error', err);
             return res.redirect('/');
         }
-        if(!post){
-            res.status( 500);
+        if (!post) {
+            res.status(500);
             res.render('error', {
-                message:'此文章不存在！',
-                error: {status:404,stack:''}
+                message: '此文章不存在！',
+                error: {status: 404, stack: ''}
             });
         }
-         else
-        res.render('article', {
-            title: req.params.title,
-            post: post,
-            user: req.session.user,
-            type: "user",
-            success: req.flash('success').toString(),
-            error: req.flash('error').toString()
-        });
+        else
+            res.render('article', {
+                title: req.params.title,
+                post: post,
+                user: req.session.user,
+                type: "user",
+                success: req.flash('success').toString(),
+                error: req.flash('error').toString()
+            });
     });
 });
 router.get('/attention/:attentionName', stateCheck.checkLogin);
 router.get('/attention/:attentionName', function (req, res) {
-      User.attention(req.session.user.name,req.params.attentionName.toString().trim(), function (err) {
-          if(err)
-          res.send(err);
-          res.send('关注成功!');
-      });
+    User.attention(req.session.user.name, req.params.attentionName.toString().trim(), function (err) {
+        if (err) {
+            req.flash('error', err);
+            return res.redirect('/');
+        }
+        User.get(req.session.user.name, function (err, user) {
+            req.session.user = null;
+            req.session.user = user;
+            return res.redirect('/users/' + req.params.attentionName);
+        });
+
+
+    });
 });
 router.get('/remove_attention/:remove_attentionName', stateCheck.checkLogin);
 router.get('/remove_attention/:remove_attentionName', function (req, res) {
-    User.removeAttention(req.session.user.name,req.params.reomve_attentionName.toString().trim(), function (err) {
-        if(err)
-            res.send(err);
-        res.send('取消关注成功!');
+    User.removeAttention(req.session.user.name, req.params.remove_attentionName.toString().trim(), function (err) {
+        if (err) {
+            req.flash('error', err);
+            return res.redirect('/users/' + req.params.reomve_attentionName.toString().trim());
+        }
+        User.get(req.session.user.name, function (err, user) {
+            req.session.user = null;
+            req.session.user = user;
+            return res.redirect('/users/' + req.params.remove_attentionName.toString().trim());
+        });
+
+
     });
 });
 module.exports = router;
