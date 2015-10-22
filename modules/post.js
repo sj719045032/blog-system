@@ -87,6 +87,8 @@ Post.prototype.save = function (callback) {
         minute: date.getFullYear() + "-" + ( date.getMonth() + 1) + "-" + date.getDate() + " " + date.getHours() + ":" + (date.getMinutes() < 10 ? "0" + date.getMinutes() : date.getMinutes()),
 
     };
+
+
     var post = {
         name: this.name,
         time: time,
@@ -95,10 +97,21 @@ Post.prototype.save = function (callback) {
         pv: 0,
         reprint_info: {},
         comments: [],
-        img: this.img
+        img: []
     };
-    if(typeof this.img =="string")
-    post.img=[this.img];
+    if (this.img)
+        if (typeof this.img == "string") {
+
+            post.img.push(JSON.parse(this.img));
+
+        }
+        else {
+            this.img.forEach(function (img) {
+                post.img.push(JSON.parse(img));
+            });
+
+
+        }
     async.waterfall([function (cb) {
         pool.acquire(function (err, db) {
             cb(err, db);

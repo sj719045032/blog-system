@@ -10,6 +10,7 @@ var formidable = require('formidable');
 var fs = require('fs');
 var FileManager = require('../modules/filemanager.js');
 var Thumbnail=require('../tools/thumbnail.js');
+var thumbnail=new Thumbnail({spath:__dirname +'/../uploads/img',dpath:'../uploads/imgThumbnails'});
 /* 获取发表页
  * */
 router.get('/', stateCheck.checkLogin);
@@ -45,7 +46,7 @@ router.post('/img', function (req, res) {
             throw err;
             var image = files.file;
             var path = image.path;
-            var type = image.type;
+        var type = image.type;
             path = path.replace('/\\/g', '/');
             var storename = path.substr(path.lastIndexOf('\\') + 1, path.length);
             var url = '/img' + path.substr(path.lastIndexOf('\\'), path.length);
@@ -62,12 +63,10 @@ router.post('/img', function (req, res) {
                 FileManager.remove(storename);
                 return res.send(info);
             }
-    console.log(storename);
-        Thumbnail.thumbnail(storename, function (err,fileurl) {
+        thumbnail.thumbnail(storename, function (err,fileurl) {
             var info = {
-                "error": 0,
                 "sourceImg": url,
-                "thumbnailImg":fileurl
+                "thumbnailImg":fileurl.substring(fileurl.indexOf('/',fileurl.indexOf('/')+1),fileurl.length)
             };
             return res.send(info);
         });

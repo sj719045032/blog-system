@@ -77,8 +77,8 @@
                     acceptedFiles: 'image/*',
                     init: function () {
                         this.on('success', function (file, info) {
-                            $(".login_form").append("<input name=img type='hidden' value='"+info+"'>");
-                            console.log(info);
+                            console.log(JSON.stringify(info));
+                            $(".login_form").append("<input name=img type='hidden' value='"+JSON.stringify(info)+"'>");
                         });
                     }
                 });

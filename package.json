@@ -16,6 +16,7 @@
     "generic-pool": "*",
     "async": "*",
     "thumbnail":"*",
-    "gm":"*"
+    "gm":"*",
+    "node-smushit":"*"
   }
 }

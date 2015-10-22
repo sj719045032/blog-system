@@ -15,37 +15,40 @@
 <% include top %>
 
 <div class="container">
-    <% include prompt.ejs%>
-        <div class="row">
-            <% if(posts) %>
+    <% include prompt.ejs %>
+    <div class="row">
+        <% if(posts) %>
         <% posts.forEach(function (post, index) { %>
-        <div class="panel  panel-default col-md-12 col-sm-12 table-bordered" style="padding:10px 0px 0px 0px;margin-bottom: 30px;max-height: 200px;overflow: hidden">
+        <div class="panel  panel-default col-md-12 col-sm-12 table-bordered"
+             style="padding:10px 0px 0px 0px;margin-bottom: 30px;max-height: 200px;overflow: hidden">
 
-          <div class="panel-heading"><a class="h3 panel-title " href="/users/p/<%= post._id %>"><%= post.title %></a>
-               <div class="label label-info">作者：<a href="/users/<%= post.name %>"><%= post.name %></a>  |
-                日期：<%= post.time.minute %> |
-                点击量：<%= post.pv ? post.pv : "0" %> | 转载：
-                <% if (post.reprint_info.reprint_to) { %>
-                <%= post.reprint_info.reprint_to.length %>
-                <% } else { %>
-                <%= 0 %>
-                <% } %>
-               </div>
-          </div>
-         <div class="panel-body"><%- post.post %></div>
+            <div class="panel-heading"><a class="h3 panel-title " href="/users/p/<%= post._id %>"><%= post.title %></a>
+
+                <div class="label label-info">作者：<a href="/users/<%= post.name %>"><%= post.name %></a> |
+                    日期：<%= post.time.minute %> |
+                    点击量：<%= post.pv ? post.pv : "0" %> | 转载：
+                    <% if (post.reprint_info.reprint_to) { %>
+                    <%= post.reprint_info.reprint_to.length %>
+                    <% } else { %>
+                    <%= 0 %>
+                    <% } %>
+                </div>
+            </div>
+            <div class="panel-body"><%- post.post %></div>
             <div class="panel-footer clearfix">
-                 <% if(post.img) {%>
-                <%  post.img.forEach(function (img) { %>
-                <a target="_blank" data-lightbox="roadtrip<%=post._id%>" href="<%=img%>"><img style="width: 50px;height: 50px" src="<%=img%>"></a>
-                <%   })%>
-                <%}%>
+                <% if(post.img) { %>
+                <% post.img.forEach(function (img) { %>
+                <a target="_blank" data-lightbox="roadtrip<%= post._id %>" href=<%= img.sourceImg %>><img
+                            style="width: 50px;height: 50px" src=<%= img.thumbnailImg %>></a>
+                <% }) %>
+                <% } %>
             </div>
         </div>
         <% }) %>
-        </div>
+    </div>
     <% include pageing %>
     <% include bottom %>
-    </div>
+</div>
 <script src="/js/lightbox.min.js"></script>
 <script>
     lightbox.option({

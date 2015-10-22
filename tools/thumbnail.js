@@ -4,20 +4,29 @@
 /**
  * 图片缩略图生成器
  */
-var Thumbnail = require('thumbnail');
-var spath=__dirname+'/../uploads/img';
-var dpath=__dirname+'/../uploads/imgThumbnail';
-var thumbnail = new Thumbnail(spath, dpath);
-thumbnail.ensureThumbnail('395034cf3e50bfc9c526fc4a2dbb855d.jpg', 100, 100, function (err, filename) {
-    // "filename" is the name of the thumb in '/path/to/thumbnails'
-    console.log(err);
-    console.log(filename);
-});
-/*exports.thumbnail= function (filename ,cb) {
-    thumbnail.ensureThumbnail(filename, 100, 100, function (err, filename) {
-        // "filename" is the name of the thumb in '/path/to/thumbnails'
 
-        cb(err,dpath+filename);
-    });
-};*/
+var fs = require('fs')
+var gm = require('gm');
 
+// resize and remove EXIF profile data
+
+function Thumbnail(info) {
+    this.spath = info.spath;
+    this.dpath = info.dpath;
+    this.width = info.width || 100;
+    this.height = info.height || 100;
+}
+module.exports = Thumbnail;
+
+Thumbnail.prototype.thumbnail = function (sfilename, cb) {
+    var dpath=this.dpath;
+    gm(this.spath +'/'+ sfilename)
+        .resize(this.width, this.height)
+        .noProfile()
+        .write(__dirname+'/'+dpath + '/t'+sfilename,function (err) {
+
+            cb(err, dpath + '/t'+sfilename);
+
+        });
+
+};
