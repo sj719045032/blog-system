@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><%= title %></title>
+    <link href="/stylesheets/lightbox.css" rel="stylesheet">
     <link rel='stylesheet' href='/stylesheets/style.css'/>
     <link rel="stylesheet" href="/js/bootstrap3/css/bootstrap.min.css"/>
     <script src="/js/jquery-2.1.4.min.js"></script>
     <script src="/js/bootstrap3/js/bootstrap.min.js"></script>
-
+    <script src="/js/dropzone.js"></script>
 </head>
 <body style="background: #73CFF1 url('/images/index_bg.jpg' ) center top no-repeat; ">
 <% include top.ejs %>
@@ -18,9 +19,9 @@
     <div class="row">
         <div id="user_left" class="col-md-8 col-sm-8">
             <% if(posts) %>
-            <% posts.forEach(function (post, index) { %>
+            <% posts.forEach(function (post) { %>
             <div class="panel  panel-default col-md-12 col-sm-12 table-bordered user_left_content"
-                 >
+                    >
 
                 <div class="panel-heading clearfix"><a class="h3 panel-title pull-left "
                                                        href="/users/p/<%= post._id %>"><%= post.title %></a>
@@ -38,8 +39,13 @@
                 </div>
                 <div class="panel-body"><%- post.post %></div>
                 <div class="panel-footer clearfix">
-
-                    <form action="/remove" target="_blank" method="post">
+                    <% if(post.img) { %>
+                    <% post.img.forEach(function (img) { %>
+                    <a target="_blank" data-lightbox="roadtrip<%= post._id %>" href="<%= img %>"><img
+                                style="width: 50px;height: 50px" src="<%= img %>"></a>
+                    <% }) %>
+                    <% } %>
+                    <form action="/remove" target="_blank" method="post" style="display: inline">
                         <div class="btn-group pull-right ">
                             <% if (user && (user.name == post.name)) { %>
                             <a class="edit btn btn-primary btn-sm" href="/edit/<%= post._id %>">编辑</a>
@@ -79,18 +85,24 @@
                 <div class="user_head">
                     <div class="user_head_portrait "><img src="/images/head_portrait_default.png"><span
                                 class="head_name"><%= other_user.name %>
-                            <% if(user.name != other_user.name&&!isAttention) {%>
+                            <% if(user.name != other_user.name && !isAttention) { %>
                             <a class="attention" href="/users/attention/<%= other_user.name %>">关注</a>
-                            <% }else if(isAttention){%>
+                            <% }else if(isAttention){ %>
                             <a class="remove_attention" href="/users/remove_attention/<%= other_user.name %>">取消关注</a>
-                            <%}%>
+                            <% } %>
                         </span>
                     </div>
                     <div class="user_message">
                         <ul>
-                            <li><a><span>广播</span><span><%= other_user.article_number ?other_user.article_number : 0 %></span></a></li>
-                            <li><a><span>关注</span><span><%= other_user.attention?other_user.attention.length:0 %></span></a></li>
-                            <li><a><span>被关注</span><span><%= other_user.by_attention?other_user.by_attention.length:0 %></span></a></li>
+                            <li>
+                                <a><span>广播</span><span><%= other_user.article_number ? other_user.article_number : 0 %></span></a>
+                            </li>
+                            <li>
+                                <a><span>关注</span><span><%= other_user.attention ? other_user.attention.length : 0 %></span></a>
+                            </li>
+                            <li>
+                                <a><span>被关注</span><span><%= other_user.by_attention ? other_user.by_attention.length : 0 %></span></a>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -101,7 +113,14 @@
 </div>
 
 <% include bottom %>
-</div>
+
+<script src="/js/lightbox.min.js"></script>
+<script>
+    lightbox.option({
+        'resizeDuration': 200,
+        'wrapAround': true
+    })
+</script>
 </body>
 </html>
 

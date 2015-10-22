@@ -9,6 +9,7 @@ var User = require('../modules/user.js');
 var formidable = require('formidable');
 var fs = require('fs');
 var FileManager = require('../modules/filemanager.js');
+var Thumbnail=require('../tools/thumbnail.js');
 /* 获取发表页
  * */
 router.get('/', stateCheck.checkLogin);
@@ -61,11 +62,16 @@ router.post('/img', function (req, res) {
                 FileManager.remove(storename);
                 return res.send(info);
             }
+    console.log(storename);
+        Thumbnail.thumbnail(storename, function (err,fileurl) {
             var info = {
                 "error": 0,
-                "url": url
+                "sourceImg": url,
+                "thumbnailImg":fileurl
             };
-        return res.send(info);
+            return res.send(info);
+        });
+
     });
 });
 module.exports = router;

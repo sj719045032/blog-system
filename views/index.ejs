@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><%= title %></title>
+    <link href="/stylesheets/lightbox.css" rel="stylesheet">
     <link rel='stylesheet' href='/stylesheets/style.css'/>
     <link rel="stylesheet" href="/js/bootstrap3/css/bootstrap.min.css"/>
     <script src="/js/jquery-2.1.4.min.js"></script>
@@ -35,39 +36,9 @@
             <div class="panel-footer clearfix">
                  <% if(post.img) {%>
                 <%  post.img.forEach(function (img) { %>
-                <a target="_blank" href="<%=img%>"><img style="width: 50px;height: 50px" src="<%=img%>"></a>
+                <a target="_blank" data-lightbox="roadtrip<%=post._id%>" href="<%=img%>"><img style="width: 50px;height: 50px" src="<%=img%>"></a>
                 <%   })%>
                 <%}%>
-                <form action="/remove" target="_blank" method="post">
-                    <div class="btn-group pull-right ">
-                        <% if (user && (user.name == post.name)) { %>
-                        <a class="edit btn btn-primary btn-sm" href="/edit/<%= post._id %>">编辑</a>
-                        <input type="hidden" name="id" value="<%= post._id %>">
-                        <input class=" btn btn-primary btn-sm" name="" type="submit" value="删除" onClick="delcfm()">
-
-                        <% } %>
-                        <% var flag = 1 %>
-                        <% if (user && (user.name != post.name)) { %>
-                        <% if ((post.reprint_info.reprint_from != undefined) && (user.name == post.reprint_info.reprint_from.name)) { %>
-                        <% flag = 0 %>
-                        <% } %>
-                        <% if ((post.reprint_info.reprint_to != undefined)) { %>
-                        <% post.reprint_info.reprint_to.forEach(function (reprint_to, index) { %>
-                        <% if (user.name == reprint_to.name) { %>
-                        <% flag = 0 %>
-                        <% } %>
-                        <% }) %>
-                        <% } %>
-                        <% } else { %>
-                        <% flag = 0 %>
-                        <% } %>
-                        <% if (flag) { %>
-                        <a class="edit btn btn-primary btn-sm" href="/reprint/<%= post._id %>">转载</a>
-                        <% } %>
-                    </div>
-                </form>
-
-
             </div>
         </div>
         <% }) %>
@@ -75,6 +46,13 @@
     <% include pageing %>
     <% include bottom %>
     </div>
+<script src="/js/lightbox.min.js"></script>
+<script>
+    lightbox.option({
+        'resizeDuration': 200,
+        'wrapAround': true
+    })
+</script>
 </body>
 </html>
 
