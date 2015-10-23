@@ -28,7 +28,7 @@ router.get('/:username', function (req, res, next) {
             if (page > Math.ceil(total / number) || page <= 0 || isNaN(page))
                 page = 1;
 
-            Post.getSome(null, page, number, function (err, posts) {
+            Post.getSome(user.name, page, number, function (err, posts) {
                 if (err)
                     posts = [];
                 if (posts)

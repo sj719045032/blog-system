@@ -44,7 +44,7 @@
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog"
      aria-labelledby="myModalLabel" aria-hidden="true">
     <div class="modal-dialog">
-        <div class="modal-content">
+        <div class="modal-content clearfix">
             <div class="modal-header">
                 <button type="button" class="close"
                         data-dismiss="modal" aria-hidden="true">
@@ -54,34 +54,72 @@
                     发表
                 </h4>
             </div>
-            <form action="/post" class="login_form" method="post">
+            <form action="/post" class="login_form" role="form" method="post" style="display: inline">
                 <div class="modal-body">
-                    <div>标题：<input id="title" type="text" name="title"></div>
-
-                    <div>内容：<textarea style="width:560px;height:100px;resize: none" type="content" id="content"
-                                      name="content"></textarea></div>
-
+                    <div class="form-group">
+                        <div class="input-group "><span class="input-group-addon">标题</span><input class="form-control"
+                                                                                                  id="title"
+                                                                                                  type="text"
+                                                                                                  name="title">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="input-group "><span class="input-group-addon">内容</span><textarea
+                                    class="form-control"
+                                    id="post_content"
+                                    type="text" name="content" style="height: 100px"></textarea>
+                        </div>
+                    </div>
                 </div>
 
-                <div class="modal-footer">
-                    <button type="submit" class="btn btn-primary">提交</button>
-                    <button type="reset" class="btn btn-primary">重置</button>
+                <div class="btn-group pull-right" style="margin: -15px 15px 15px 0px">
+                    <button type="submit" class="btn btn-primary btn-sm">提交</button>
+                    <button type="reset" class="btn btn-primary btn-sm">重置</button>
                 </div>
+
             </form>
-            <div id="uploadImg">点击或者拖拽上传</div>
+            <div id="preview-template" style="display: none; ">
+                <div class="dz-preview dz-file-preview" style="display:inline-block;width: 80px;height: 120px;margin: 5px; ">
+                    <div class="dz-details" style="position: relative">
+                        <div class="dz-filename" style="display: none;"><span data-dz-name></span></div>
+                        <div class="dz-size" data-dz-size style="display: none;"></div>
+                        <img data-dz-thumbnail style=" border:1px solid black;border-radius: 10px;display: inline-block;height: 120px;width: 80px"/>
+                        <img class="remove_icon" src="/images/close.png" alt="Click me to remove the file." data-dz-remove style="position: absolute;top: 40%;right: 34%"/>
+                    </div>
+                    <div class="dz-progress" style="display: none;"><span class="dz-upload" data-dz-uploadprogress></span></div>
+                    <div class="dz-success-mark" style="display: none;"><span>✔</span></div>
+                    <div class="dz-error-mark" style="display: none;"><span>✘</span></div>
+                    <div class="dz-error-message"   ><span data-dz-errormessage></span></div>
+
+                </div>
+            </div>
+            <div id="uploadImg" class="dropzone-previews">点击或者拖拽上传</div>
             <script>
                 $("div#uploadImg").dropzone({
                     url: "/post/img",
-                    method: "post",
                     addRemoveLinks: true,
                     acceptedFiles: 'image/*',
+                    previewsContainer: '.dropzone-previews',
+                    previewTemplate:$('#preview-template').html(),
+                    dictRemoveFile:'',
+                    dictCancelUpload:'',
+                    maxFilesize:5,
+                    thumbnailWidth: 80,
+                    thumbnailHeight: 120,
                     init: function () {
                         this.on('success', function (file, info) {
-                            console.log(JSON.stringify(info));
-                            $(".login_form").append("<input name=img type='hidden' value='"+JSON.stringify(info)+"'>");
+                            console.log(file.name);
+                            $(".login_form").append("<input class='input_img' name='img' type='hidden' value='" + JSON.stringify(info) + "'>");
+                         });
+
+
+                        this.on('removedfile', function (file) {
+                            $(".input_img")['0'].remove();
+
                         });
                     }
-                });
+                })
+                ;
             </script>
         </div>
     </div>

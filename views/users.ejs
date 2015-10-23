@@ -20,8 +20,7 @@
         <div id="user_left" class="col-md-8 col-sm-8">
             <% if(posts) %>
             <% posts.forEach(function (post) { %>
-            <div class="panel  panel-default col-md-12 col-sm-12 table-bordered user_left_content"
-                    >
+            <div class="panel  panel-default col-md-12 col-sm-12 table-bordered user_left_content">
 
                 <div class="panel-heading clearfix"><a class="h3 panel-title pull-left "
                                                        href="/users/p/<%= post._id %>"><%= post.title %></a>
@@ -42,7 +41,7 @@
                     <% if(post.img) { %>
                     <% post.img.forEach(function (img) { %>
                     <a target="_blank" data-lightbox="roadtrip<%= post._id %>" href="<%= img.sourceImg %>"><img
-                                style="width: 50px;height: 50px" src="<%= img.thumbnailImg %>"></a>
+                                style="width: 80px;height: 120px" src="<%= img.thumbnailImg %>"></a>
                     <% }) %>
                     <% } %>
                     <form action="/remove" target="_blank" method="post" style="display: inline">

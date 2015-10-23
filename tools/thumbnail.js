@@ -13,8 +13,8 @@ var gm = require('gm');
 function Thumbnail(info) {
     this.spath = info.spath;
     this.dpath = info.dpath;
-    this.width = info.width || 100;
-    this.height = info.height || 100;
+    this.width = info.width || 80;
+    this.height = info.height || 120;
 }
 module.exports = Thumbnail;
 
