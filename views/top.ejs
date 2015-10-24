@@ -73,48 +73,61 @@
                 </div>
 
                 <div class="btn-group pull-right" style="margin: -15px 15px 15px 0px">
-                    <button type="submit" class="btn btn-primary btn-sm">提交</button>
-                    <button type="reset" class="btn btn-primary btn-sm">重置</button>
+                    <button type="submit" class="btn btn-primary btn-sm">发表</button>
                 </div>
 
             </form>
-            <div id="preview-template" style="display: none; ">
-                <div class="dz-preview dz-file-preview" style="display:inline-block;width: 80px;height: 120px;margin: 5px; ">
+            <div id="preview-template" class="pull-left" style="display: none; ">
+                <div class="dz-preview dz-file-preview"
+                     style="display:inline-block;width: 80px;height: 120px;margin: 5px; ">
                     <div class="dz-details" style="position: relative">
                         <div class="dz-filename" style="display: none;"><span data-dz-name></span></div>
                         <div class="dz-size" data-dz-size style="display: none;"></div>
-                        <img data-dz-thumbnail style=" border:1px solid black;border-radius: 10px;display: inline-block;height: 120px;width: 80px"/>
-                        <img class="remove_icon" src="/images/close.png" alt="Click me to remove the file." data-dz-remove style="position: absolute;top: 40%;right: 34%"/>
+                        <img data-dz-thumbnail
+                             style=" border:1px solid black;border-radius: 10px;display: inline-block;height: 120px;width: 80px"/>
+
+
+                        <img class="remove_icon" src="/images/close.png" alt="Click me to remove the file."
+                             data-dz-remove style="position: absolute;top: 40%;right: 34%"/>
                     </div>
-                    <div class="dz-progress" style="display: none;"><span class="dz-upload" data-dz-uploadprogress></span></div>
+                    <div class="dz-progress" style="display: none;"><span class="dz-upload"
+                                                                          data-dz-uploadprogress></span></div>
                     <div class="dz-success-mark" style="display: none;"><span>✔</span></div>
                     <div class="dz-error-mark" style="display: none;"><span>✘</span></div>
-                    <div class="dz-error-message"   ><span data-dz-errormessage></span></div>
+                    <div class="dz-error-message"><span data-dz-errormessage></span></div>
 
                 </div>
             </div>
-            <div id="uploadImg" class="dropzone-previews">点击或者拖拽上传</div>
+            <div class="dropzone-previews pull-left">
+
+            </div>
+            <div id="uploadImg" class="pull-left" style="position:relative;width: 80px;height: 120px;margin: 5px;border:1px solid black;border-radius:5px;"> <span class="glyphicon glyphicon-plus" style="position: absolute;top: 44%;right: 44%"></span> </div>
             <script>
+                var files=[];
                 $("div#uploadImg").dropzone({
                     url: "/post/img",
                     addRemoveLinks: true,
                     acceptedFiles: 'image/*',
                     previewsContainer: '.dropzone-previews',
-                    previewTemplate:$('#preview-template').html(),
-                    dictRemoveFile:'',
-                    dictCancelUpload:'',
-                    maxFilesize:5,
+                    previewTemplate: $('#preview-template').html(),
+                    dictRemoveFile: '',
+                    dictCancelUpload: '',
+                    maxFilesize: 5,
                     thumbnailWidth: 80,
                     thumbnailHeight: 120,
                     init: function () {
                         this.on('success', function (file, info) {
-                            console.log(file.name);
-                            $(".login_form").append("<input class='input_img' name='img' type='hidden' value='" + JSON.stringify(info) + "'>");
-                         });
+                            var date=new Date();
+                            $(".login_form").append("<input id='" + file.name + date.getTime() + "' name='img' type='hidden' value='" + JSON.stringify(info) + "'>");
 
-
+                            files.push({name:file.name,time:date.getTime()});
+                            console.log(files);
+                        });
                         this.on('removedfile', function (file) {
-                            $(".input_img")['0'].remove();
+                            files.forEach(function (f) {
+                                if(f.name==file.name)
+                                $("input[id='" + f.name + f.time + "']").remove();
+                            });
 
                         });
                     }
