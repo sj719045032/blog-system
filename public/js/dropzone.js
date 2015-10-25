@@ -371,6 +371,8 @@
       sendingmultiple: noop,
       success: function(file) {
         if (file.previewElement) {
+          var time=new Date();
+          file.uploadtime= time.getTime();
           return file.previewElement.classList.add("dz-success");
         }
       },

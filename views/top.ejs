@@ -42,7 +42,7 @@
 </nav>
 
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog"
-     aria-labelledby="myModalLabel" aria-hidden="true">
+     aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="false">
     <div class="modal-dialog">
         <div class="modal-content clearfix">
             <div class="modal-header">
@@ -103,7 +103,6 @@
             </div>
             <div id="uploadImg" class="pull-left" style="position:relative;width: 80px;height: 120px;margin: 5px;border:1px solid black;border-radius:5px;"> <span class="glyphicon glyphicon-plus" style="position: absolute;top: 44%;right: 44%"></span> </div>
             <script>
-                var files=[];
                 $("div#uploadImg").dropzone({
                     url: "/post/img",
                     addRemoveLinks: true,
@@ -116,23 +115,21 @@
                     thumbnailWidth: 80,
                     thumbnailHeight: 120,
                     init: function () {
-                        this.on('success', function (file, info) {
-                            var date=new Date();
-                            $(".login_form").append("<input id='" + file.name + date.getTime() + "' name='img' type='hidden' value='" + JSON.stringify(info) + "'>");
-
-                            files.push({name:file.name,time:date.getTime()});
-                            console.log(files);
+                        var dz=this;
+                        this.on('success', function (file,info) {
+                            $(".login_form").append("<input id='" + file.name + file.uploadtime + "' name='img' type='hidden' value='" + JSON.stringify(info) + "'>");
                         });
                         this.on('removedfile', function (file) {
-                            files.forEach(function (f) {
-                                if(f.name==file.name)
-                                $("input[id='" + f.name + f.time + "']").remove();
-                            });
+                                $("input[id='" + file.name + file.uploadtime + "']").remove();
+                        });
 
+                        $(".close").on('click', function () {
+                            dz.removeAllFiles();
                         });
                     }
-                })
-                ;
+                });
+
+
             </script>
         </div>
     </div>
