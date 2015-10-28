@@ -3,7 +3,6 @@ var router = express.Router();
 var Post = require('../modules/post.js');
 var stateCheck = require('../modules/statecheck');
 /* GET home page. */
-router.get('/', stateCheck.checkLogin);
 router.get('/', function (req, res) {
     var page =  req.query.p || 1;
     var number = 5;

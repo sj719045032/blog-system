@@ -10,9 +10,9 @@
     <script src="/js/bootstrap3/js/bootstrap.min.js"></script>
 </head>
 <body style="background: #73CFF1 url('/images/index_bg.jpg' ) center top no-repeat; ">
-<% include top %>
+<% include model/top.ejs %>
 <div class="container">
-    <% include prompt.ejs%>
+    <% include model/prompt.ejs%>
     <div class="row">
         <% if(filelist) %>
         <% filelist.forEach(function (file, index) { %>
@@ -30,8 +30,8 @@
         <% }) %>
     </div>
 
-    <% include pageing %>
-    <% include bottom %>
+    <% include model/pageing.ejs %>
+    <% include model/bottom.ejs%>
 </div>
 </body>
 </html>

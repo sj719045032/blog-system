@@ -17,6 +17,7 @@
     "async": "*",
     "thumbnail":"*",
     "gm":"*",
-    "node-smushit":"*"
+    "node-smushit":"*",
+    "mongoose": "*"
   }
 }

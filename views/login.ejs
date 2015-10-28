@@ -8,26 +8,25 @@
     <script src="/js/jquery-2.1.4.min.js"></script>
     <script src="/js/bootstrap3/js/bootstrap.min.js"></script>
 </head>
-<body style="background: url('/images/lg_bg.jpg' ) no-repeat; ">
+<body class="login_background">
 <div class="container">
-    <% include prompt.ejs %>
-    <form style="width: 350px;padding: 20px 50px;position: absolute; top: 170px;"
-          class="login_form form-horizontal  table-bordered btn btn-default pull-left" role="form" method="post">
-        <div class="form-group btn-lg text-center">用户登录</div>
+    <% include model/prompt.ejs %>
+    <form class="login_form form-horizontal  table-bordered pull-left" role="form" method="post">
+        <div class="form-group btn-lg text-center bold">用户登录</div>
         <div class="form-group">
-
-            <div class="input-group "><span class="input-group-addon">用户名</span><input class="form-control"
-                                                                                       id="username"
-                                                                                       type="text" name="username">
+            <div class="input-group ">
+                <span class="input-group-addon">用户名</span>
+                <input class="form-control"
+                       id="username"
+                       type="text" name="username">
             </div>
         </div>
         <div class="form-group">
-
             <div class="input-group"><span class="input-group-addon">密&nbsp&nbsp&nbsp&nbsp码</span><input
                         class="form-control" type="password" id="password" name="password"></div>
         </div>
 
-        <div style="width: 200px;height: 40px" class="center-block ">
+        <div  class="center-block login_buttons">
 
             <button class="btn btn-primary pull-left" type="submit">登录</button>
             <a class="btn btn-primary pull-right " href="/reg">注册</a>

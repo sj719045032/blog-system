@@ -8,13 +8,12 @@
     <script src="/js/jquery-2.1.4.min.js"></script>
     <script src="/js/bootstrap3/js/bootstrap.min.js"></script>
 </head>
-<body style="background: url('/images/lg_bg.jpg' ) no-repeat; ">
+<body class="login_background">
 <div class="container">
-    <% include prompt.ejs%>
-    <form  style="width: 350px;margin-top: 100px;padding: 50px 50px;background-color: white"
-          class="login_form form-horizontal  table-bordered btn btn-default pull-left" role="form" method="post">
+    <% include model/prompt.ejs%>
+    <form class="reg_form form-horizontal  table-bordered  pull-left" role="form" method="post">
         <div class="form-group">
-
+            <div class="form-group btn-lg text-center bold">用户注册</div>
             <div class="input-group "><span class="input-group-addon">用户名</span><input class="form-control"
                                                                                        id="username"
                                                                                        type="text" name="username">

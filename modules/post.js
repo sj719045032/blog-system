@@ -5,30 +5,9 @@
  ����ģ��
  */
 var ObjectID = require('mongodb').ObjectID;
-var Db = require('./db');
-var poolModule = require('generic-pool');
+var mongooseDb = require('./mongooseDb');
 var async = require('async');
-var events = require('events');
-var proxy = new events.EventEmitter();
-var status = 'ready';
-var pool = poolModule.Pool({
-    name: 'mongoPool_post',
-    create: function (cb) {
-        var mongoDb = Db();
-        mongoDb.open(function (err, db) {
-            mongoDb.authenticate("sj719045032", "shijin821", function () {
-                cb(err, db);
-            });
-        })
-    },
-    destroy: function (mongodb) {
-        mongodb.close();
-    },
-    max: 100,
-    min: 5,
-    idleTimeoutMills: 30000,
-    log: false
-});
+
 function Post(name, title, post, img) {
     this.name = name;
     this.title = title;
@@ -38,45 +17,18 @@ function Post(name, title, post, img) {
 
 module.exports = Post;
 
-/*Post.prototype.save = function (callback) {
+var PostSchema = new mongooseDb.mongoose.Schema({
+    name: String,
+    time: Object,
+    title: String,
+    post: String,
+    pv: Number,
+    reprint_info: {reprint_from: {}, reprint_to: Array},
+    comments: Array,
+    img: Array
+});
 
- var date = new Date();
- var time = {
- date: date,
- year: date.getFullYear(),
- month: date.getFullYear() + "-" + (date.getMonth() + 1),
- day: date.getFullYear() + "-" + (date.getMonth() + 1) + "-" + date.getDate(),
- minute: date.getFullYear() + "-" + ( date.getMonth() + 1) + "-" + date.getDate() + " " + date.getHours() + ":" + (date.getMinutes() < 10 ? "0" + date.getMinutes() : date.getMinutes()),
-
- };
- var post = {
- name: this.name,
- time: time,
- title: this.title,
- post: this.post,
- comments: []
- };
-
- pool.acquire(function (err, db) {
- if (err)
- return callback(err);
- db.collection('posts', function (err, collection) {
- if (err) {
- pool.release(db);
- return callback(err);
- }
-
- collection.insert(post, {safe: true}, function (err) {
- pool.release(db);
- if (err) {
- return callback(err);
- }
- callback(null);
- })
- })
-
- })
- };*/
+var PostModel = mongooseDb.db.model('posts', PostSchema);
 Post.prototype.save = function (callback) {
     var date = new Date();
     var time = {
@@ -88,17 +40,18 @@ Post.prototype.save = function (callback) {
 
     };
 
-
     var post = {
         name: this.name,
         time: time,
         title: this.title,
         post: this.post,
         pv: 0,
-        reprint_info: {},
+        reprint_info: {reprint_from: {}, reprint_to: []},
         comments: [],
         img: []
     };
+
+
     if (this.img)
         if (typeof this.img == "string") {
 
@@ -109,135 +62,32 @@ Post.prototype.save = function (callback) {
             this.img.forEach(function (img) {
                 post.img.push(JSON.parse(img));
             });
-
-
         }
-    async.waterfall([function (cb) {
-        pool.acquire(function (err, db) {
-            cb(err, db);
-        });
-    }, function (db, cb) {
-        db.collection('posts', function (err, collection) {
-            cb(err, collection, db);
-
-        });
-    }, function (collection, db, cb) {
-        collection.insert(post, {safe: true}, function (err) {
-            cb(err, db);
-        });
-    }, function (db, cb) {
-        db.collection('users', function (err, collection) {
-            cb(err, collection, db);
-        });
-    }, function (collection, db, cb) {
-        collection.update({name: post.name}, {$inc: {'article_number': 1}}, function (err) {
-            cb(err, db);
+    var PostEntity = new PostModel(post);
+    PostEntity.save({safe: true}, function (err) {
+        if (err)
+            callback(err);
+        PostModel.update({name: post.name}, {$inc: {'article_number': 1}}, function (err) {
+            callback(err);
         });
 
-    }], function (err, db) {
-        pool.release(db);
-        callback(err);
     });
 
 };
-/*Post.getSome = function (name, page, number, callback) {
- pool.acquire(function (err, db) {
- if (err) {
- pool.release(db);
- return callback(err);
- }
- db.collection('posts', function (err, collection) {
- if (err) {
- pool.release(db);
- return callback(err);
- }
-
- var query = {};
- if (name) {
- query.name = name;
- }
-
-
- collection.find(query, {
- skip: (page - 1) * number,
- limit: number
- }).sort({time: -1}).toArray(function (err, docs) {
- pool.release(db);
- if (err)
- callback(err);
- callback(null, docs);
- });
-
-
- });
-
- });
- };*/
 
 Post.getSome = function (name, page, number, callback) {
 
-    proxy.once('selected' + page, callback);
-    if (status == 'ready');
-    async.waterfall([function (cb) {
-        pool.acquire(function (err, db) {
-            cb(err, db);
-        });
-    }, function (db, cb) {
-        db.collection('posts', function (err, collection) {
-            cb(err, collection, db);
+    var page = page ? page : 1;
+    var query = {};
+    if (name) {
+        query.name = name;
+    }
+    PostModel.find(query).sort({time: -1}).limit(number).skip((page - 1) * number).exec(function (err, docs) {
+        callback(err, docs);
+    })
 
-        });
-    }, function (collection, db, cb) {
-        var query = {};
-        if (name) {
-            query.name = name;
-        }
-        collection.find(query, {
-            skip: (page - 1) * number,
-            limit: number
-        }).sort({time: -1}).toArray(function (err, docs) {
-            cb(err, docs, db);
-        })
-    }], function (err, docs, db) {
-        pool.release(db);
-        proxy.emit('selected' + page, err, docs);
-        /*callback(err, docs);*/
-    });
 
 };
-/*
- Post.getOne = function (_id, callback) {
- pool.acquire(function (err, db) {
- if (err) {
- pool.release(db);
- return callback(err);
- }
- db.collection('posts', function (err, collection) {
- if (err) {
- pool.release(db);
- return callback(err);
- }
-
- var query = {
- '_id': new ObjectID(_id)
-
- };
-
-
- collection.findOne(query, function (err, doc) {
-
- pool.release(db);
- if (err)
- return callback(err);
-
- callback(null, doc);
- })
-
- })
-
- });
- };
- */
 Post.getOne = function (_id, callback) {
     try {
         var query = {
@@ -246,285 +96,110 @@ Post.getOne = function (_id, callback) {
     } catch (err) {
         return callback(null, null);
     }
-    async.waterfall([function (cb) {
-        pool.acquire(function (err, db) {
-            cb(err, db);
-        });
-    }, function (db, cb) {
-        db.collection('posts', function (err, collection) {
-
-            cb(err, collection, db);
-        });
-    }, function (collection, db, cb) {
 
 
-        collection.findOne(query, function (err, doc) {
-            cb(err, doc, db, collection);
-        });
-
-    }, function (doc, db, collection, cb) {
-
-        collection.update(query, {
+    PostModel.findOne(query, function (err, doc) {
+        if (err)
+            callback(err);
+        PostModel.update(query, {
             $inc: {"pv": 1}
         }, function (err) {
-            cb(err, doc, db);
+            callback(err, doc);
         });
-    }], function (err, doc, db) {
-        pool.release(db);
-        callback(err, doc);
     });
+
 }
 ;
-/*Post.update = function (_id, post, callback) {
- pool.acquire(function (err, db) {
- if (err) {
- pool.release(db);
- return callback(err);
- }
- db.collection('posts', function (err, collection) {
- if (err) {
- pool.release(db);
- return callback(err);
- }
 
- var query = {
- '_id': new ObjectID(_id)
-
- };
-
-
- collection.update(query, {
- $set: {post: post}
- }, function (err) {
-
- pool.release(db);
- if (err)
- return callback(err);
-
- callback(null);
- })
-
- })
-
- });
- };*/
 Post.update = function (_id, post, callback) {
-    async.waterfall([function (cb) {
-        pool.acquire(function (err, db) {
-            cb(err, db);
-        });
-    }, function (db, cb) {
-        db.collection('posts', function (err, collection) {
-            cb(err, collection, db);
-        });
-    }, function (collection, db, cb) {
+
+    try {
         var query = {
             '_id': new ObjectID(_id)
         };
-        collection.update(query, {
-            $set: {post: post}
-        }, function (err) {
-            cb(err, db);
-        });
-    }], function (err, db) {
-        pool.release(db);
+    } catch (err) {
+        return callback(null, null);
+    }
+
+    PostModel.update(query, {
+        $set: {post: post}
+    }, function (err) {
         callback(err);
     });
 };
-/*Post.getTotalNumber = function (name, callback) {
- pool.acquire(function (err, db) {
- if (err) {
- pool.release(db);
- return callback(err);
- }
- db.collection('posts', function (err, collection) {
- if (err) {
- pool.release(db);
- return callback(err);
- }
 
- var query = {};
- if (name) {
- query.name = name;
- }
-
- collection.count(query, function (err, total) {
- pool.release(db);
- if (err) {
-
- callback(err)
- }
-
- callback(null, total);
-
- });
-
- });
-
- });
- };*/
 Post.getTotalNumber = function (name, callback) {
-    async.waterfall([function (cb) {
-        pool.acquire(function (err, db) {
-            cb(err, db);
-        });
-    }, function (db, cb) {
-        db.collection('posts', function (err, collection) {
-            cb(err, collection, db);
-        });
-    }, function (collection, db, cb) {
-        var query = {};
-        if (name) {
-            query.name = name;
-        }
 
-        collection.count(query, function (err, total) {
-            cb(err, total, db);
-        });
-    }], function (err, total, db) {
-        pool.release(db);
+    var query = {};
+    if (name) {
+        query.name = name;
+    }
+
+    PostModel.count(query, function (err, total) {
         callback(err, total);
     });
 
 };
-/*
- Post.remove = function (_id, callback) {
- pool.acquire(function (err, db) {
- if (err) {
- pool.release(db);
- return callback(err);
- }
- db.collection('posts', function (err, collection) {
- if (err) {
- pool.release(db);
- return callback(err);
- }
-
- var query = {
- '_id': new ObjectID(_id)
-
- };
-
-
- collection.remove(query, {w: 1}, function (err) {
-
- pool.release(db);
- if (err)
- return callback(err);
-
- callback(null);
- })
-
- })
-
- });
- };*/
-
 Post.remove = function (_id, callback) {
-    async.waterfall([function (cb) {
-            pool.acquire(function (err, db) {
-                cb(err, db);
-            });
-        }, function (db, cb) {
-            db.collection('posts', function (err, collection) {
-                cb(err, collection, db);
-            });
-        }, function (collection, db, cb) {
+    async.waterfall([
+        function (cb) {
             var query = {
                 '_id': new ObjectID(_id)
 
             };
-            collection.findOne(query, function (err, doc) {
-                    var reprint_from = "";
-                    if (doc.reprint_info) {
-                        if (doc.reprint_info.reprint_from) {
-                            reprint_from = doc.reprint_info.reprint_from;
-                        }
-                        if (reprint_from != "") {
-                            //更新原文章所在文档的 reprint_to
-                            collection.update({
-                                "_id": reprint_from._id,
-                            }, {
-                                $pull: {
-                                    "reprint_info.reprint_to": {
-                                        "name": doc.name,
-                                        "day": doc.time.day,
-                                        "title": doc.title
-                                    }
-                                }
-                            }, function (err) {
 
-                                if (err) {
-                                    cb(err);
-                                }
-                            });
+            PostModel.findOne(query, function (err, doc) {
+             if(doc.reprint_info.reprint_from)
+                PostModel.update({
+                    "_id": doc.reprint_info.reprint_from._id
+                }, {$pull: {
+                        "reprint_info.reprint_to": {
+                            "name": doc.name,
+                            "day": doc.time.day,
+                            "title": doc.title
                         }
                     }
-                }
-            )
-            ;
-            collection.remove(query, {w: 1}, function (err) {
-                cb(err, db);
-            });
-        }, function (db, cb) {
-            db.collection('users', function (err, collection) {
-                cb(err, collection, db);
-            });
-        }, function (collection, db, cb) {
-            collection.update({username: this.name}, {$inc: {'article_number': -1}}, function (err) {
-                cb(err, db);
-            });
+                }, function (err) {
+                    if (err)
+                        cb(err);
 
-        }
-        ],
-        function (err, db) {
-            pool.release(db);
-            callback(err);
-        }
-    )
-    ;
+                });
+                PostModel.remove(query, function (err) {
+                    cb(err, doc);
+                });
+
+
+            }); }, function (doc, cb) {
+                PostModel.update({username: doc.name}, {$inc: {'article_number': -1}}, function (err) {
+                    cb(err);
+                });
+
+            }
+            ],
+            function (err) {
+                callback(err);
+            });
 };
 Post.search = function (keyword, callback) {
-    async.waterfall([
-        function (cb) {
-            pool.acquire(function (err, db) {
-                cb(err, db);
-            });
-        }
-        , function (db, cb) {
-            db.collection('posts', function (err, collection) {
-                cb(err, collection, db);
-            });
-        }, function (collection, db, cb) {
-            var pattern = new RegExp(keyword, 'i');
-            collection.find({'title': pattern}, {'name': 1, 'title': 1, 'time': 1}).sort({
-                time: -1
-            }).toArray(function (err, docs) {
-                cb(err, docs, db);
-            });
-        }], function (err, docs, db) {
-        pool.release(db);
+
+    var pattern = new RegExp(keyword, 'i');
+    PostModel.find({'title': pattern}, {'name': 1, 'title': 1, 'time': 1}).sort({
+        time: -1
+    }).exec(function (err, docs) {
         callback(err, docs);
     });
+
 };
 Post.reprint = function (rp_from, rp_to, callback) {
     async.waterfall([
         function (cb) {
-            pool.acquire(function (err, db) {
-                cb(err, db);
-            });
-        }, function (db, cb) {
-            db.collection('posts', function (err, collection) {
-                cb(err, collection, db);
-            });
-        }, function (collection, db, cb) {
 
-            collection.findOne({
+            PostModel.findOne({
                 _id: rp_from._id
             }, function (err, doc) {
-                cb(err, doc, collection, db);
+                cb(err, doc);
             });
-        }, function (doc, collection, db, cb) {
+        }, function (doc, cb) {
             var date = new Date();
             var time = {
                 date: date,
@@ -533,38 +208,41 @@ Post.reprint = function (rp_from, rp_to, callback) {
                 day: date.getFullYear() + "-" + (date.getMonth() + 1) + "-" + date.getDate(),
                 minute: date.getFullYear() + "-" + (date.getMonth() + 1) + "-" + date.getDate() + " " +
                 date.getHours() + ":" + (date.getMinutes() < 10 ? '0' + date.getMinutes() : date.getMinutes())
-            }
-            delete doc._id;
-            doc.name = rp_to.name;
-            doc.time = time;
-            doc.title = (doc.title.search(/[转载]/) > -1) ? doc.title : "[转载]" + doc.title;
-            doc.comments = [];
-            doc.reprint_info = {"reprint_from": rp_from};
-            doc.pv = 0;
-            collection.update({
+            };
+            var newdoc = {
+                name: rp_to.name,
+                time: time,
+                title: (doc.title.search(/[转载]/) > -1) ? doc.title : "[转载]" + doc.title,
+                post: doc.post,
+                pv: 0,
+                reprint_info: {reprint_from: rp_from, reprint_to: []},
+                comments: [],
+                img: doc.img
+
+            };
+            PostModel.update({
                 _id: rp_from._id
             }, {
                 $push: {
                     "reprint_info.reprint_to": {
-                        "name": doc.name,
-                        "day": time.day,
-                        "title": doc.title
+                        "name": newdoc.name,
+                        "day": newdoc.time.day,
+                        "title": newdoc.title
                     }
                 }
             }, function (err) {
                 if (err)
-                    cb(err, db);
+                    cb(err);
             });
-
-            collection.insert(doc, {
+            var PostEntity = new PostModel(newdoc);
+            PostEntity.save({
                 safe: true
             }, function (err, post) {
-                cb(err, db, post.ops[0]);
+                cb(err, post);
             });
 
         }
-    ], function (err, db, post) {
-        pool.release(db);
+    ], function (err, post) {
         callback(err, post);
 
     });
