@@ -10,5 +10,6 @@
     <orderEntry type="library" name="jqueryui-DefinitelyTyped" level="application" />
     <orderEntry type="library" name="mongoose-DefinitelyTyped" level="application" />
     <orderEntry type="library" name="weibo node_modules" level="project" />
+    <orderEntry type="library" name="angularjs-DefinitelyTyped" level="application" />
   </component>
 </module>

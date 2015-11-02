@@ -9,6 +9,7 @@ var index = require('./routes/index');
 var users = require('./routes/users');
 var login = require('./routes/login');
 var logout = require('./routes/logout');
+var content=require('./routes/content');
 var post = require('./routes/post');
 var reg = require('./routes/reg');
 var edit = require('./routes/edit');
@@ -51,6 +52,7 @@ var errorLogStream = fs.createWriteStream(__dirname + '/error.log', {flags: 'a'}
 // setup the logger
 app.use(logger('combined', {stream: accessLogStream}));
 app.use('/', index);
+app.use('/content',content);
 app.use('/users', users);
 app.use('/login', login);
 app.use('/reg', reg);

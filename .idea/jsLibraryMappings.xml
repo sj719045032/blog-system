@@ -2,7 +2,7 @@
 <project version="4">
   <component name="JavaScriptLibraryMappings">
     <file url="file://$PROJECT_DIR$" libraries="{weibo node_modules}" />
-    <file url="PROJECT" libraries="{bootstrap-DefinitelyTyped, express-DefinitelyTyped, jQuery-2.0.0, jqueryui-DefinitelyTyped, mongoose-DefinitelyTyped}" />
+    <file url="PROJECT" libraries="{angularjs-DefinitelyTyped, bootstrap-DefinitelyTyped, express-DefinitelyTyped, jQuery-2.0.0, jqueryui-DefinitelyTyped, mongoose-DefinitelyTyped}" />
     <includedPredefinedLibrary name="Node.js Globals" />
   </component>
 </project>

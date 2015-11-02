@@ -1,4 +1,4 @@
-<div class="modal fade" id="postModal" tabindex="-1" role="dialog"
+<div ng-app="" class="modal fade" id="postModal" tabindex="-1" role="dialog"
      aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="false">
     <div class="modal-dialog">
         <div class="modal-content">
@@ -11,7 +11,7 @@
                     发表
                 </h4>
             </div>
-            <form action="/post" class="post_form" role="form" method="post" style="display: inline">
+            <form  action="/content" name="post_form" class="post_form" role="form" method="post" style="display: inline">
                 <div class="modal-body clearfix">
                     <div class="form-group">
                         <div class="input-group "><span class="input-group-addon">标题</span><input class=" form-control"
@@ -25,7 +25,7 @@
                         <div class="input-group "><span class="input-group-addon">内容</span><textarea
                                     class="form-control"
                                     id="post_content"
-                                    type="text" name="content"  placeholder="请输入内容…" maxlength="130"></textarea>
+                                    type="text" name="content"   ng-model="content" placeholder="请输入内容…" maxlength="130"></textarea>
                         </div>
                     </div>
                     <div class="imguploadcontainer" ><div class="img_btn pull-left"><span class="glyphicon glyphicon-picture"></span> 图片</div>
@@ -36,7 +36,7 @@
 
                        <button type="button" class="btn btn-primary btn-sm post_btn">发表</button>
                     </div>
-                    <div class="input_number pull-right">还能输入130个字</div>
+                    <div class="input_number pull-right">还能输入{{130-post_form.content.$viewValue.length}}个字</div>
                 </div>
             </form>
         </div>

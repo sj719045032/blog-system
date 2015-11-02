@@ -46,7 +46,7 @@ Post.prototype.save = function (callback) {
         title: this.title,
         post: this.post,
         pv: 0,
-        reprint_info: {reprint_from: {}, reprint_to: []},
+        reprint_info: {reprint_from: {index:""}, reprint_to: []},
         comments: [],
         img: []
     };
@@ -147,7 +147,6 @@ Post.remove = function (_id, callback) {
                 '_id': new ObjectID(_id)
 
             };
-
             PostModel.findOne(query, function (err, doc) {
              if(doc.reprint_info.reprint_from)
                 PostModel.update({
