@@ -7,6 +7,31 @@ var Post = require('../modules/post.js');
 var stateCheck = require('../modules/statecheck');
 router.get('/:_id', stateCheck.checkLogin);
 router.get('/:_id', function (req, res) {
+            contentGet(req,res);
+});
+router.post('/:_id', stateCheck.checkLogin);
+router.post('/:_id', function (req, res) {
+    switch (req.body._method) {
+        case 'get':
+            contentGet(req,res);
+            break;
+        case 'update':
+            contentUpdate(req,res);
+            break;
+        case 'delete':
+            contentDelete(req,res);
+            break;
+        case 'post':
+            contentPost(req,res);
+            break;
+        case 'reprint':
+            contentReprint(req,res);
+            break;
+    }
+
+
+});
+var contentGet=function (req, res) {
     Post.getOne(req.params._id.toString().trim(), function (err, post) {
         if (err) {
             req.flash('error', err);
@@ -30,32 +55,27 @@ router.get('/:_id', function (req, res) {
             });
     });
 
-});
-router.post('/', stateCheck.checkLogin);
-router.post('/', function (req, res) {
+};
+var contentPost=function (req, res) {
     var user = req.session.user;
-    var post = new Post(user.name, req.body.title, req.body.content,req.body.img);
+    var post = new Post(user.name, req.body.title, req.body.content, req.body.img);
     post.save(function (err) {
         if (err) {
             req.flash('error', err);
             return res.redirect('/');
         }
         req.flash('success', '发表成功');
-        return res.redirect('/');
+        return res.redirect('back');
     });
-});
-
-
-
-router.delete('/:_id', stateCheck.checkLogin);
-router.delete('/:_id', function (req, res) {
+};
+var contentDelete=function (req, res) {
     var currentUser = req.session.user;
     Post.getOne(req.params._id, function (err, doc) {
         if (err) {
             req.flash('error', err);
             return res.redirect('back');
         }
-        if(doc)
+        if (doc)
             if (doc.name != currentUser.name)
                 return res.redirect('back');
         Post.remove(req.params._id, function (err) {
@@ -64,12 +84,11 @@ router.delete('/:_id', function (req, res) {
                 return res.redirect('back');
             }
             req.flash('success', '删除成功!');
-            return res.send({url:'/users/'+req.session.user.name});
+            return res.redirect('back');
         });
     });
-});
-router.put('/:_id', stateCheck.checkLogin);
-router.put('/:_id', function (req, res, next) {
+};
+var contentUpdate=function (req, res) {
     var currentUser = req.session.user;
     Post.getOne(req.params._id, function (err, doc) {
         if (err) {
@@ -80,9 +99,9 @@ router.put('/:_id', function (req, res, next) {
             return res.redirect('back');
 
 
-        Post.update(req.params._id, req.body.post, function (err) {
+        Post.update(req.params._id, req.body.content, function (err) {
             var url = encodeURI('/content/' + req.params._id);
-            if(err){
+            if (err) {
                 req.flash('error', err);
                 return res.redirect(url);
             }
@@ -90,7 +109,25 @@ router.put('/:_id', function (req, res, next) {
             res.redirect(url);
         });
     });
-});
-
-
+};
+var contentReprint= function (req, res) {
+    Post.getOne(req.params._id.toString().trim(), function (err, post) {
+        if (err) {
+            req.flash('error', err);
+            return res.redirect(back);
+        }
+        var currentUser = req.session.user,
+            reprint_from = {name: post.name, day: post.time.day, title: post.title,_id:post._id},
+            reprint_to = {name: currentUser.name, head: currentUser.head};
+        Post.reprint(reprint_from, reprint_to, function (err, post) {
+            if (err) {
+                req.flash('error', err);
+                return res.redirect('back');
+            }
+            req.flash('success', '转载成功!');
+            var url = encodeURI('/users/p/' + post._id);
+            res.redirect(url);
+        });
+    });
+}
 module.exports = router;

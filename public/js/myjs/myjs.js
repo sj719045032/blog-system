@@ -57,7 +57,7 @@ $(function () {
     $(".post_btn").click(function () {
         if ($("#post_title").val() != "") {
             if ($("#post_content").val() != "") {
-                $(".post_form").submit();
+                $("#post_form").submit();
             }
             else {
                 $("#post_content").attr("placeholder", "内容不能为空!!!");

@@ -16,6 +16,7 @@
     </script>
 </head>
 <body style="background: #73CFF1 url('/images/index_bg.jpg' ) center top no-repeat; ">
+<% include model/updateModel.ejs %>
 <% include model/top.ejs %>
 <div class="container">
 
@@ -42,13 +43,14 @@
             <% } %></div>
         <div class="panel-footer clearfix">
 
-                <div class="btn-group pull-right ">
+
                     <% if (user && (user.name == post.name)) { %>
-                    <form action="/content/<%= post._id %>" target="_blank" method="put" style="display: inline">
-                        <input class="btn btn-primary btn-sm"name="" type="submit" value="编辑">
-                    </form>
+
                     <form action="/content/<%= post._id %>" target="_blank" method="delete" style="display: inline">
+                        <div class="btn-group pull-right ">
+                        <a class="edit btn btn-primary btn-sm" href="#" data-toggle="modal" data-target="#updateModal">编辑</a>
                         <input class=" btn btn-primary btn-sm" name="" type="submit" value="删除" onClick="delcfm()">
+                        </div>
                     </form>
 
                     <% } %>
@@ -70,7 +72,7 @@
                     <% if (flag) { %>
                     <a class="edit btn btn-primary btn-sm" href="/reprint/<%= post._id %>">转载</a>
                     <% } %>
-                </div>
+
         </div>
     </div>
     <%- include model/comment.ejs %>

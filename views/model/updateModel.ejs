@@ -1,4 +1,4 @@
-<div class="modal fade" id="postModal" tabindex="-1" role="dialog"
+<div class="modal fade" id="updateModal" tabindex="-1" role="dialog"
      aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="false">
     <div class="modal-dialog">
         <div class="modal-content">
@@ -8,20 +8,23 @@
                     &times;
                 </button>
                 <h4 class="modal-title" id="myModalLabel">
-                    发表
+                    编辑
                 </h4>
             </div>
-            <form action="/content/post" name="post_form" id="post_form" class="post_form" role="form" method="post"
+            <form action="/content/<%= post._id %>" name="update_form" class="post_form" role="form" method="post"
                   style="display: inline">
-                <input type="hidden" name="_method" value="post">
+                <input type="hidden" name="_method" value="update">
+
                 <div class="modal-body clearfix">
                     <div class="form-group">
                         <div class="input-group "><span class="input-group-addon">标题</span><input class=" form-control"
-                                                                                                  id="post_title"
+                                                                                                  id="update_title"
                                                                                                   type="text"
                                                                                                   name="title"
                                                                                                   placeholder="请输入标题…"
-                                                                                                  maxlength="15">
+                                                                                                  maxlength="15"
+                                                                                                  disabled="disabled"
+                                                                                                  value="<%= post.title %>">
                         </div>
                     </div>
                     <div class="form-group">
@@ -32,16 +35,12 @@
                                     maxlength="130"></textarea>
                         </div>
                     </div>
-                    <div class="imguploadcontainer">
-                        <div class="img_btn pull-left"><span class="glyphicon glyphicon-picture"></span> 图片</div>
-                        <% include imgupload.ejs %>
-                    </div>
 
                     <div class="btn-group pull-right post_btn">
 
-                        <button type="button" class="btn btn-primary btn-sm post_btn">发表</button>
+                        <input type="submit" class="btn btn-primary btn-sm post_btn" value="发表">
                     </div>
-                    <div class="input_number pull-right">还能输入{{130-post_form.content.$viewValue.length}}个字</div>
+                    <div class="input_number pull-right">还能输入{{130-update_form.content.$viewValue.length}}个字</div>
                 </div>
             </form>
         </div>
