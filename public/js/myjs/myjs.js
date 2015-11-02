@@ -68,11 +68,44 @@ $(function () {
         }
 
     });
-
-    $("#post_content").keyup(function () {
- $(".input_number").text("还能输入" +(130-$("#post_content").val().length)+"个字" );
-
-    });
-
 });
 
+var httpRest = {
+    get: function (url) {
+        $.ajax({
+            url: url,
+            type: 'GET',
+            success: function (result) {
+                // Do something with the result
+            }
+        });
+    },
+    post: function (url) {
+        $.ajax({
+            url: url,
+            type: 'POST',
+            success: function (result) {
+                // Do something with the result
+            }
+        });
+    }, put: function (url) {
+        $.ajax({
+            url: url,
+            type: 'PUT',
+            success: function (result) {
+                // Do something with the result
+            }
+        });
+    }, delete: function (url) {
+        console.log(url);
+        $.ajax({
+            url: url,
+            type: 'DELETE',
+            success: function (result) {
+
+              window.location.replace(result.url);
+                // Do something with the result
+            }
+        });
+    }
+};
