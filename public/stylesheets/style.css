@@ -98,21 +98,23 @@ a {
 }
 
 .top_search_nav {
-    padding: 0px 100px;
+    padding: 0px 80px;
     border-radius: 0px;
 }
 
 .top_icon {
-    margin: 4px 60px 0px 130px;
+
 
 }
 
 .search_input {
-    width: 500px;
+    width: 700px;
+    margin-left: 70px;
+    margin-right: 0px;
 }
 
 .top_nav_right {
-    margin-left: 100px;
+
 }
 
 .line {
@@ -158,6 +160,26 @@ a {
     line-height: 30px;
     margin-right: 10px;
 }
+/**
+翻页
+**/
+.pagenow{
+position: relative;
+}
+.page_input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+.page_input {
+    border-radius: 13px;
+    position: absolute;
+    width: 20px;
+    left:10px;
+    top: -3px;
+    height: 25px;
+}
+
 /**
 登录页面
 **/
