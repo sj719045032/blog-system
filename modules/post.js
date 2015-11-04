@@ -5,7 +5,7 @@
  ����ģ��
  */
 var ObjectID = require('mongodb').ObjectID;
-var mongooseDb = require('./mongooseDb');
+var mongoose = require('./mongooseDb');
 var async = require('async');
 
 function Post(name, title, post, img) {
@@ -17,7 +17,7 @@ function Post(name, title, post, img) {
 
 module.exports = Post;
 
-var PostSchema = new mongooseDb.mongoose.Schema({
+var PostSchema = new mongoose.Schema({
     name: String,
     time: Object,
     title: String,
@@ -28,7 +28,7 @@ var PostSchema = new mongooseDb.mongoose.Schema({
     img: Array
 });
 
-var PostModel = mongooseDb.db.model('posts', PostSchema);
+var PostModel = mongoose.model('posts', PostSchema);
 Post.prototype.save = function (callback) {
     var date = new Date();
     var time = {

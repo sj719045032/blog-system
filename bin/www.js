@@ -7,17 +7,21 @@
 var app = require('../app');
 var debug = require('debug')('untitled4:server');
 var http = require('http');
-var cluster=require('cluster');
-var numCPUs=require('os').cpus().length;
+var cluster = require('cluster');
+var numCPUs = require('os').cpus().length;
 /**
  * Get port from environment and store in Express.
  */
 var port = normalizePort(process.env.PORT || '3000');
-if(cluster.isMaster){
-    for(var i=0;i<numCPUs;i++)
-    cluster.fork();
+if (cluster.isMaster) {
+    for (var i = 0; i < numCPUs; i++) {
+        cluster.fork();
+    }
+    cluster.on('fork', function (worker, code, signal) {
+        console.warn('listen on port:' + port + ' process pid:' + worker.process.pid);
+    });
 
-    cluster.on('exit', function(worker, code, signal) {
+    cluster.on('exit', function (worker, code, signal) {
         console.log('worker ' + worker.process.pid + ' died');
         cluster.fork();
     });

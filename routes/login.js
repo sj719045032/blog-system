@@ -40,22 +40,4 @@ router.post('/', function (req, res) {
     });
 });
 
-router.post('/mobile', stateCheck.checkNotLogin);
-router.post('/mobile', function (req, res) {
-    var md5 = crypto.createHash('md5');
-    var password = md5.update(req.body.password).digest('base64');
-    /*var password=req.body.password;*/
-    User.get(req.body.username, function (err, user) {
-        res.type('application/json');
-        if (!user) {
-            res.send({result:false,error:"用户名不存在！"});
-        }
-
-        if ((user.password + '') != (password + '')) {
-            res.send({result:false,error:"密码错误！"});
-        }
-        req.session.user = user;
-         res.send({result:true,success:user});
-    });
-});
 module.exports = router;

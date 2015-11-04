@@ -1,16 +1,486 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="395eb0a9-d9ff-4473-8db4-cfbbfcd7e3f7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/model/updateModel.ejs" />
+    <list default="true" id="395eb0a9-d9ff-4473-8db4-cfbbfcd7e3f7" name="Default" comment="2015-11-4 rest风格优化">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/img/3e5f16e22a67eddc11bd3ce50e02943f.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/angular/angular.min.js.gzip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/img/c314fcf66faf10e878d8fc153bbfbf7b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/lightbox2/dist/images/close.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/lightbox2/src/images/close.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/img/f1cd44047800acee8b87ccc6b3f25b59.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/lightbox2/dist/images/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/lightbox2/src/images/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/lightbox2/dist/images/next.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/lightbox2/src/images/next.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/lightbox2/dist/images/prev.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/lightbox2/src/images/prev.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/imgThumbnails/t3e5f16e22a67eddc11bd3ce50e02943f.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/imgThumbnails/tc314fcf66faf10e878d8fc153bbfbf7b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/imgThumbnails/tf1cd44047800acee8b87ccc6b3f25b59.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/angular/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/dropzone/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/jquery/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/lightbox2/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/.csscomb.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/.csslintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/js/.jscsrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/grunt/.jshintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/js/.jshintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/lightbox2/CONTRIBUTING.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/data/Data.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/Gruntfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/lightbox2/Gruntfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/lightbox2/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/jquery/MIT-LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/angular/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/lightbox2/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/effects/Tween.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/manipulation/_evalUrl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/data/accepts.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/core/access.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/css/addGetHookIf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/js/affix.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/ajax.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/event/ajax.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/js/alert.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/alerts.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/mixins/alerts.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/event/alias.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/exports/amd.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/angular/angular-csp.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/angular/angular.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/angular/angular.min.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/angular/angular.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/effects/animatedSelector.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/var/arr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/attributes/attr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/attributes.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/mixins/background-variant.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/badges.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/dropzone/dist/basic.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/dropzone/dist/min/basic.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/dist/css/bootstrap-theme.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/dist/css/bootstrap-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/dist/css/bootstrap-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/dist/css/bootstrap.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/dist/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/dist/js/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/bootstrap.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/dist/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/dist/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/mixins/border-radius.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/angular/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/dropzone/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/jquery/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/lightbox2/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/breadcrumbs.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/grunt/bs-commonjs-generator.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/grunt/bs-glyphicons-data-generator.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/grunt/bs-lessdoc-parser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/grunt/bs-raw-files-generator.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/button-groups.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/js/button.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/buttons.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/mixins/buttons.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/callbacks.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/js/carousel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/carousel.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/mixins/center-block.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/var/class2type.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/attributes/classes.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/mixins/clearfix.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/close.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/code.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/js/collapse.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/component-animations.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/var/concat.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/grunt/configBridge.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/core.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/css.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/css/var/cssExpand.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/css/curCSS.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/data.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/data/var/data_priv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/data/var/data_user.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/css/defaultDisplay.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/deferred.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/queue/delay.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/deprecated.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/dimensions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/js/dropdown.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/dropdowns.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/dropzone/dist/dropzone-amd-module.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/dropzone/dist/min/dropzone-amd-module.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/dropzone/dist/dropzone.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/dropzone/dist/dropzone.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/dropzone/dist/min/dropzone.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/dropzone/dist/min/dropzone.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/effects.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/event.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/traversing/findFilter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/forms.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/mixins/forms.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/css/var/getStyles.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/exports/global.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/glyphicons.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/mixins/gradients.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/mixins/grid-framework.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/grid.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/mixins/grid.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/var/hasOwn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/css/hiddenVisibleSelectors.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/mixins/hide-text.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/mixins/image.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/lightbox2/examples/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/angular/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/var/indexOf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/core/init.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/input-groups.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/intro.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/css/var/isHidden.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/jquery/dist/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/jquery/dist/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/jquery/dist/jquery.min.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/ajax/jsonp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/jumbotron.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/labels.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/mixins/labels.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/lightbox2/dist/js/lightbox-plus-jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/lightbox2/dist/js/lightbox-plus-jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/lightbox2/dist/js/lightbox-plus-jquery.min.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/lightbox2/dist/css/lightbox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/lightbox2/src/css/lightbox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/lightbox2/dist/js/lightbox.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/lightbox2/src/js/lightbox.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/lightbox2/dist/js/lightbox.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/lightbox2/dist/js/lightbox.min.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/list-group.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/mixins/list-group.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/ajax/load.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/manipulation.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/media.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/mixins.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/js/modal.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/modals.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/mixins/nav-divider.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/mixins/nav-vertical-align.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/navbar.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/navs.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/ajax/var/nonce.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/normalize.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/dist/js/npm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/offset.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/mixins/opacity.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/outro.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/package.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/angular/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/lightbox2/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/pager.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/pagination.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/mixins/pagination.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/panels.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/mixins/panels.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/core/parseHTML.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/ajax/parseJSON.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/ajax/parseXML.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/var/pnum.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/js/popover.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/popovers.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/print.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/mixins/progress-bar.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/progress-bars.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/attributes/prop.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/var/push.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/queue.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/manipulation/var/rcheckableType.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/dropzone/dist/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/core/ready.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/mixins/reset-filter.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/mixins/reset-text.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/mixins/resize.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/responsive-embed.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/responsive-utilities.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/mixins/responsive-visibility.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/css/var/rmargin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/traversing/var/rneedsContext.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/var/rnotwhite.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/css/var/rnumnonpx.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/ajax/var/rquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/core/var/rsingleTag.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/grunt/sauce_browsers.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/scaffolding.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/ajax/script.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/js/scrollspy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/selector-native.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/selector-sizzle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/selector.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/serialize.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/mixins/size.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/sizzle/dist/sizzle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/sizzle/dist/sizzle.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/sizzle/dist/sizzle.min.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/var/slice.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/var/strundefined.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/attributes/support.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/css/support.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/event/support.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/manipulation/support.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/var/support.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/css/swap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/mixins/tab-focus.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/js/tab.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/mixins/table-row.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/tables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/mixins/text-emphasis.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/mixins/text-overflow.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/theme.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/thumbnails.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/var/toString.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/js/tooltip.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/tooltip.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/js/transition.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/traversing.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/type.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/utilities.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/attributes/val.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/variables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/mixins/vendor-prefixes.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/less/wells.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/wrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/ajax/xhr.js" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\kindeditor-all-min.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\kindeditor-all.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\kindeditor-min.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\kindeditor.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\lang\ar.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\lang\en.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\lang\ko.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\lang\zh_CN.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\lang\zh_TW.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\license.txt" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\anchor\anchor.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\autoheight\autoheight.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\baidumap\baidumap.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\baidumap\index.html" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\baidumap\map.html" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\clearhtml\clearhtml.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\code\code.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\code\prettify.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\code\prettify.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\emoticons.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\0.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\1.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\10.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\100.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\101.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\102.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\103.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\104.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\105.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\106.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\107.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\108.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\109.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\11.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\110.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\111.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\112.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\113.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\114.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\115.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\116.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\117.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\118.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\119.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\12.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\120.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\121.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\122.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\123.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\124.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\125.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\126.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\127.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\128.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\129.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\13.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\130.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\131.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\132.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\133.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\134.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\14.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\15.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\16.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\17.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\18.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\19.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\2.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\20.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\21.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\22.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\23.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\24.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\25.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\26.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\27.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\28.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\29.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\3.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\30.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\31.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\32.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\33.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\34.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\35.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\36.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\37.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\38.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\39.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\4.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\40.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\41.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\42.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\43.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\44.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\45.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\46.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\47.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\48.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\49.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\5.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\50.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\51.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\52.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\53.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\54.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\55.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\56.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\57.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\58.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\59.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\6.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\60.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\61.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\62.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\63.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\64.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\65.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\66.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\67.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\68.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\69.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\7.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\70.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\71.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\72.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\73.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\74.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\75.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\76.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\77.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\78.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\79.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\8.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\80.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\81.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\82.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\83.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\84.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\85.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\86.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\87.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\88.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\89.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\9.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\90.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\91.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\92.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\93.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\94.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\95.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\96.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\97.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\98.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\99.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\emoticons\images\static.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\filemanager\filemanager.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\filemanager\images\file-16.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\filemanager\images\file-64.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\filemanager\images\folder-16.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\filemanager\images\folder-64.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\filemanager\images\go-up.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\flash\flash.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\image\image.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\image\images\align_left.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\image\images\align_right.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\image\images\align_top.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\image\images\refresh.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\insertfile\insertfile.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\lineheight\lineheight.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\link\link.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\map\map.html" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\map\map.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\media\media.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\multiimage\images\image.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\multiimage\images\select-files-en.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\multiimage\images\select-files-zh_CN.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\multiimage\images\swfupload.swf" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\multiimage\multiimage.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\pagebreak\pagebreak.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\plainpaste\plainpaste.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\preview\preview.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\quickformat\quickformat.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\table\table.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\template\html\1.html" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\template\html\2.html" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\template\html\3.html" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\template\template.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\plugins\wordpaste\wordpaste.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\themes\common\anchor.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\themes\common\blank.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\themes\common\flash.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\themes\common\loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\themes\common\media.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\themes\common\rm.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\themes\default\background.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\themes\default\default.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\themes\default\default.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\themes\qq\editor.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\themes\qq\qq.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\WebStorm 10.0.4\weibo\public\js\kindeditor\themes\simple\simple.css" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/access.log" afterPath="$PROJECT_DIR$/access.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/article.ejs" afterPath="$PROJECT_DIR$/views/article.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/content.js" afterPath="$PROJECT_DIR$/routes/content.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/runConfigurations/bin_www.xml" afterPath="$PROJECT_DIR$/.idea/runConfigurations/bin_www.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/comment.js" afterPath="$PROJECT_DIR$/modules/comment.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/db.js" afterPath="$PROJECT_DIR$/modules/db.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/error.log" afterPath="$PROJECT_DIR$/error.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/index.ejs" afterPath="$PROJECT_DIR$/views/index.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/myjs/myjs.js" afterPath="$PROJECT_DIR$/public/js/myjs/myjs.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/model/postModel.ejs" afterPath="$PROJECT_DIR$/views/model/postModel.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/login.js" afterPath="$PROJECT_DIR$/routes/login.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/mongooseDb.js" afterPath="$PROJECT_DIR$/modules/mongooseDb.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/post.js" afterPath="$PROJECT_DIR$/modules/post.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/user.js" afterPath="$PROJECT_DIR$/modules/user.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/www.js" afterPath="$PROJECT_DIR$/bin/www.js" />
       <change type="MOVED" beforePath="G:\WebStorm 10.0.4\weibo\node_modules\express-session\node_modules\on-headers\History.md" afterPath="$PROJECT_DIR$/node_modules/express-session/node_modules/on-headers/HISTORY.md" />
       <change type="MOVED" beforePath="G:\WebStorm 10.0.4\weibo\node_modules\morgan\node_modules\on-headers\History.md" afterPath="$PROJECT_DIR$/node_modules/morgan/node_modules/on-headers/HISTORY.md" />
     </list>
@@ -442,43 +912,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="www.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bin/www.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/index.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="22.758621">
-              <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="users.ejs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/users.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.7368422">
-              <caret line="70" column="34" selection-start-line="70" selection-start-column="34" selection-end-line="70" selection-end-column="34" />
-              <folding>
-                <element signature="n#style#0;n#form#1;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="reprint.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/reprint.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="26" column="7" selection-start-line="9" selection-start-column="3" selection-end-line="26" selection-end-column="7" />
+            <state vertical-scroll-proportion="-9.655172">
+              <caret line="14" column="44" selection-start-line="3" selection-start-column="3" selection-end-line="14" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -487,90 +925,38 @@
       <file leaf-file-name="article.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/article.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.275862">
-              <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+            <state vertical-scroll-proportion="-9.655172">
+              <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pageing.ejs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/model/pageing.ejs">
+      <file leaf-file-name="users.ejs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/users.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.7017544">
+              <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="postModel.ejs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/model/postModel.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.206897">
-              <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-              <folding>
-                <element signature="n#style#0;n#form#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="myjs.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/js/myjs/myjs.js">
+      <file leaf-file-name="dropzone.min.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/bower_components/dropzone/dist/min/dropzone.min.css">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="57" column="43" selection-start-line="57" selection-start-column="43" selection-end-line="57" selection-end-column="43" />
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="top.ejs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/model/top.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.206897">
-              <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="updateModel.ejs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/model/updateModel.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.82758623">
-              <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="content.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/routes/content.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.30088496">
-              <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="imgupload.ejs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/model/imgupload.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/user.js">
+      <file leaf-file-name="dropzone.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/bower_components/dropzone/dist/dropzone.css">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -584,22 +970,32 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/routes/users.js" />
         <option value="$PROJECT_DIR$/public/stylesheets/style.css" />
         <option value="$PROJECT_DIR$/views/error.ejs" />
         <option value="$PROJECT_DIR$/bin/www" />
-        <option value="$PROJECT_DIR$/modules/db.js" />
-        <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/routes/index.js" />
         <option value="$PROJECT_DIR$/settings.js" />
-        <option value="$PROJECT_DIR$/views/article.ejs" />
-        <option value="$PROJECT_DIR$/views/index.ejs" />
         <option value="$PROJECT_DIR$/views/model/updateModel.ejs" />
         <option value="$PROJECT_DIR$/public/js/myjs/myjs.js" />
         <option value="$PROJECT_DIR$/views/model/postModel.ejs" />
-        <option value="$PROJECT_DIR$/views/users.ejs" />
         <option value="$PROJECT_DIR$/routes/content.js" />
+        <option value="$PROJECT_DIR$/views/model/pageing.ejs" />
+        <option value="$PROJECT_DIR$/routes/reprint.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/modules/comment.js" />
+        <option value="$PROJECT_DIR$/modules/db.js" />
+        <option value="$PROJECT_DIR$/modules/post.js" />
+        <option value="$PROJECT_DIR$/modules/user.js" />
+        <option value="$PROJECT_DIR$/modules/mongooseDb.js" />
+        <option value="$PROJECT_DIR$/access.log" />
+        <option value="$PROJECT_DIR$/error.log" />
+        <option value="$PROJECT_DIR$/bin/www.js" />
+        <option value="$PROJECT_DIR$/routes/login.js" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/views/index.ejs" />
+        <option value="$PROJECT_DIR$/views/article.ejs" />
+        <option value="$PROJECT_DIR$/views/users.ejs" />
       </list>
     </option>
   </component>
@@ -682,79 +1078,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weibo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weibo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="routes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weibo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weibo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weibo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weibo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weibo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weibo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="myjs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -767,7 +1091,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="G:/Program Files/nodejs/node.exe" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
@@ -777,6 +1101,9 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="G:\weibo-s\views\model" />
       <recent name="G:\webstormproject\weibo" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\WebStorm 10.0.4\weibo\public" />
     </key>
   </component>
   <component name="RunManager" selected="Node.js.bin\www">
@@ -845,7 +1172,19 @@
       <option name="project" value="LOCAL" />
       <updated>1446468355807</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="2015-11-2 rest风格优化">
+      <created>1446473891605</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1446473891605</updated>
+    </task>
+    <task id="LOCAL-00004" summary="2015-11-4 rest风格优化">
+      <created>1446603705873</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1446603705873</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -854,12 +1193,13 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23554301" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32914925" sideWeight="0.49717912" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32914925" sideWeight="0.50282085" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32914925" sideWeight="0.49717912" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32357043" sideWeight="0.50282085" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32914925" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32357043" sideWeight="0.49153736" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32357043" sideWeight="0.49153736" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2496474" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -868,7 +1208,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -884,76 +1223,18 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="false" />
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="2015-11-2 rest风格优化" />
-    <option name="LAST_COMMIT_MESSAGE" value="2015-11-2 rest风格优化" />
+    <MESSAGE value="2015-11-4 rest风格优化" />
+    <option name="LAST_COMMIT_MESSAGE" value="2015-11-4 rest风格优化" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/bin/www.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/index.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="34" column="22" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/users.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#form#1;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/model/pageing.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/model/postModel.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-          <folding>
-            <element signature="n#style#0;n#form#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/content.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="84" column="40" selection-start-line="84" selection-start-column="40" selection-end-line="84" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/model/imgupload.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modules/user.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -983,7 +1264,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#style#0;n#form#1;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#form#1;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1049,13 +1330,6 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/db.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -1074,48 +1348,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/db.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30905077">
-          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/statecheck.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13245033">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/www.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/model/imgupload.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/model/top.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.206897">
-          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/article.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.275862">
-          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
           <folding />
         </state>
       </provider>
@@ -1128,6 +1364,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/views/model/postModel.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.275862">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#form#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/js/myjs/myjs.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1136,17 +1382,247 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/model/postModel.ejs">
+    <entry file="file://$PROJECT_DIR$/views/model/pageing.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.206897">
-          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+        <state vertical-scroll-proportion="-8.965517">
+          <caret line="13" column="55" selection-start-line="13" selection-start-column="55" selection-end-line="13" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/model/top.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.413794">
+          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/content.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="112" column="4" selection-start-line="112" selection-start-column="4" selection-end-line="112" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
           <folding>
-            <element signature="n#style#0;n#form#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/model/pageing.ejs">
+    <entry file="file://$PROJECT_DIR$/modules/filemanager.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/statecheck.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/express/lib/router/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.55263156">
+          <caret line="334" column="21" selection-start-line="334" selection-start-column="21" selection-end-line="334" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/comment.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.13157895">
+          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/post.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.3157895">
+          <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/mongooseDb.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2631579">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/db.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/error.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="11" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.3114754">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6088993">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/access.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="3.2368422">
+          <caret line="5170" column="0" selection-start-line="5108" selection-start-column="0" selection-end-line="5109" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/error.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="10.482456">
+          <caret line="239" column="52" selection-start-line="239" selection-start-column="52" selection-end-line="239" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/login.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.7025761">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.5789474">
+          <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
+          <folding>
+            <marker date="1446619257153" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/www.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/bower_components/bootstrap/js/tooltip.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/bower_components/angular/angular-csp.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2982456">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="34" column="56" selection-start-line="34" selection-start-column="56" selection-end-line="34" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/bower_components/jquery/src/css/var/rmargin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/bower_components/dropzone/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/bower_components/bootstrap/dist/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/bower_components/dropzone/dist/min/dropzone.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/bower_components/dropzone/dist/dropzone.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1156,42 +1632,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/index.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="22.758621">
-          <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+        <state vertical-scroll-proportion="-9.655172">
+          <caret line="14" column="44" selection-start-line="3" selection-start-column="3" selection-end-line="14" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/user.js">
+    <entry file="file://$PROJECT_DIR$/views/article.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+        <state vertical-scroll-proportion="-9.655172">
+          <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/users.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.7368422">
-          <caret line="70" column="34" selection-start-line="70" selection-start-column="34" selection-end-line="70" selection-end-column="34" />
-          <folding>
-            <element signature="n#style#0;n#form#1;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/reprint.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="7" selection-start-line="9" selection-start-column="3" selection-end-line="26" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/content.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30088496">
-          <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+        <state vertical-scroll-proportion="0.7017544">
+          <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
           <folding />
         </state>
       </provider>

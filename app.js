@@ -33,6 +33,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: false}));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.static(path.join(__dirname, 'uploads')));
 app.use(session({secret: settings.cookieSecret, store: new MongoStore({db: settings.db}),proxy: true,
     resave: true,
@@ -65,6 +66,9 @@ app.use(function (req, res, next) {
 if (app.get('env') === 'development') {
     app.use(function (err, req, res, next) {
         res.status(err.status || 500);
+        var meta = '['+new Date()+']' + req.url + '\n';
+        errorLogStream.write(meta+err.stack+'\n');
+
         res.render('error', {
             message: err.message,
             error: err
@@ -75,9 +79,9 @@ if (app.get('env') === 'development') {
 // production error handler
 // no stacktraces leaked to user
 app.use(function (err, req, res, next) {
-    var meta = '[' + new Date() + '] ' + req.url + '\n';
-    errorLogStream.write(meta + err.stack + '\n');
     res.status(err.status || 500);
+    var meta = '['+new Date()+']' + req.url + '\n';
+    errorLogStream.write(meta+err.stack+'\n');
     res.render('error', {
         message: err.message,
         error: {}

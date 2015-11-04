@@ -1,20 +1,20 @@
 /**
  * Created by shijin on 2015/9/25.
  */
-var mongooseDb = require('./mongooseDb');
+var mongoose = require('./mongooseDb');
 function User(user) {
     this.name = user.name;
     this.password = user.password;
 }
 module.exports = User;
-var UserSchema = new mongooseDb.mongoose.Schema({
+var UserSchema = new mongoose.Schema({
     name: String,
     password: String,
     attention: Array,
     by_attention: Array,
     article_number: Number
 });
-var UserModel = mongooseDb.db.model('users', UserSchema);
+var UserModel = mongoose.model('users', UserSchema);
 User.prototype.save = function (callback) {
 
     var user = {

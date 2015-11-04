@@ -1,22 +1,21 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><%= title %></title>
-    <link href="/stylesheets/lightbox.css" rel="stylesheet">
     <link rel='stylesheet' href='/stylesheets/style.css'/>
-    <link rel="stylesheet" href="/js/bootstrap3/css/bootstrap.min.css"/>
-    <script src="/js/jquery-2.1.4.min.js"></script>
-    <script src="/js/bootstrap3/js/bootstrap.min.js"></script>
-    <script src="/js/dropzone.js"></script>
+    <link rel="stylesheet" href="/bower_components/lightbox2/dist/css/lightbox.css" >
+    <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css"/>
+    <script src="/bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="/bower_components/dropzone/dist/min/dropzone.min.js"></script>
+    <script src="/bower_components/lightbox2/dist/js/lightbox.min.js" defer></script>
+    <script  src="/bower_components/angular/angular.min.js"></script>
     <script src="/js/myjs/myjs.js"></script>
-    <script src="/js/lightbox.min.js" defer></script>
-    <script charset="utf-8" src="/js/angular.min.js"></script>
 </head>
-<body class="body_background" ng-app="">
+<body class="body_background" >
 <% include model/top.ejs %>
-
 <div class="container">
     <% include model/prompt.ejs %>
     <div class="row">

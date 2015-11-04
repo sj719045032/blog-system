@@ -46,7 +46,7 @@ Comment.prototype.save=function(callback){
                 'name':name,
                 'time.day':day,
                 'title':title
-            }
+            };
             collection.update(query,{$push:{comments:comment}}, function (err) {
                 if(err)
                 {
