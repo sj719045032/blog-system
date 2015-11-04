@@ -84,7 +84,7 @@ var contentDelete=function (req, res) {
                 return res.redirect('back');
             }
             req.flash('success', '删除成功!');
-            return res.redirect('back');
+            return res.redirect('/');
         });
     });
 };
