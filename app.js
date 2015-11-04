@@ -10,13 +10,9 @@ var users = require('./routes/users');
 var login = require('./routes/login');
 var logout = require('./routes/logout');
 var content=require('./routes/content');
-var post = require('./routes/post');
 var reg = require('./routes/reg');
-var edit = require('./routes/edit');
-var del = require('./routes/delete');
 var comment=require('./routes/comment');
-var search=require('./routes/search');
-var reprint=require('./routes/reprint');
+var search=require('./routes/search');;
 var filemanage=require('./routes/filemanage');
 var MongoStore = require('connect-mongo')(session);
 var settings = require('./settings');
@@ -41,11 +37,6 @@ app.use(express.static(path.join(__dirname, 'uploads')));
 app.use(session({secret: settings.cookieSecret, store: new MongoStore({db: settings.db}),proxy: true,
     resave: true,
     saveUninitialized: true}));
-/*app.use(function (err, req, res, next) {
-    var meta = '[' + new Date() + '] ' + req.url + '\n';
-    errorLog.write(meta + err.stack + '\n');
-    next();
-});*/
 // create a write stream (in append mode)
 var accessLogStream = fs.createWriteStream(__dirname + '/access.log', {flags: 'a'});
 var errorLogStream = fs.createWriteStream(__dirname + '/error.log', {flags: 'a'});
@@ -57,11 +48,7 @@ app.use('/users', users);
 app.use('/login', login);
 app.use('/reg', reg);
 app.use('/logout', logout);
-app.use('/post', post);
-app.use('/edit', edit);
-app.use('/remove', del);
 app.use('/search', search);
-app.use('/reprint',reprint);
 app.use('/filemanage',filemanage);
 /*app.use('/comment', comment);*/
 // catch 404 and forward to error handler
