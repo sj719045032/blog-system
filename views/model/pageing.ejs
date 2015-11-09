@@ -10,6 +10,6 @@
     <% if (!isLastPage) { %>
     <li class="nextpage"><a title="下一页" href="?p=<%= page+1 %>">下一页</a></li>
     <% } %>
-    <li class="pagenow"><a><input  type="number" class="page_input" ng-model="page" value="<%=page%>">&nbsp&nbsp&nbsp&nbsp/<%= total %>页</a></li>
-    <li class="pagego"><a title="下一页" href="?p={{page}}">跳转</a></li>
+    <li class="pagenow"><input value="<%=page%>">/<%= total %>页</a></li>
+    <li class="pagego"><a title="下一页" href="?p=<%= page %>">跳转</a></li>
 </div>
