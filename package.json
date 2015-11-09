@@ -17,7 +17,7 @@
     "async": "*",
     "thumbnail":"*",
     "gm":"*",
-    "mongoose": "*",
+    "mongoose": "4.2.4",
     "debug":"*",
     "cookie-parser":"*",
     "body-parser":"*",
