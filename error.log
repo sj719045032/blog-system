@@ -782,3 +782,2361 @@ Error: Not Found
     at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
     at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
     at logger (g:\WebStorm 10.0.4\weibo\node_modules\morgan\index.js:144:5)
+[Thu Nov 05 2015 09:48:53 GMT+0800 (中国标准时间)]/imgThumbnails/tc314fcf66faf10e878d8fc153bbfbf7b.jpg
+Error: Not Found
+    at g:\WebStorm 10.0.4\weibo\app.js:57:15
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:618:15
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:176:3)
+    at router (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at logger (g:\WebStorm 10.0.4\weibo\node_modules\morgan\index.js:144:9)
+[Thu Nov 05 2015 09:48:53 GMT+0800 (中国标准时间)]/imgThumbnails/tc314fcf66faf10e878d8fc153bbfbf7b.jpg
+Error: Not Found
+    at g:\WebStorm 10.0.4\weibo\app.js:57:15
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:618:15
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:176:3)
+    at router (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at logger (g:\WebStorm 10.0.4\weibo\node_modules\morgan\index.js:144:9)
+[Thu Nov 05 2015 09:48:54 GMT+0800 (中国标准时间)]/favicon.ico
+Error: Not Found
+    at g:\WebStorm 10.0.4\weibo\app.js:57:15
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:618:15
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:176:3)
+    at router (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at logger (g:\WebStorm 10.0.4\weibo\node_modules\morgan\index.js:144:9)
+[Thu Nov 05 2015 09:49:00 GMT+0800 (中国标准时间)]/imgThumbnails/tc314fcf66faf10e878d8fc153bbfbf7b.jpg
+Error: Not Found
+    at g:\WebStorm 10.0.4\weibo\app.js:57:15
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:618:15
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:176:3)
+    at router (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at logger (g:\WebStorm 10.0.4\weibo\node_modules\morgan\index.js:144:9)
+[Thu Nov 05 2015 09:49:00 GMT+0800 (中国标准时间)]/imgThumbnails/tc314fcf66faf10e878d8fc153bbfbf7b.jpg
+Error: Not Found
+    at g:\WebStorm 10.0.4\weibo\app.js:57:15
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:618:15
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:176:3)
+    at router (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at logger (g:\WebStorm 10.0.4\weibo\node_modules\morgan\index.js:144:9)
+[Thu Nov 05 2015 09:49:04 GMT+0800 (中国标准时间)]/imgThumbnails/tc314fcf66faf10e878d8fc153bbfbf7b.jpg
+Error: Not Found
+    at g:\WebStorm 10.0.4\weibo\app.js:57:15
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:618:15
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:176:3)
+    at router (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at logger (g:\WebStorm 10.0.4\weibo\node_modules\morgan\index.js:144:9)
+[Thu Nov 05 2015 09:49:04 GMT+0800 (中国标准时间)]/imgThumbnails/tc314fcf66faf10e878d8fc153bbfbf7b.jpg
+Error: Not Found
+    at g:\WebStorm 10.0.4\weibo\app.js:57:15
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:618:15
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:176:3)
+    at router (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at logger (g:\WebStorm 10.0.4\weibo\node_modules\morgan\index.js:144:9)
+[Thu Nov 05 2015 09:50:12 GMT+0800 (中国标准时间)]/imgThumbnails/tc314fcf66faf10e878d8fc153bbfbf7b.jpg
+Error: Not Found
+    at g:\WebStorm 10.0.4\weibo\app.js:57:15
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:618:15
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:176:3)
+    at router (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at logger (g:\WebStorm 10.0.4\weibo\node_modules\morgan\index.js:144:9)
+[Thu Nov 05 2015 09:50:12 GMT+0800 (中国标准时间)]/imgThumbnails/tc314fcf66faf10e878d8fc153bbfbf7b.jpg
+Error: Not Found
+    at g:\WebStorm 10.0.4\weibo\app.js:57:15
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:618:15
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:176:3)
+    at router (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at logger (g:\WebStorm 10.0.4\weibo\node_modules\morgan\index.js:144:9)
+[Thu Nov 05 2015 09:50:16 GMT+0800 (中国标准时间)]/imgThumbnails/tc314fcf66faf10e878d8fc153bbfbf7b.jpg
+Error: Not Found
+    at g:\WebStorm 10.0.4\weibo\app.js:57:15
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:618:15
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:176:3)
+    at router (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at logger (g:\WebStorm 10.0.4\weibo\node_modules\morgan\index.js:144:9)
+[Thu Nov 05 2015 09:50:16 GMT+0800 (中国标准时间)]/imgThumbnails/tc314fcf66faf10e878d8fc153bbfbf7b.jpg
+Error: Not Found
+    at g:\WebStorm 10.0.4\weibo\app.js:57:15
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:618:15
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:176:3)
+    at router (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at logger (g:\WebStorm 10.0.4\weibo\node_modules\morgan\index.js:144:9)
+[Thu Nov 05 2015 09:50:34 GMT+0800 (中国标准时间)]/imgThumbnails/tc314fcf66faf10e878d8fc153bbfbf7b.jpg
+Error: Not Found
+    at g:\WebStorm 10.0.4\weibo\app.js:57:15
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:618:15
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:176:3)
+    at router (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at logger (g:\WebStorm 10.0.4\weibo\node_modules\morgan\index.js:144:9)
+[Thu Nov 05 2015 09:50:34 GMT+0800 (中国标准时间)]/imgThumbnails/tc314fcf66faf10e878d8fc153bbfbf7b.jpg
+Error: Not Found
+    at g:\WebStorm 10.0.4\weibo\app.js:57:15
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:618:15
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:176:3)
+    at router (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at logger (g:\WebStorm 10.0.4\weibo\node_modules\morgan\index.js:144:9)
+[Thu Nov 05 2015 09:50:39 GMT+0800 (中国标准时间)]/imgThumbnails/tc314fcf66faf10e878d8fc153bbfbf7b.jpg
+Error: Not Found
+    at g:\WebStorm 10.0.4\weibo\app.js:57:15
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:618:15
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:176:3)
+    at router (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at logger (g:\WebStorm 10.0.4\weibo\node_modules\morgan\index.js:144:9)
+[Thu Nov 05 2015 09:50:39 GMT+0800 (中国标准时间)]/imgThumbnails/tc314fcf66faf10e878d8fc153bbfbf7b.jpg
+Error: Not Found
+    at g:\WebStorm 10.0.4\weibo\app.js:57:15
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:618:15
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:176:3)
+    at router (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at logger (g:\WebStorm 10.0.4\weibo\node_modules\morgan\index.js:144:9)
+[Thu Nov 05 2015 09:51:05 GMT+0800 (中国标准时间)]/imgThumbnails/tc314fcf66faf10e878d8fc153bbfbf7b.jpg
+Error: Not Found
+    at g:\WebStorm 10.0.4\weibo\app.js:57:15
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:618:15
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:176:3)
+    at router (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at logger (g:\WebStorm 10.0.4\weibo\node_modules\morgan\index.js:144:9)
+[Thu Nov 05 2015 09:51:05 GMT+0800 (中国标准时间)]/imgThumbnails/tc314fcf66faf10e878d8fc153bbfbf7b.jpg
+Error: Not Found
+    at g:\WebStorm 10.0.4\weibo\app.js:57:15
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:618:15
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:176:3)
+    at router (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at logger (g:\WebStorm 10.0.4\weibo\node_modules\morgan\index.js:144:9)
+[Thu Nov 05 2015 09:51:09 GMT+0800 (中国标准时间)]/edit/56399104146e13682b10851a
+Error: Not Found
+    at g:\WebStorm 10.0.4\weibo\app.js:57:15
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:618:15
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:176:3)
+    at router (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at logger (g:\WebStorm 10.0.4\weibo\node_modules\morgan\index.js:144:9)
+[Thu Nov 05 2015 09:53:49 GMT+0800 (中国标准时间)]/imgThumbnails/tc314fcf66faf10e878d8fc153bbfbf7b.jpg
+Error: Not Found
+    at g:\WebStorm 10.0.4\weibo\app.js:57:15
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:618:15
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:176:3)
+    at router (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at logger (g:\WebStorm 10.0.4\weibo\node_modules\morgan\index.js:144:9)
+[Thu Nov 05 2015 09:53:49 GMT+0800 (中国标准时间)]/imgThumbnails/tc314fcf66faf10e878d8fc153bbfbf7b.jpg
+Error: Not Found
+    at g:\WebStorm 10.0.4\weibo\app.js:57:15
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:618:15
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:176:3)
+    at router (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at logger (g:\WebStorm 10.0.4\weibo\node_modules\morgan\index.js:144:9)
+[Thu Nov 05 2015 09:53:57 GMT+0800 (中国标准时间)]/imgThumbnails/tc314fcf66faf10e878d8fc153bbfbf7b.jpg
+Error: Not Found
+    at g:\WebStorm 10.0.4\weibo\app.js:57:15
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:618:15
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:176:3)
+    at router (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at logger (g:\WebStorm 10.0.4\weibo\node_modules\morgan\index.js:144:9)
+[Thu Nov 05 2015 09:53:57 GMT+0800 (中国标准时间)]/imgThumbnails/tc314fcf66faf10e878d8fc153bbfbf7b.jpg
+Error: Not Found
+    at g:\WebStorm 10.0.4\weibo\app.js:57:15
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:618:15
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:176:3)
+    at router (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at logger (g:\WebStorm 10.0.4\weibo\node_modules\morgan\index.js:144:9)
+[Thu Nov 05 2015 09:54:02 GMT+0800 (中国标准时间)]/imgThumbnails/tc314fcf66faf10e878d8fc153bbfbf7b.jpg
+Error: Not Found
+    at g:\WebStorm 10.0.4\weibo\app.js:57:15
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:618:15
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:176:3)
+    at router (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at logger (g:\WebStorm 10.0.4\weibo\node_modules\morgan\index.js:144:9)
+[Thu Nov 05 2015 09:54:02 GMT+0800 (中国标准时间)]/imgThumbnails/tc314fcf66faf10e878d8fc153bbfbf7b.jpg
+Error: Not Found
+    at g:\WebStorm 10.0.4\weibo\app.js:57:15
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:618:15
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:176:3)
+    at router (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at logger (g:\WebStorm 10.0.4\weibo\node_modules\morgan\index.js:144:9)
+[Thu Nov 05 2015 09:54:03 GMT+0800 (中国标准时间)]/imgThumbnails/tc314fcf66faf10e878d8fc153bbfbf7b.jpg
+Error: Not Found
+    at g:\WebStorm 10.0.4\weibo\app.js:57:15
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:618:15
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:176:3)
+    at router (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at logger (g:\WebStorm 10.0.4\weibo\node_modules\morgan\index.js:144:9)
+[Thu Nov 05 2015 09:54:03 GMT+0800 (中国标准时间)]/imgThumbnails/tc314fcf66faf10e878d8fc153bbfbf7b.jpg
+Error: Not Found
+    at g:\WebStorm 10.0.4\weibo\app.js:57:15
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:618:15
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:176:3)
+    at router (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at logger (g:\WebStorm 10.0.4\weibo\node_modules\morgan\index.js:144:9)
+[Thu Nov 05 2015 09:54:33 GMT+0800 (中国标准时间)]/users/shitou
+ReferenceError: g:\WebStorm 10.0.4\weibo\views\users.ejs:14
+    12|     <script src="/bower_components/dropzone/dist/min/dropzone.min.js"></script>
+    13|     <script src="/bower_components/lightbox2/dist/js/lightbox.min.js" defer></script>
+ >> 14|     <script  src="/bower_components/angular/angular.min.js"></script>
+    15|     <script src="/js/myjs/myjs.js"></script>
+    16| </head>
+    17| <body class="body_background">
+
+post is not defined
+    at eval (eval at <anonymous> (g:\WebStorm 10.0.4\weibo\node_modules\ejs\lib\ejs.js:464:18), <anonymous>:17:23)
+    at eval (eval at <anonymous> (g:\WebStorm 10.0.4\weibo\node_modules\ejs\lib\ejs.js:464:18), <anonymous>:23:9)
+    at returnedFn (g:\WebStorm 10.0.4\weibo\node_modules\ejs\lib\ejs.js:493:23)
+    at View.exports.renderFile [as engine] (g:\WebStorm 10.0.4\weibo\node_modules\ejs\lib\ejs.js:350:35)
+    at View.render (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\view.js:126:8)
+    at tryRender (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\application.js:639:10)
+    at EventEmitter.render (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\application.js:591:3)
+    at ServerResponse.render (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\response.js:961:7)
+    at g:\WebStorm 10.0.4\weibo\routes\users.js:35:25
+    at g:\WebStorm 10.0.4\weibo\modules\post.js:86:9
+    at Query.<anonymous> (g:\WebStorm 10.0.4\weibo\node_modules\mongoose\lib\query.js:2124:28)
+    at g:\WebStorm 10.0.4\weibo\node_modules\mongoose\node_modules\kareem\index.js:177:19
+    at g:\WebStorm 10.0.4\weibo\node_modules\mongoose\node_modules\kareem\index.js:109:16
+    at process._tickCallback (node.js:355:11)
+[Thu Nov 05 2015 09:54:49 GMT+0800 (中国标准时间)]/users/shitou
+ReferenceError: g:\WebStorm 10.0.4\weibo\views\users.ejs:14
+    12|     <script src="/bower_components/dropzone/dist/min/dropzone.min.js"></script>
+    13|     <script src="/bower_components/lightbox2/dist/js/lightbox.min.js" defer></script>
+ >> 14|     <script  src="/bower_components/angular/angular.min.js"></script>
+    15|     <script src="/js/myjs/myjs.js"></script>
+    16| </head>
+    17| <body class="body_background">
+
+post is not defined
+    at eval (eval at <anonymous> (g:\WebStorm 10.0.4\weibo\node_modules\ejs\lib\ejs.js:464:18), <anonymous>:17:23)
+    at eval (eval at <anonymous> (g:\WebStorm 10.0.4\weibo\node_modules\ejs\lib\ejs.js:464:18), <anonymous>:23:9)
+    at returnedFn (g:\WebStorm 10.0.4\weibo\node_modules\ejs\lib\ejs.js:493:23)
+    at View.exports.renderFile [as engine] (g:\WebStorm 10.0.4\weibo\node_modules\ejs\lib\ejs.js:350:35)
+    at View.render (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\view.js:126:8)
+    at tryRender (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\application.js:639:10)
+    at EventEmitter.render (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\application.js:591:3)
+    at ServerResponse.render (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\response.js:961:7)
+    at g:\WebStorm 10.0.4\weibo\routes\users.js:35:25
+    at g:\WebStorm 10.0.4\weibo\modules\post.js:86:9
+    at Query.<anonymous> (g:\WebStorm 10.0.4\weibo\node_modules\mongoose\lib\query.js:2124:28)
+    at g:\WebStorm 10.0.4\weibo\node_modules\mongoose\node_modules\kareem\index.js:177:19
+    at g:\WebStorm 10.0.4\weibo\node_modules\mongoose\node_modules\kareem\index.js:109:16
+    at process._tickCallback (node.js:355:11)
+[Thu Nov 05 2015 09:54:50 GMT+0800 (中国标准时间)]/users/shitou
+ReferenceError: g:\WebStorm 10.0.4\weibo\views\users.ejs:14
+    12|     <script src="/bower_components/dropzone/dist/min/dropzone.min.js"></script>
+    13|     <script src="/bower_components/lightbox2/dist/js/lightbox.min.js" defer></script>
+ >> 14|     <script  src="/bower_components/angular/angular.min.js"></script>
+    15|     <script src="/js/myjs/myjs.js"></script>
+    16| </head>
+    17| <body class="body_background">
+
+post is not defined
+    at eval (eval at <anonymous> (g:\WebStorm 10.0.4\weibo\node_modules\ejs\lib\ejs.js:464:18), <anonymous>:17:23)
+    at eval (eval at <anonymous> (g:\WebStorm 10.0.4\weibo\node_modules\ejs\lib\ejs.js:464:18), <anonymous>:23:9)
+    at returnedFn (g:\WebStorm 10.0.4\weibo\node_modules\ejs\lib\ejs.js:493:23)
+    at View.exports.renderFile [as engine] (g:\WebStorm 10.0.4\weibo\node_modules\ejs\lib\ejs.js:350:35)
+    at View.render (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\view.js:126:8)
+    at tryRender (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\application.js:639:10)
+    at EventEmitter.render (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\application.js:591:3)
+    at ServerResponse.render (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\response.js:961:7)
+    at g:\WebStorm 10.0.4\weibo\routes\users.js:35:25
+    at g:\WebStorm 10.0.4\weibo\modules\post.js:86:9
+    at Query.<anonymous> (g:\WebStorm 10.0.4\weibo\node_modules\mongoose\lib\query.js:2124:28)
+    at g:\WebStorm 10.0.4\weibo\node_modules\mongoose\node_modules\kareem\index.js:177:19
+    at g:\WebStorm 10.0.4\weibo\node_modules\mongoose\node_modules\kareem\index.js:109:16
+    at process._tickCallback (node.js:355:11)
+[Thu Nov 05 2015 09:54:53 GMT+0800 (中国标准时间)]/imgThumbnails/tc314fcf66faf10e878d8fc153bbfbf7b.jpg
+Error: Not Found
+    at g:\WebStorm 10.0.4\weibo\app.js:57:15
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:618:15
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:176:3)
+    at router (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at logger (g:\WebStorm 10.0.4\weibo\node_modules\morgan\index.js:144:9)
+[Thu Nov 05 2015 09:54:53 GMT+0800 (中国标准时间)]/imgThumbnails/tc314fcf66faf10e878d8fc153bbfbf7b.jpg
+Error: Not Found
+    at g:\WebStorm 10.0.4\weibo\app.js:57:15
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:618:15
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:176:3)
+    at router (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at logger (g:\WebStorm 10.0.4\weibo\node_modules\morgan\index.js:144:9)
+[Thu Nov 05 2015 09:54:54 GMT+0800 (中国标准时间)]/users/shitou
+ReferenceError: g:\WebStorm 10.0.4\weibo\views\users.ejs:14
+    12|     <script src="/bower_components/dropzone/dist/min/dropzone.min.js"></script>
+    13|     <script src="/bower_components/lightbox2/dist/js/lightbox.min.js" defer></script>
+ >> 14|     <script  src="/bower_components/angular/angular.min.js"></script>
+    15|     <script src="/js/myjs/myjs.js"></script>
+    16| </head>
+    17| <body class="body_background">
+
+post is not defined
+    at eval (eval at <anonymous> (g:\WebStorm 10.0.4\weibo\node_modules\ejs\lib\ejs.js:464:18), <anonymous>:17:23)
+    at eval (eval at <anonymous> (g:\WebStorm 10.0.4\weibo\node_modules\ejs\lib\ejs.js:464:18), <anonymous>:23:9)
+    at returnedFn (g:\WebStorm 10.0.4\weibo\node_modules\ejs\lib\ejs.js:493:23)
+    at View.exports.renderFile [as engine] (g:\WebStorm 10.0.4\weibo\node_modules\ejs\lib\ejs.js:350:35)
+    at View.render (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\view.js:126:8)
+    at tryRender (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\application.js:639:10)
+    at EventEmitter.render (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\application.js:591:3)
+    at ServerResponse.render (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\response.js:961:7)
+    at g:\WebStorm 10.0.4\weibo\routes\users.js:35:25
+    at g:\WebStorm 10.0.4\weibo\modules\post.js:86:9
+    at Query.<anonymous> (g:\WebStorm 10.0.4\weibo\node_modules\mongoose\lib\query.js:2124:28)
+    at g:\WebStorm 10.0.4\weibo\node_modules\mongoose\node_modules\kareem\index.js:177:19
+    at g:\WebStorm 10.0.4\weibo\node_modules\mongoose\node_modules\kareem\index.js:109:16
+    at process._tickCallback (node.js:355:11)
+[Thu Nov 05 2015 09:55:59 GMT+0800 (中国标准时间)]/users/shitou
+ReferenceError: g:\WebStorm 10.0.4\weibo\views\users.ejs:14
+    12|         <div id="user_left" class="col-md-8 col-sm-8">
+    13|             <% if(posts) %>
+ >> 14|             <% posts.forEach(function (post) { %>
+    15|             <div class="panel  panel-default col-md-12 col-sm-12 table-bordered user_left_content">
+    16| 
+    17|                 <div class="panel-heading clearfix"><a class="h3 panel-title pull-left "
+
+post is not defined
+    at eval (eval at <anonymous> (g:\WebStorm 10.0.4\weibo\node_modules\ejs\lib\ejs.js:464:18), <anonymous>:14:23)
+    at eval (eval at <anonymous> (g:\WebStorm 10.0.4\weibo\node_modules\ejs\lib\ejs.js:464:18), <anonymous>:20:9)
+    at returnedFn (g:\WebStorm 10.0.4\weibo\node_modules\ejs\lib\ejs.js:493:23)
+    at View.exports.renderFile [as engine] (g:\WebStorm 10.0.4\weibo\node_modules\ejs\lib\ejs.js:350:35)
+    at View.render (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\view.js:126:8)
+    at tryRender (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\application.js:639:10)
+    at EventEmitter.render (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\application.js:591:3)
+    at ServerResponse.render (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\response.js:961:7)
+    at g:\WebStorm 10.0.4\weibo\routes\users.js:35:25
+    at g:\WebStorm 10.0.4\weibo\modules\post.js:86:9
+    at Query.<anonymous> (g:\WebStorm 10.0.4\weibo\node_modules\mongoose\lib\query.js:2124:28)
+    at g:\WebStorm 10.0.4\weibo\node_modules\mongoose\node_modules\kareem\index.js:177:19
+    at g:\WebStorm 10.0.4\weibo\node_modules\mongoose\node_modules\kareem\index.js:109:16
+    at process._tickCallback (node.js:355:11)
+[Thu Nov 05 2015 09:56:00 GMT+0800 (中国标准时间)]/users/shitou
+ReferenceError: g:\WebStorm 10.0.4\weibo\views\users.ejs:14
+    12|         <div id="user_left" class="col-md-8 col-sm-8">
+    13|             <% if(posts) %>
+ >> 14|             <% posts.forEach(function (post) { %>
+    15|             <div class="panel  panel-default col-md-12 col-sm-12 table-bordered user_left_content">
+    16| 
+    17|                 <div class="panel-heading clearfix"><a class="h3 panel-title pull-left "
+
+post is not defined
+    at eval (eval at <anonymous> (g:\WebStorm 10.0.4\weibo\node_modules\ejs\lib\ejs.js:464:18), <anonymous>:14:23)
+    at eval (eval at <anonymous> (g:\WebStorm 10.0.4\weibo\node_modules\ejs\lib\ejs.js:464:18), <anonymous>:20:9)
+    at returnedFn (g:\WebStorm 10.0.4\weibo\node_modules\ejs\lib\ejs.js:493:23)
+    at View.exports.renderFile [as engine] (g:\WebStorm 10.0.4\weibo\node_modules\ejs\lib\ejs.js:350:35)
+    at View.render (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\view.js:126:8)
+    at tryRender (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\application.js:639:10)
+    at EventEmitter.render (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\application.js:591:3)
+    at ServerResponse.render (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\response.js:961:7)
+    at g:\WebStorm 10.0.4\weibo\routes\users.js:35:25
+    at g:\WebStorm 10.0.4\weibo\modules\post.js:86:9
+    at Query.<anonymous> (g:\WebStorm 10.0.4\weibo\node_modules\mongoose\lib\query.js:2124:28)
+    at g:\WebStorm 10.0.4\weibo\node_modules\mongoose\node_modules\kareem\index.js:177:19
+    at g:\WebStorm 10.0.4\weibo\node_modules\mongoose\node_modules\kareem\index.js:109:16
+    at process._tickCallback (node.js:355:11)
+[Thu Nov 05 2015 09:56:24 GMT+0800 (中国标准时间)]/users/shitou
+ReferenceError: g:\WebStorm 10.0.4\weibo\views\users.ejs:14
+    12|     <script src="/bower_components/dropzone/dist/min/dropzone.min.js"></script>
+    13|     <script src="/bower_components/lightbox2/dist/js/lightbox.min.js" defer></script>
+ >> 14|     <script  src="/bower_components/angular/angular.min.js"></script>
+    15|     <script src="/js/myjs/myjs.js"></script>
+    16| </head>
+    17| <body class="body_background">
+
+post is not defined
+    at eval (eval at <anonymous> (g:\WebStorm 10.0.4\weibo\node_modules\ejs\lib\ejs.js:464:18), <anonymous>:17:23)
+    at eval (eval at <anonymous> (g:\WebStorm 10.0.4\weibo\node_modules\ejs\lib\ejs.js:464:18), <anonymous>:23:9)
+    at returnedFn (g:\WebStorm 10.0.4\weibo\node_modules\ejs\lib\ejs.js:493:23)
+    at View.exports.renderFile [as engine] (g:\WebStorm 10.0.4\weibo\node_modules\ejs\lib\ejs.js:350:35)
+    at View.render (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\view.js:126:8)
+    at tryRender (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\application.js:639:10)
+    at EventEmitter.render (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\application.js:591:3)
+    at ServerResponse.render (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\response.js:961:7)
+    at g:\WebStorm 10.0.4\weibo\routes\users.js:35:25
+    at g:\WebStorm 10.0.4\weibo\modules\post.js:86:9
+    at Query.<anonymous> (g:\WebStorm 10.0.4\weibo\node_modules\mongoose\lib\query.js:2124:28)
+    at g:\WebStorm 10.0.4\weibo\node_modules\mongoose\node_modules\kareem\index.js:177:19
+    at g:\WebStorm 10.0.4\weibo\node_modules\mongoose\node_modules\kareem\index.js:109:16
+    at process._tickCallback (node.js:355:11)
+[Thu Nov 05 2015 09:56:37 GMT+0800 (中国标准时间)]/users/shitou
+ReferenceError: g:\WebStorm 10.0.4\weibo\views\users.ejs:14
+    12|     <script src="/bower_components/dropzone/dist/min/dropzone.min.js"></script>
+    13|     <script src="/bower_components/lightbox2/dist/js/lightbox.min.js" defer></script>
+ >> 14|     <script  src="/bower_components/angular/angular.min.js"></script>
+    15|     <script src="/js/myjs/myjs.js"></script>
+    16| </head>
+    17| <body class="body_background">
+
+post is not defined
+    at eval (eval at <anonymous> (g:\WebStorm 10.0.4\weibo\node_modules\ejs\lib\ejs.js:464:18), <anonymous>:17:23)
+    at eval (eval at <anonymous> (g:\WebStorm 10.0.4\weibo\node_modules\ejs\lib\ejs.js:464:18), <anonymous>:23:9)
+    at returnedFn (g:\WebStorm 10.0.4\weibo\node_modules\ejs\lib\ejs.js:493:23)
+    at View.exports.renderFile [as engine] (g:\WebStorm 10.0.4\weibo\node_modules\ejs\lib\ejs.js:350:35)
+    at View.render (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\view.js:126:8)
+    at tryRender (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\application.js:639:10)
+    at EventEmitter.render (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\application.js:591:3)
+    at ServerResponse.render (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\response.js:961:7)
+    at g:\WebStorm 10.0.4\weibo\routes\users.js:35:25
+    at g:\WebStorm 10.0.4\weibo\modules\post.js:86:9
+    at Query.<anonymous> (g:\WebStorm 10.0.4\weibo\node_modules\mongoose\lib\query.js:2124:28)
+    at g:\WebStorm 10.0.4\weibo\node_modules\mongoose\node_modules\kareem\index.js:177:19
+    at g:\WebStorm 10.0.4\weibo\node_modules\mongoose\node_modules\kareem\index.js:109:16
+    at process._tickCallback (node.js:355:11)
+[Thu Nov 05 2015 09:56:39 GMT+0800 (中国标准时间)]/users/shitou
+ReferenceError: g:\WebStorm 10.0.4\weibo\views\users.ejs:14
+    12|     <script src="/bower_components/dropzone/dist/min/dropzone.min.js"></script>
+    13|     <script src="/bower_components/lightbox2/dist/js/lightbox.min.js" defer></script>
+ >> 14|     <script  src="/bower_components/angular/angular.min.js"></script>
+    15|     <script src="/js/myjs/myjs.js"></script>
+    16| </head>
+    17| <body class="body_background">
+
+post is not defined
+    at eval (eval at <anonymous> (g:\WebStorm 10.0.4\weibo\node_modules\ejs\lib\ejs.js:464:18), <anonymous>:17:23)
+    at eval (eval at <anonymous> (g:\WebStorm 10.0.4\weibo\node_modules\ejs\lib\ejs.js:464:18), <anonymous>:23:9)
+    at returnedFn (g:\WebStorm 10.0.4\weibo\node_modules\ejs\lib\ejs.js:493:23)
+    at View.exports.renderFile [as engine] (g:\WebStorm 10.0.4\weibo\node_modules\ejs\lib\ejs.js:350:35)
+    at View.render (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\view.js:126:8)
+    at tryRender (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\application.js:639:10)
+    at EventEmitter.render (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\application.js:591:3)
+    at ServerResponse.render (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\response.js:961:7)
+    at g:\WebStorm 10.0.4\weibo\routes\users.js:35:25
+    at g:\WebStorm 10.0.4\weibo\modules\post.js:86:9
+    at Query.<anonymous> (g:\WebStorm 10.0.4\weibo\node_modules\mongoose\lib\query.js:2124:28)
+    at g:\WebStorm 10.0.4\weibo\node_modules\mongoose\node_modules\kareem\index.js:177:19
+    at g:\WebStorm 10.0.4\weibo\node_modules\mongoose\node_modules\kareem\index.js:109:16
+    at process._tickCallback (node.js:355:11)
+[Thu Nov 05 2015 09:56:39 GMT+0800 (中国标准时间)]/users/shitou
+ReferenceError: g:\WebStorm 10.0.4\weibo\views\users.ejs:14
+    12|     <script src="/bower_components/dropzone/dist/min/dropzone.min.js"></script>
+    13|     <script src="/bower_components/lightbox2/dist/js/lightbox.min.js" defer></script>
+ >> 14|     <script  src="/bower_components/angular/angular.min.js"></script>
+    15|     <script src="/js/myjs/myjs.js"></script>
+    16| </head>
+    17| <body class="body_background">
+
+post is not defined
+    at eval (eval at <anonymous> (g:\WebStorm 10.0.4\weibo\node_modules\ejs\lib\ejs.js:464:18), <anonymous>:17:23)
+    at eval (eval at <anonymous> (g:\WebStorm 10.0.4\weibo\node_modules\ejs\lib\ejs.js:464:18), <anonymous>:23:9)
+    at returnedFn (g:\WebStorm 10.0.4\weibo\node_modules\ejs\lib\ejs.js:493:23)
+    at View.exports.renderFile [as engine] (g:\WebStorm 10.0.4\weibo\node_modules\ejs\lib\ejs.js:350:35)
+    at View.render (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\view.js:126:8)
+    at tryRender (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\application.js:639:10)
+    at EventEmitter.render (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\application.js:591:3)
+    at ServerResponse.render (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\response.js:961:7)
+    at g:\WebStorm 10.0.4\weibo\routes\users.js:35:25
+    at g:\WebStorm 10.0.4\weibo\modules\post.js:86:9
+    at Query.<anonymous> (g:\WebStorm 10.0.4\weibo\node_modules\mongoose\lib\query.js:2124:28)
+    at g:\WebStorm 10.0.4\weibo\node_modules\mongoose\node_modules\kareem\index.js:177:19
+    at g:\WebStorm 10.0.4\weibo\node_modules\mongoose\node_modules\kareem\index.js:109:16
+    at process._tickCallback (node.js:355:11)
+[Thu Nov 05 2015 09:56:46 GMT+0800 (中国标准时间)]/imgThumbnails/tc314fcf66faf10e878d8fc153bbfbf7b.jpg
+Error: Not Found
+    at g:\WebStorm 10.0.4\weibo\app.js:57:15
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:618:15
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:176:3)
+    at router (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at logger (g:\WebStorm 10.0.4\weibo\node_modules\morgan\index.js:144:9)
+[Thu Nov 05 2015 09:56:47 GMT+0800 (中国标准时间)]/imgThumbnails/tc314fcf66faf10e878d8fc153bbfbf7b.jpg
+Error: Not Found
+    at g:\WebStorm 10.0.4\weibo\app.js:57:15
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:618:15
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:176:3)
+    at router (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at logger (g:\WebStorm 10.0.4\weibo\node_modules\morgan\index.js:144:9)
+[Thu Nov 05 2015 09:56:48 GMT+0800 (中国标准时间)]/users/shitou
+ReferenceError: g:\WebStorm 10.0.4\weibo\views\users.ejs:14
+    12|     <script src="/bower_components/dropzone/dist/min/dropzone.min.js"></script>
+    13|     <script src="/bower_components/lightbox2/dist/js/lightbox.min.js" defer></script>
+ >> 14|     <script  src="/bower_components/angular/angular.min.js"></script>
+    15|     <script src="/js/myjs/myjs.js"></script>
+    16| </head>
+    17| <body class="body_background">
+
+post is not defined
+    at eval (eval at <anonymous> (g:\WebStorm 10.0.4\weibo\node_modules\ejs\lib\ejs.js:464:18), <anonymous>:17:23)
+    at eval (eval at <anonymous> (g:\WebStorm 10.0.4\weibo\node_modules\ejs\lib\ejs.js:464:18), <anonymous>:23:9)
+    at returnedFn (g:\WebStorm 10.0.4\weibo\node_modules\ejs\lib\ejs.js:493:23)
+    at View.exports.renderFile [as engine] (g:\WebStorm 10.0.4\weibo\node_modules\ejs\lib\ejs.js:350:35)
+    at View.render (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\view.js:126:8)
+    at tryRender (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\application.js:639:10)
+    at EventEmitter.render (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\application.js:591:3)
+    at ServerResponse.render (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\response.js:961:7)
+    at g:\WebStorm 10.0.4\weibo\routes\users.js:35:25
+    at g:\WebStorm 10.0.4\weibo\modules\post.js:86:9
+    at Query.<anonymous> (g:\WebStorm 10.0.4\weibo\node_modules\mongoose\lib\query.js:2124:28)
+    at g:\WebStorm 10.0.4\weibo\node_modules\mongoose\node_modules\kareem\index.js:177:19
+    at g:\WebStorm 10.0.4\weibo\node_modules\mongoose\node_modules\kareem\index.js:109:16
+    at process._tickCallback (node.js:355:11)
+[Thu Nov 05 2015 09:57:11 GMT+0800 (中国标准时间)]/imgThumbnails/tc314fcf66faf10e878d8fc153bbfbf7b.jpg
+Error: Not Found
+    at g:\WebStorm 10.0.4\weibo\app.js:57:15
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:618:15
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:176:3)
+    at router (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at logger (g:\WebStorm 10.0.4\weibo\node_modules\morgan\index.js:144:9)
+[Thu Nov 05 2015 09:57:12 GMT+0800 (中国标准时间)]/imgThumbnails/tc314fcf66faf10e878d8fc153bbfbf7b.jpg
+Error: Not Found
+    at g:\WebStorm 10.0.4\weibo\app.js:57:15
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:618:15
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:176:3)
+    at router (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at logger (g:\WebStorm 10.0.4\weibo\node_modules\morgan\index.js:144:9)
+[Thu Nov 05 2015 09:57:53 GMT+0800 (中国标准时间)]/imgThumbnails/tc314fcf66faf10e878d8fc153bbfbf7b.jpg
+Error: Not Found
+    at g:\WebStorm 10.0.4\weibo\app.js:57:15
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:618:15
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:176:3)
+    at router (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at logger (g:\WebStorm 10.0.4\weibo\node_modules\morgan\index.js:144:9)
+[Thu Nov 05 2015 09:57:54 GMT+0800 (中国标准时间)]/imgThumbnails/tc314fcf66faf10e878d8fc153bbfbf7b.jpg
+Error: Not Found
+    at g:\WebStorm 10.0.4\weibo\app.js:57:15
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:618:15
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:176:3)
+    at router (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at logger (g:\WebStorm 10.0.4\weibo\node_modules\morgan\index.js:144:9)
+[Thu Nov 05 2015 09:57:55 GMT+0800 (中国标准时间)]/imgThumbnails/tc314fcf66faf10e878d8fc153bbfbf7b.jpg
+Error: Not Found
+    at g:\WebStorm 10.0.4\weibo\app.js:57:15
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:618:15
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:176:3)
+    at router (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at logger (g:\WebStorm 10.0.4\weibo\node_modules\morgan\index.js:144:9)
+[Thu Nov 05 2015 09:57:55 GMT+0800 (中国标准时间)]/imgThumbnails/tc314fcf66faf10e878d8fc153bbfbf7b.jpg
+Error: Not Found
+    at g:\WebStorm 10.0.4\weibo\app.js:57:15
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:618:15
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:176:3)
+    at router (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at logger (g:\WebStorm 10.0.4\weibo\node_modules\morgan\index.js:144:9)
+[Thu Nov 05 2015 09:58:34 GMT+0800 (中国标准时间)]/imgThumbnails/tc314fcf66faf10e878d8fc153bbfbf7b.jpg
+Error: Not Found
+    at g:\WebStorm 10.0.4\weibo\app.js:57:15
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:618:15
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:176:3)
+    at router (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at logger (g:\WebStorm 10.0.4\weibo\node_modules\morgan\index.js:144:9)
+[Thu Nov 05 2015 09:58:34 GMT+0800 (中国标准时间)]/imgThumbnails/tc314fcf66faf10e878d8fc153bbfbf7b.jpg
+Error: Not Found
+    at g:\WebStorm 10.0.4\weibo\app.js:57:15
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:618:15
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:176:3)
+    at router (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at logger (g:\WebStorm 10.0.4\weibo\node_modules\morgan\index.js:144:9)
+[Thu Nov 05 2015 09:58:35 GMT+0800 (中国标准时间)]/imgThumbnails/tc314fcf66faf10e878d8fc153bbfbf7b.jpg
+Error: Not Found
+    at g:\WebStorm 10.0.4\weibo\app.js:57:15
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:618:15
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:176:3)
+    at router (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at logger (g:\WebStorm 10.0.4\weibo\node_modules\morgan\index.js:144:9)
+[Thu Nov 05 2015 09:58:35 GMT+0800 (中国标准时间)]/imgThumbnails/tc314fcf66faf10e878d8fc153bbfbf7b.jpg
+Error: Not Found
+    at g:\WebStorm 10.0.4\weibo\app.js:57:15
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:618:15
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:176:3)
+    at router (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at logger (g:\WebStorm 10.0.4\weibo\node_modules\morgan\index.js:144:9)
+[Thu Nov 05 2015 09:59:20 GMT+0800 (中国标准时间)]/imgThumbnails/tc314fcf66faf10e878d8fc153bbfbf7b.jpg
+Error: Not Found
+    at g:\WebStorm 10.0.4\weibo\app.js:57:15
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:618:15
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:176:3)
+    at router (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at logger (g:\WebStorm 10.0.4\weibo\node_modules\morgan\index.js:144:9)
+[Thu Nov 05 2015 09:59:20 GMT+0800 (中国标准时间)]/imgThumbnails/tc314fcf66faf10e878d8fc153bbfbf7b.jpg
+Error: Not Found
+    at g:\WebStorm 10.0.4\weibo\app.js:57:15
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:618:15
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:176:3)
+    at router (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at logger (g:\WebStorm 10.0.4\weibo\node_modules\morgan\index.js:144:9)
+[Thu Nov 05 2015 09:59:40 GMT+0800 (中国标准时间)]/users/shitou
+ReferenceError: g:\WebStorm 10.0.4\weibo\views\users.ejs:14
+    12|     <script src="/bower_components/dropzone/dist/min/dropzone.min.js"></script>
+    13|     <script src="/bower_components/lightbox2/dist/js/lightbox.min.js" defer></script>
+ >> 14|     <script  src="/bower_components/angular/angular.min.js"></script>
+    15|     <script src="/js/myjs/myjs.js"></script>
+    16| </head>
+    17| <body class="body_background">
+
+post is not defined
+    at eval (eval at <anonymous> (g:\WebStorm 10.0.4\weibo\node_modules\ejs\lib\ejs.js:464:18), <anonymous>:17:23)
+    at eval (eval at <anonymous> (g:\WebStorm 10.0.4\weibo\node_modules\ejs\lib\ejs.js:464:18), <anonymous>:23:9)
+    at returnedFn (g:\WebStorm 10.0.4\weibo\node_modules\ejs\lib\ejs.js:493:23)
+    at View.exports.renderFile [as engine] (g:\WebStorm 10.0.4\weibo\node_modules\ejs\lib\ejs.js:350:35)
+    at View.render (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\view.js:126:8)
+    at tryRender (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\application.js:639:10)
+    at EventEmitter.render (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\application.js:591:3)
+    at ServerResponse.render (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\response.js:961:7)
+    at g:\WebStorm 10.0.4\weibo\routes\users.js:35:25
+    at g:\WebStorm 10.0.4\weibo\modules\post.js:86:9
+    at Query.<anonymous> (g:\WebStorm 10.0.4\weibo\node_modules\mongoose\lib\query.js:2124:28)
+    at g:\WebStorm 10.0.4\weibo\node_modules\mongoose\node_modules\kareem\index.js:177:19
+    at g:\WebStorm 10.0.4\weibo\node_modules\mongoose\node_modules\kareem\index.js:109:16
+    at process._tickCallback (node.js:355:11)
+[Thu Nov 05 2015 09:59:57 GMT+0800 (中国标准时间)]/imgThumbnails/tc314fcf66faf10e878d8fc153bbfbf7b.jpg
+Error: Not Found
+    at g:\WebStorm 10.0.4\weibo\app.js:57:15
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:618:15
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:176:3)
+    at router (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at logger (g:\WebStorm 10.0.4\weibo\node_modules\morgan\index.js:144:9)
+[Thu Nov 05 2015 09:59:57 GMT+0800 (中国标准时间)]/imgThumbnails/tc314fcf66faf10e878d8fc153bbfbf7b.jpg
+Error: Not Found
+    at g:\WebStorm 10.0.4\weibo\app.js:57:15
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:618:15
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:176:3)
+    at router (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at logger (g:\WebStorm 10.0.4\weibo\node_modules\morgan\index.js:144:9)
+[Thu Nov 05 2015 10:00:15 GMT+0800 (中国标准时间)]/users/shitou
+ReferenceError: g:\WebStorm 10.0.4\weibo\views\users.ejs:14
+    12|     <script src="/bower_components/dropzone/dist/min/dropzone.min.js"></script>
+    13|     <script src="/bower_components/lightbox2/dist/js/lightbox.min.js" defer></script>
+ >> 14|     <script  src="/bower_components/angular/angular.min.js"></script>
+    15|     <script src="/js/myjs/myjs.js"></script>
+    16| </head>
+    17| <body class="body_background">
+
+post is not defined
+    at eval (eval at <anonymous> (g:\WebStorm 10.0.4\weibo\node_modules\ejs\lib\ejs.js:464:18), <anonymous>:17:23)
+    at eval (eval at <anonymous> (g:\WebStorm 10.0.4\weibo\node_modules\ejs\lib\ejs.js:464:18), <anonymous>:23:9)
+    at returnedFn (g:\WebStorm 10.0.4\weibo\node_modules\ejs\lib\ejs.js:493:23)
+    at View.exports.renderFile [as engine] (g:\WebStorm 10.0.4\weibo\node_modules\ejs\lib\ejs.js:350:35)
+    at View.render (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\view.js:126:8)
+    at tryRender (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\application.js:639:10)
+    at EventEmitter.render (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\application.js:591:3)
+    at ServerResponse.render (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\response.js:961:7)
+    at g:\WebStorm 10.0.4\weibo\routes\users.js:35:25
+    at g:\WebStorm 10.0.4\weibo\modules\post.js:86:9
+    at Query.<anonymous> (g:\WebStorm 10.0.4\weibo\node_modules\mongoose\lib\query.js:2124:28)
+    at g:\WebStorm 10.0.4\weibo\node_modules\mongoose\node_modules\kareem\index.js:177:19
+    at g:\WebStorm 10.0.4\weibo\node_modules\mongoose\node_modules\kareem\index.js:109:16
+    at process._tickCallback (node.js:355:11)
+[Thu Nov 05 2015 10:00:17 GMT+0800 (中国标准时间)]/users/shitou
+ReferenceError: g:\WebStorm 10.0.4\weibo\views\users.ejs:14
+    12|     <script src="/bower_components/dropzone/dist/min/dropzone.min.js"></script>
+    13|     <script src="/bower_components/lightbox2/dist/js/lightbox.min.js" defer></script>
+ >> 14|     <script  src="/bower_components/angular/angular.min.js"></script>
+    15|     <script src="/js/myjs/myjs.js"></script>
+    16| </head>
+    17| <body class="body_background">
+
+post is not defined
+    at eval (eval at <anonymous> (g:\WebStorm 10.0.4\weibo\node_modules\ejs\lib\ejs.js:464:18), <anonymous>:17:23)
+    at eval (eval at <anonymous> (g:\WebStorm 10.0.4\weibo\node_modules\ejs\lib\ejs.js:464:18), <anonymous>:23:9)
+    at returnedFn (g:\WebStorm 10.0.4\weibo\node_modules\ejs\lib\ejs.js:493:23)
+    at View.exports.renderFile [as engine] (g:\WebStorm 10.0.4\weibo\node_modules\ejs\lib\ejs.js:350:35)
+    at View.render (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\view.js:126:8)
+    at tryRender (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\application.js:639:10)
+    at EventEmitter.render (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\application.js:591:3)
+    at ServerResponse.render (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\response.js:961:7)
+    at g:\WebStorm 10.0.4\weibo\routes\users.js:35:25
+    at g:\WebStorm 10.0.4\weibo\modules\post.js:86:9
+    at Query.<anonymous> (g:\WebStorm 10.0.4\weibo\node_modules\mongoose\lib\query.js:2124:28)
+    at g:\WebStorm 10.0.4\weibo\node_modules\mongoose\node_modules\kareem\index.js:177:19
+    at g:\WebStorm 10.0.4\weibo\node_modules\mongoose\node_modules\kareem\index.js:109:16
+    at process._tickCallback (node.js:355:11)
+[Thu Nov 05 2015 10:00:37 GMT+0800 (中国标准时间)]/imgThumbnails/tc314fcf66faf10e878d8fc153bbfbf7b.jpg
+Error: Not Found
+    at g:\WebStorm 10.0.4\weibo\app.js:57:15
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:618:15
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:176:3)
+    at router (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at logger (g:\WebStorm 10.0.4\weibo\node_modules\morgan\index.js:144:9)
+[Thu Nov 05 2015 10:00:37 GMT+0800 (中国标准时间)]/imgThumbnails/tc314fcf66faf10e878d8fc153bbfbf7b.jpg
+Error: Not Found
+    at g:\WebStorm 10.0.4\weibo\app.js:57:15
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:618:15
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:176:3)
+    at router (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at logger (g:\WebStorm 10.0.4\weibo\node_modules\morgan\index.js:144:9)
+[Thu Nov 05 2015 10:00:54 GMT+0800 (中国标准时间)]/imgThumbnails/tc314fcf66faf10e878d8fc153bbfbf7b.jpg
+Error: Not Found
+    at g:\WebStorm 10.0.4\weibo\app.js:57:15
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:618:15
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:176:3)
+    at router (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at logger (g:\WebStorm 10.0.4\weibo\node_modules\morgan\index.js:144:9)
+[Thu Nov 05 2015 10:00:54 GMT+0800 (中国标准时间)]/imgThumbnails/tc314fcf66faf10e878d8fc153bbfbf7b.jpg
+Error: Not Found
+    at g:\WebStorm 10.0.4\weibo\app.js:57:15
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:618:15
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:176:3)
+    at router (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at logger (g:\WebStorm 10.0.4\weibo\node_modules\morgan\index.js:144:9)
+[Thu Nov 05 2015 10:01:08 GMT+0800 (中国标准时间)]/users/shitou
+ReferenceError: g:\WebStorm 10.0.4\weibo\views\users.ejs:14
+    12|     <script src="/bower_components/dropzone/dist/min/dropzone.min.js"></script>
+    13|     <script src="/bower_components/lightbox2/dist/js/lightbox.min.js" defer></script>
+ >> 14|     <script  src="/bower_components/angular/angular.min.js"></script>
+    15|     <script src="/js/myjs/myjs.js"></script>
+    16| </head>
+    17| <body class="body_background">
+
+post is not defined
+    at eval (eval at <anonymous> (g:\WebStorm 10.0.4\weibo\node_modules\ejs\lib\ejs.js:464:18), <anonymous>:72:23)
+    at eval (eval at <anonymous> (g:\WebStorm 10.0.4\weibo\node_modules\ejs\lib\ejs.js:464:18), <anonymous>:78:9)
+    at returnedFn (g:\WebStorm 10.0.4\weibo\node_modules\ejs\lib\ejs.js:493:23)
+    at View.exports.renderFile [as engine] (g:\WebStorm 10.0.4\weibo\node_modules\ejs\lib\ejs.js:350:35)
+    at View.render (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\view.js:126:8)
+    at tryRender (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\application.js:639:10)
+    at EventEmitter.render (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\application.js:591:3)
+    at ServerResponse.render (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\response.js:961:7)
+    at g:\WebStorm 10.0.4\weibo\routes\users.js:35:25
+    at g:\WebStorm 10.0.4\weibo\modules\post.js:86:9
+    at Query.<anonymous> (g:\WebStorm 10.0.4\weibo\node_modules\mongoose\lib\query.js:2124:28)
+    at g:\WebStorm 10.0.4\weibo\node_modules\mongoose\node_modules\kareem\index.js:177:19
+    at g:\WebStorm 10.0.4\weibo\node_modules\mongoose\node_modules\kareem\index.js:109:16
+    at process._tickCallback (node.js:355:11)
+[Thu Nov 05 2015 10:01:24 GMT+0800 (中国标准时间)]/imgThumbnails/tc314fcf66faf10e878d8fc153bbfbf7b.jpg
+Error: Not Found
+    at g:\WebStorm 10.0.4\weibo\app.js:57:15
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:618:15
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:176:3)
+    at router (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at logger (g:\WebStorm 10.0.4\weibo\node_modules\morgan\index.js:144:9)
+[Thu Nov 05 2015 10:01:24 GMT+0800 (中国标准时间)]/imgThumbnails/tc314fcf66faf10e878d8fc153bbfbf7b.jpg
+Error: Not Found
+    at g:\WebStorm 10.0.4\weibo\app.js:57:15
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:618:15
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:176:3)
+    at router (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at logger (g:\WebStorm 10.0.4\weibo\node_modules\morgan\index.js:144:9)
+[Thu Nov 05 2015 10:01:32 GMT+0800 (中国标准时间)]/imgThumbnails/tc314fcf66faf10e878d8fc153bbfbf7b.jpg
+Error: Not Found
+    at g:\WebStorm 10.0.4\weibo\app.js:57:15
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:618:15
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:176:3)
+    at router (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at logger (g:\WebStorm 10.0.4\weibo\node_modules\morgan\index.js:144:9)
+[Thu Nov 05 2015 10:01:32 GMT+0800 (中国标准时间)]/imgThumbnails/tc314fcf66faf10e878d8fc153bbfbf7b.jpg
+Error: Not Found
+    at g:\WebStorm 10.0.4\weibo\app.js:57:15
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:618:15
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:176:3)
+    at router (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at logger (g:\WebStorm 10.0.4\weibo\node_modules\morgan\index.js:144:9)
+[Thu Nov 05 2015 10:01:34 GMT+0800 (中国标准时间)]/imgThumbnails/tc314fcf66faf10e878d8fc153bbfbf7b.jpg
+Error: Not Found
+    at g:\WebStorm 10.0.4\weibo\app.js:57:15
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:618:15
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:176:3)
+    at router (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at logger (g:\WebStorm 10.0.4\weibo\node_modules\morgan\index.js:144:9)
+[Thu Nov 05 2015 10:01:34 GMT+0800 (中国标准时间)]/imgThumbnails/tc314fcf66faf10e878d8fc153bbfbf7b.jpg
+Error: Not Found
+    at g:\WebStorm 10.0.4\weibo\app.js:57:15
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:618:15
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:176:3)
+    at router (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at logger (g:\WebStorm 10.0.4\weibo\node_modules\morgan\index.js:144:9)
+[Thu Nov 05 2015 10:01:36 GMT+0800 (中国标准时间)]/imgThumbnails/tc314fcf66faf10e878d8fc153bbfbf7b.jpg
+Error: Not Found
+    at g:\WebStorm 10.0.4\weibo\app.js:57:15
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:618:15
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:176:3)
+    at router (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at logger (g:\WebStorm 10.0.4\weibo\node_modules\morgan\index.js:144:9)
+[Thu Nov 05 2015 10:01:36 GMT+0800 (中国标准时间)]/imgThumbnails/tc314fcf66faf10e878d8fc153bbfbf7b.jpg
+Error: Not Found
+    at g:\WebStorm 10.0.4\weibo\app.js:57:15
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:618:15
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:176:3)
+    at router (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at logger (g:\WebStorm 10.0.4\weibo\node_modules\morgan\index.js:144:9)
+[Thu Nov 05 2015 10:01:37 GMT+0800 (中国标准时间)]/imgThumbnails/tc314fcf66faf10e878d8fc153bbfbf7b.jpg
+Error: Not Found
+    at g:\WebStorm 10.0.4\weibo\app.js:57:15
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:618:15
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:176:3)
+    at router (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at logger (g:\WebStorm 10.0.4\weibo\node_modules\morgan\index.js:144:9)
+[Thu Nov 05 2015 10:01:37 GMT+0800 (中国标准时间)]/imgThumbnails/tc314fcf66faf10e878d8fc153bbfbf7b.jpg
+Error: Not Found
+    at g:\WebStorm 10.0.4\weibo\app.js:57:15
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:618:15
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:176:3)
+    at router (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at logger (g:\WebStorm 10.0.4\weibo\node_modules\morgan\index.js:144:9)
+[Thu Nov 05 2015 10:02:11 GMT+0800 (中国标准时间)]/imgThumbnails/tc314fcf66faf10e878d8fc153bbfbf7b.jpg
+Error: Not Found
+    at g:\WebStorm 10.0.4\weibo\app.js:57:15
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:618:15
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:176:3)
+    at router (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at logger (g:\WebStorm 10.0.4\weibo\node_modules\morgan\index.js:144:9)
+[Thu Nov 05 2015 10:02:11 GMT+0800 (中国标准时间)]/imgThumbnails/tc314fcf66faf10e878d8fc153bbfbf7b.jpg
+Error: Not Found
+    at g:\WebStorm 10.0.4\weibo\app.js:57:15
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:618:15
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:176:3)
+    at router (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at logger (g:\WebStorm 10.0.4\weibo\node_modules\morgan\index.js:144:9)
+[Thu Nov 05 2015 10:02:23 GMT+0800 (中国标准时间)]/imgThumbnails/tc314fcf66faf10e878d8fc153bbfbf7b.jpg
+Error: Not Found
+    at g:\WebStorm 10.0.4\weibo\app.js:57:15
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:618:15
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:176:3)
+    at router (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at logger (g:\WebStorm 10.0.4\weibo\node_modules\morgan\index.js:144:9)
+[Thu Nov 05 2015 10:02:23 GMT+0800 (中国标准时间)]/imgThumbnails/tc314fcf66faf10e878d8fc153bbfbf7b.jpg
+Error: Not Found
+    at g:\WebStorm 10.0.4\weibo\app.js:57:15
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:618:15
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:176:3)
+    at router (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at logger (g:\WebStorm 10.0.4\weibo\node_modules\morgan\index.js:144:9)
+[Thu Nov 05 2015 10:04:01 GMT+0800 (中国标准时间)]/imgThumbnails/tc314fcf66faf10e878d8fc153bbfbf7b.jpg
+Error: Not Found
+    at g:\WebStorm 10.0.4\weibo\app.js:57:15
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:618:15
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:176:3)
+    at router (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at logger (g:\WebStorm 10.0.4\weibo\node_modules\morgan\index.js:144:9)
+[Thu Nov 05 2015 10:04:01 GMT+0800 (中国标准时间)]/imgThumbnails/tc314fcf66faf10e878d8fc153bbfbf7b.jpg
+Error: Not Found
+    at g:\WebStorm 10.0.4\weibo\app.js:57:15
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:618:15
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:176:3)
+    at router (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at logger (g:\WebStorm 10.0.4\weibo\node_modules\morgan\index.js:144:9)
+[Thu Nov 05 2015 10:04:02 GMT+0800 (中国标准时间)]/imgThumbnails/tc314fcf66faf10e878d8fc153bbfbf7b.jpg
+Error: Not Found
+    at g:\WebStorm 10.0.4\weibo\app.js:57:15
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:618:15
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:176:3)
+    at router (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at logger (g:\WebStorm 10.0.4\weibo\node_modules\morgan\index.js:144:9)
+[Thu Nov 05 2015 10:04:02 GMT+0800 (中国标准时间)]/imgThumbnails/tc314fcf66faf10e878d8fc153bbfbf7b.jpg
+Error: Not Found
+    at g:\WebStorm 10.0.4\weibo\app.js:57:15
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:618:15
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:176:3)
+    at router (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at logger (g:\WebStorm 10.0.4\weibo\node_modules\morgan\index.js:144:9)
+[Thu Nov 05 2015 10:06:24 GMT+0800 (中国标准时间)]/imgThumbnails/tc314fcf66faf10e878d8fc153bbfbf7b.jpg
+Error: Not Found
+    at g:\WebStorm 10.0.4\weibo\app.js:57:15
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:618:15
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:176:3)
+    at router (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at logger (g:\WebStorm 10.0.4\weibo\node_modules\morgan\index.js:144:9)
+[Thu Nov 05 2015 10:06:24 GMT+0800 (中国标准时间)]/imgThumbnails/tc314fcf66faf10e878d8fc153bbfbf7b.jpg
+Error: Not Found
+    at g:\WebStorm 10.0.4\weibo\app.js:57:15
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:618:15
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:176:3)
+    at router (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at logger (g:\WebStorm 10.0.4\weibo\node_modules\morgan\index.js:144:9)
+[Thu Nov 05 2015 10:06:51 GMT+0800 (中国标准时间)]/imgThumbnails/tc314fcf66faf10e878d8fc153bbfbf7b.jpg
+Error: Not Found
+    at g:\WebStorm 10.0.4\weibo\app.js:57:15
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:618:15
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:176:3)
+    at router (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at logger (g:\WebStorm 10.0.4\weibo\node_modules\morgan\index.js:144:9)
+[Thu Nov 05 2015 10:06:52 GMT+0800 (中国标准时间)]/imgThumbnails/tc314fcf66faf10e878d8fc153bbfbf7b.jpg
+Error: Not Found
+    at g:\WebStorm 10.0.4\weibo\app.js:57:15
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:618:15
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:176:3)
+    at router (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at logger (g:\WebStorm 10.0.4\weibo\node_modules\morgan\index.js:144:9)
+[Thu Nov 05 2015 10:06:58 GMT+0800 (中国标准时间)]/imgThumbnails/tc314fcf66faf10e878d8fc153bbfbf7b.jpg
+Error: Not Found
+    at g:\WebStorm 10.0.4\weibo\app.js:57:15
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:618:15
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:176:3)
+    at router (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at logger (g:\WebStorm 10.0.4\weibo\node_modules\morgan\index.js:144:9)
+[Thu Nov 05 2015 10:06:59 GMT+0800 (中国标准时间)]/imgThumbnails/tc314fcf66faf10e878d8fc153bbfbf7b.jpg
+Error: Not Found
+    at g:\WebStorm 10.0.4\weibo\app.js:57:15
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:618:15
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:176:3)
+    at router (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at logger (g:\WebStorm 10.0.4\weibo\node_modules\morgan\index.js:144:9)
+[Thu Nov 05 2015 10:07:37 GMT+0800 (中国标准时间)]/imgThumbnails/tc314fcf66faf10e878d8fc153bbfbf7b.jpg
+Error: Not Found
+    at g:\WebStorm 10.0.4\weibo\app.js:57:15
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:618:15
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:176:3)
+    at router (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at logger (g:\WebStorm 10.0.4\weibo\node_modules\morgan\index.js:144:9)
+[Thu Nov 05 2015 10:07:38 GMT+0800 (中国标准时间)]/imgThumbnails/tc314fcf66faf10e878d8fc153bbfbf7b.jpg
+Error: Not Found
+    at g:\WebStorm 10.0.4\weibo\app.js:57:15
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:618:15
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:176:3)
+    at router (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at logger (g:\WebStorm 10.0.4\weibo\node_modules\morgan\index.js:144:9)
+[Thu Nov 05 2015 10:07:47 GMT+0800 (中国标准时间)]/imgThumbnails/tc314fcf66faf10e878d8fc153bbfbf7b.jpg
+Error: Not Found
+    at g:\WebStorm 10.0.4\weibo\app.js:57:15
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:618:15
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:176:3)
+    at router (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at logger (g:\WebStorm 10.0.4\weibo\node_modules\morgan\index.js:144:9)
+[Thu Nov 05 2015 10:07:48 GMT+0800 (中国标准时间)]/imgThumbnails/tc314fcf66faf10e878d8fc153bbfbf7b.jpg
+Error: Not Found
+    at g:\WebStorm 10.0.4\weibo\app.js:57:15
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:618:15
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:176:3)
+    at router (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at logger (g:\WebStorm 10.0.4\weibo\node_modules\morgan\index.js:144:9)
+[Thu Nov 05 2015 10:10:24 GMT+0800 (中国标准时间)]/imgThumbnails/tc314fcf66faf10e878d8fc153bbfbf7b.jpg
+Error: Not Found
+    at g:\WebStorm 10.0.4\weibo\app.js:57:15
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:618:15
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:176:3)
+    at router (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at logger (g:\WebStorm 10.0.4\weibo\node_modules\morgan\index.js:144:9)
+[Thu Nov 05 2015 10:10:24 GMT+0800 (中国标准时间)]/imgThumbnails/tc314fcf66faf10e878d8fc153bbfbf7b.jpg
+Error: Not Found
+    at g:\WebStorm 10.0.4\weibo\app.js:57:15
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:618:15
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:176:3)
+    at router (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at logger (g:\WebStorm 10.0.4\weibo\node_modules\morgan\index.js:144:9)
+[Thu Nov 05 2015 10:10:54 GMT+0800 (中国标准时间)]/imgThumbnails/tc314fcf66faf10e878d8fc153bbfbf7b.jpg
+Error: Not Found
+    at g:\WebStorm 10.0.4\weibo\app.js:57:15
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:618:15
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:176:3)
+    at router (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at logger (g:\WebStorm 10.0.4\weibo\node_modules\morgan\index.js:144:9)
+[Thu Nov 05 2015 10:10:55 GMT+0800 (中国标准时间)]/imgThumbnails/tc314fcf66faf10e878d8fc153bbfbf7b.jpg
+Error: Not Found
+    at g:\WebStorm 10.0.4\weibo\app.js:57:15
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:618:15
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:176:3)
+    at router (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at logger (g:\WebStorm 10.0.4\weibo\node_modules\morgan\index.js:144:9)
+[Thu Nov 05 2015 10:10:59 GMT+0800 (中国标准时间)]/imgThumbnails/tc314fcf66faf10e878d8fc153bbfbf7b.jpg
+Error: Not Found
+    at g:\WebStorm 10.0.4\weibo\app.js:57:15
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:618:15
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:176:3)
+    at router (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at logger (g:\WebStorm 10.0.4\weibo\node_modules\morgan\index.js:144:9)
+[Thu Nov 05 2015 10:11:00 GMT+0800 (中国标准时间)]/imgThumbnails/tc314fcf66faf10e878d8fc153bbfbf7b.jpg
+Error: Not Found
+    at g:\WebStorm 10.0.4\weibo\app.js:57:15
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:618:15
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:176:3)
+    at router (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at logger (g:\WebStorm 10.0.4\weibo\node_modules\morgan\index.js:144:9)
+[Thu Nov 05 2015 10:11:34 GMT+0800 (中国标准时间)]/imgThumbnails/tc314fcf66faf10e878d8fc153bbfbf7b.jpg
+Error: Not Found
+    at g:\WebStorm 10.0.4\weibo\app.js:57:15
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:618:15
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:176:3)
+    at router (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at logger (g:\WebStorm 10.0.4\weibo\node_modules\morgan\index.js:144:9)
+[Thu Nov 05 2015 10:11:35 GMT+0800 (中国标准时间)]/imgThumbnails/tc314fcf66faf10e878d8fc153bbfbf7b.jpg
+Error: Not Found
+    at g:\WebStorm 10.0.4\weibo\app.js:57:15
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:618:15
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:176:3)
+    at router (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at logger (g:\WebStorm 10.0.4\weibo\node_modules\morgan\index.js:144:9)
+[Thu Nov 05 2015 10:12:38 GMT+0800 (中国标准时间)]/imgThumbnails/tc314fcf66faf10e878d8fc153bbfbf7b.jpg
+Error: Not Found
+    at g:\WebStorm 10.0.4\weibo\app.js:57:15
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:618:15
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:176:3)
+    at router (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at logger (g:\WebStorm 10.0.4\weibo\node_modules\morgan\index.js:144:9)
+[Thu Nov 05 2015 10:12:38 GMT+0800 (中国标准时间)]/imgThumbnails/tc314fcf66faf10e878d8fc153bbfbf7b.jpg
+Error: Not Found
+    at g:\WebStorm 10.0.4\weibo\app.js:57:15
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:618:15
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:176:3)
+    at router (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at logger (g:\WebStorm 10.0.4\weibo\node_modules\morgan\index.js:144:9)
+[Thu Nov 05 2015 10:13:30 GMT+0800 (中国标准时间)]/imgThumbnails/tc314fcf66faf10e878d8fc153bbfbf7b.jpg
+Error: Not Found
+    at g:\WebStorm 10.0.4\weibo\app.js:57:15
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:618:15
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:176:3)
+    at router (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at logger (g:\WebStorm 10.0.4\weibo\node_modules\morgan\index.js:144:9)
+[Thu Nov 05 2015 10:13:30 GMT+0800 (中国标准时间)]/imgThumbnails/tc314fcf66faf10e878d8fc153bbfbf7b.jpg
+Error: Not Found
+    at g:\WebStorm 10.0.4\weibo\app.js:57:15
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:618:15
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:176:3)
+    at router (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at logger (g:\WebStorm 10.0.4\weibo\node_modules\morgan\index.js:144:9)
+[Thu Nov 05 2015 10:14:13 GMT+0800 (中国标准时间)]/imgThumbnails/tc314fcf66faf10e878d8fc153bbfbf7b.jpg
+Error: Not Found
+    at g:\WebStorm 10.0.4\weibo\app.js:57:15
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:618:15
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:176:3)
+    at router (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at logger (g:\WebStorm 10.0.4\weibo\node_modules\morgan\index.js:144:9)
+[Thu Nov 05 2015 10:14:13 GMT+0800 (中国标准时间)]/imgThumbnails/tc314fcf66faf10e878d8fc153bbfbf7b.jpg
+Error: Not Found
+    at g:\WebStorm 10.0.4\weibo\app.js:57:15
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:618:15
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:176:3)
+    at router (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at logger (g:\WebStorm 10.0.4\weibo\node_modules\morgan\index.js:144:9)
+[Thu Nov 05 2015 10:14:43 GMT+0800 (中国标准时间)]/imgThumbnails/tc314fcf66faf10e878d8fc153bbfbf7b.jpg
+Error: Not Found
+    at g:\WebStorm 10.0.4\weibo\app.js:57:15
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:618:15
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:176:3)
+    at router (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at logger (g:\WebStorm 10.0.4\weibo\node_modules\morgan\index.js:144:9)
+[Thu Nov 05 2015 10:14:44 GMT+0800 (中国标准时间)]/imgThumbnails/tc314fcf66faf10e878d8fc153bbfbf7b.jpg
+Error: Not Found
+    at g:\WebStorm 10.0.4\weibo\app.js:57:15
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:618:15
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:176:3)
+    at router (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at logger (g:\WebStorm 10.0.4\weibo\node_modules\morgan\index.js:144:9)
+[Thu Nov 05 2015 10:14:53 GMT+0800 (中国标准时间)]/imgThumbnails/tc314fcf66faf10e878d8fc153bbfbf7b.jpg
+Error: Not Found
+    at g:\WebStorm 10.0.4\weibo\app.js:57:15
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:618:15
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:176:3)
+    at router (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at logger (g:\WebStorm 10.0.4\weibo\node_modules\morgan\index.js:144:9)
+[Thu Nov 05 2015 10:14:54 GMT+0800 (中国标准时间)]/imgThumbnails/tc314fcf66faf10e878d8fc153bbfbf7b.jpg
+Error: Not Found
+    at g:\WebStorm 10.0.4\weibo\app.js:57:15
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:618:15
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:176:3)
+    at router (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at logger (g:\WebStorm 10.0.4\weibo\node_modules\morgan\index.js:144:9)
+[Thu Nov 05 2015 10:15:21 GMT+0800 (中国标准时间)]/imgThumbnails/tc314fcf66faf10e878d8fc153bbfbf7b.jpg
+Error: Not Found
+    at g:\WebStorm 10.0.4\weibo\app.js:57:15
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:618:15
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:176:3)
+    at router (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at logger (g:\WebStorm 10.0.4\weibo\node_modules\morgan\index.js:144:9)
+[Thu Nov 05 2015 10:15:21 GMT+0800 (中国标准时间)]/imgThumbnails/tc314fcf66faf10e878d8fc153bbfbf7b.jpg
+Error: Not Found
+    at g:\WebStorm 10.0.4\weibo\app.js:57:15
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:618:15
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:176:3)
+    at router (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at logger (g:\WebStorm 10.0.4\weibo\node_modules\morgan\index.js:144:9)
+[Thu Nov 05 2015 10:15:36 GMT+0800 (中国标准时间)]/imgThumbnails/tc314fcf66faf10e878d8fc153bbfbf7b.jpg
+Error: Not Found
+    at g:\WebStorm 10.0.4\weibo\app.js:57:15
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:618:15
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:176:3)
+    at router (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at logger (g:\WebStorm 10.0.4\weibo\node_modules\morgan\index.js:144:9)
+[Thu Nov 05 2015 10:15:37 GMT+0800 (中国标准时间)]/imgThumbnails/tc314fcf66faf10e878d8fc153bbfbf7b.jpg
+Error: Not Found
+    at g:\WebStorm 10.0.4\weibo\app.js:57:15
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:618:15
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:176:3)
+    at router (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at logger (g:\WebStorm 10.0.4\weibo\node_modules\morgan\index.js:144:9)
+[Sat Nov 07 2015 17:25:28 GMT+0800 (中国标准时间)]/imgThumbnails/tc314fcf66faf10e878d8fc153bbfbf7b.jpg
+Error: Not Found
+    at g:\WebStorm 10.0.4\weibo\app.js:57:15
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:618:15
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:176:3)
+    at router (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at logger (g:\WebStorm 10.0.4\weibo\node_modules\morgan\index.js:144:9)
+[Sat Nov 07 2015 17:25:28 GMT+0800 (中国标准时间)]/favicon.ico
+Error: Not Found
+    at g:\WebStorm 10.0.4\weibo\app.js:57:15
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:618:15
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:176:3)
+    at router (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at logger (g:\WebStorm 10.0.4\weibo\node_modules\morgan\index.js:144:9)
+[Sat Nov 07 2015 17:25:35 GMT+0800 (中国标准时间)]/imgThumbnails/tc314fcf66faf10e878d8fc153bbfbf7b.jpg
+Error: Not Found
+    at g:\WebStorm 10.0.4\weibo\app.js:57:15
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:618:15
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:176:3)
+    at router (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at logger (g:\WebStorm 10.0.4\weibo\node_modules\morgan\index.js:144:9)
+[Sat Nov 07 2015 17:25:35 GMT+0800 (中国标准时间)]/imgThumbnails/tc314fcf66faf10e878d8fc153bbfbf7b.jpg
+Error: Not Found
+    at g:\WebStorm 10.0.4\weibo\app.js:57:15
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:618:15
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:176:3)
+    at router (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at logger (g:\WebStorm 10.0.4\weibo\node_modules\morgan\index.js:144:9)
+[Sat Nov 07 2015 17:25:36 GMT+0800 (中国标准时间)]/imgThumbnails/tc314fcf66faf10e878d8fc153bbfbf7b.jpg
+Error: Not Found
+    at g:\WebStorm 10.0.4\weibo\app.js:57:15
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:618:15
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:176:3)
+    at router (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at logger (g:\WebStorm 10.0.4\weibo\node_modules\morgan\index.js:144:9)
+[Sat Nov 07 2015 17:25:41 GMT+0800 (中国标准时间)]/imgThumbnails/tc314fcf66faf10e878d8fc153bbfbf7b.jpg
+Error: Not Found
+    at g:\WebStorm 10.0.4\weibo\app.js:57:15
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:618:15
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:176:3)
+    at router (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at logger (g:\WebStorm 10.0.4\weibo\node_modules\morgan\index.js:144:9)
+[Sat Nov 07 2015 17:28:15 GMT+0800 (中国标准时间)]/imgThumbnails/tc314fcf66faf10e878d8fc153bbfbf7b.jpg
+Error: Not Found
+    at g:\WebStorm 10.0.4\weibo\app.js:57:15
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:618:15
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:176:3)
+    at router (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at logger (g:\WebStorm 10.0.4\weibo\node_modules\morgan\index.js:144:9)
+[Sat Nov 07 2015 17:28:15 GMT+0800 (中国标准时间)]/imgThumbnails/tc314fcf66faf10e878d8fc153bbfbf7b.jpg
+Error: Not Found
+    at g:\WebStorm 10.0.4\weibo\app.js:57:15
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:618:15
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:176:3)
+    at router (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at logger (g:\WebStorm 10.0.4\weibo\node_modules\morgan\index.js:144:9)
+[Sat Nov 07 2015 17:28:15 GMT+0800 (中国标准时间)]/imgThumbnails/tc314fcf66faf10e878d8fc153bbfbf7b.jpg
+Error: Not Found
+    at g:\WebStorm 10.0.4\weibo\app.js:57:15
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:618:15
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:176:3)
+    at router (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at logger (g:\WebStorm 10.0.4\weibo\node_modules\morgan\index.js:144:9)
+[Sat Nov 07 2015 17:29:05 GMT+0800 (中国标准时间)]/imgThumbnails/tc314fcf66faf10e878d8fc153bbfbf7b.jpg
+Error: Not Found
+    at g:\WebStorm 10.0.4\weibo\app.js:57:15
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:618:15
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:176:3)
+    at router (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at logger (g:\WebStorm 10.0.4\weibo\node_modules\morgan\index.js:144:9)
+[Sat Nov 07 2015 17:29:06 GMT+0800 (中国标准时间)]/imgThumbnails/tc314fcf66faf10e878d8fc153bbfbf7b.jpg
+Error: Not Found
+    at g:\WebStorm 10.0.4\weibo\app.js:57:15
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:618:15
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:176:3)
+    at router (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at logger (g:\WebStorm 10.0.4\weibo\node_modules\morgan\index.js:144:9)
+[Mon Nov 09 2015 17:20:11 GMT+0800 (中国标准时间)]/imgThumbnails/tc314fcf66faf10e878d8fc153bbfbf7b.jpg
+Error: Not Found
+    at g:\WebStorm 10.0.4\weibo\app.js:57:15
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:618:15
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:176:3)
+    at router (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at logger (g:\WebStorm 10.0.4\weibo\node_modules\morgan\index.js:144:9)
+[Mon Nov 09 2015 17:20:12 GMT+0800 (中国标准时间)]/favicon.ico
+Error: Not Found
+    at g:\WebStorm 10.0.4\weibo\app.js:57:15
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:618:15
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:176:3)
+    at router (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:312:13)
+    at g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:330:12)
+    at next (g:\WebStorm 10.0.4\weibo\node_modules\express\lib\router\index.js:271:10)
+    at logger (g:\WebStorm 10.0.4\weibo\node_modules\morgan\index.js:144:9)
