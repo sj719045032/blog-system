@@ -129,5 +129,5 @@ var contentReprint= function (req, res) {
             res.redirect(url);
         });
     });
-}
+};
 module.exports = router;

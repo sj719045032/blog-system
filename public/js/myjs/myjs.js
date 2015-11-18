@@ -7,7 +7,7 @@ $(function () {
      * dropzone图片上传js代码
      */
     $("div#uploadImg").dropzone({
-        url: "/post/img",
+        url: "/upload/img",
         addRemoveLinks: true,
         acceptedFiles: 'image/*',
         previewsContainer: '.dropzone-previews',

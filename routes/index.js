@@ -5,7 +5,7 @@ var stateCheck = require('../modules/statecheck');
 /* GET home page. */
 router.get('/', function (req, res) {
     var page =  req.query.p || 1;
-    var number = 5;
+    var number =10;
     Post.getTotalNumber(null, function (err, total) {
         if (page > Math.ceil(total / number) || page <= 0 || isNaN(page))
             page = 1;
@@ -33,7 +33,7 @@ router.get('/', function (req, res) {
 });
 router.get('/mobile', function (req, res) {
     var page = req.query.p ? req.query.p : 1;
-    var number = 5;
+    var number = 10;
     Post.getTotalNumber(null, function (err, total) {
         if (page > Math.ceil(total / number) || page <= 0 || isNaN(page))
             page = 1;

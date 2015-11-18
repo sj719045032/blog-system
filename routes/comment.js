@@ -22,7 +22,7 @@ router.post('/:name/:day/:title', function (req, res, next) {
             req.flash('error', err);
             return res.redirect('back');
         }
-        req.flash('success', 'ÁôÑÔ³É¹¦!');
+        req.flash('success', 'ï¿½ï¿½ï¿½Ô³É¹ï¿½!');
         res.redirect('back');
     });
 });

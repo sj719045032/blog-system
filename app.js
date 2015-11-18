@@ -12,7 +12,8 @@ var logout = require('./routes/logout');
 var content=require('./routes/content');
 var reg = require('./routes/reg');
 var comment=require('./routes/comment');
-var search=require('./routes/search');;
+var search=require('./routes/search');
+var upload=require('./routes/upload');
 var filemanage=require('./routes/filemanage');
 var MongoStore = require('connect-mongo')(session);
 var settings = require('./settings');
@@ -50,6 +51,7 @@ app.use('/login', login);
 app.use('/reg', reg);
 app.use('/logout', logout);
 app.use('/search', search);
+app.use('/upload', upload);
 app.use('/filemanage',filemanage);
 /*app.use('/comment', comment);*/
 // catch 404 and forward to error handler
