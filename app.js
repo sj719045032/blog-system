@@ -15,6 +15,7 @@ var comment=require('./routes/comment');
 var search=require('./routes/search');
 var upload=require('./routes/upload');
 var filemanage=require('./routes/filemanage');
+var admin=require('./routes/admin');
 var MongoStore = require('connect-mongo')(session);
 var settings = require('./settings');
 var flash = require('connect-flash');
@@ -53,6 +54,7 @@ app.use('/logout', logout);
 app.use('/search', search);
 app.use('/upload', upload);
 app.use('/filemanage',filemanage);
+app.use('/admin',admin);
 /*app.use('/comment', comment);*/
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {
