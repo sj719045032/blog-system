@@ -24,7 +24,7 @@
             <table class="table table-bordered">
                 <thead>
                 <tr>
-                    <th width="3%"><input type="checkbox"></th>
+                    <th width="3%"><input type="checkbox" ng-model="checkbox.ch"></th>
                     <th>标题</th>
                     <th>作者</th>
                     <th class="text-center">操作</th>
@@ -32,13 +32,13 @@
                 </thead>
                 <tbody>
                 <tr ng-repeat="post in contents">
-                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox" ng-checked="checkbox.ch"></td>
                     <td><span>{{post.title}}</span></td>
                     <td><span>{{post.name}}</span></td>
                     <td class="text-center">
                         <div class="btn-group">
                             <button class="btn btn-xs btn-primary">编辑</button>
-                            <button class="btn btn-xs  btn-danger">删除</button>
+                            <button class="btn btn-xs  btn-danger" ng-click="deleteContentById(post._id)">删除</button>
                         </div>
                     </td>
                 </tr>
@@ -47,13 +47,13 @@
             </table>
             <div class="text-center">
             <div class="pagination" >
-                <li><a ng-click="getContentsByPage(page-1)" ng-show="page-1>0">&laquo;</a></li>
+                <li><a ng-click="getContentsByPage(page-1)">&laquo;</a></li>
                 <li><a ng-click="getContentsByPage(page-2)" ng-show="page-2>0">{{page-2}}</a></li>
                 <li><a ng-click="getContentsByPage(page-1)" ng-show="page-1>0">{{page-1}}</a></li>
-                <li><a ng-click="getContentsByPage(page)">{{page}}</a></li>
-                <li><a ng-click="getContentsByPage(page+1)">{{page+1}}</a></li>
-                <li><a ng-click="getContentsByPage(page+2)">{{page+2}}</a></li>
-                <li><a ng-click="getContentsByPage(page+1)">&raquo;</a></li>
+                <li class="active"><a ng-click="getContentsByPage(page)" >{{page}}</a></li>
+                <li><a ng-click="getContentsByPage(page+1)" ng-show="page+1<=total">{{page+1}}</a></li>
+                <li><a ng-click="getContentsByPage(page+2)" ng-show="page+2<=total">{{page+2}}</a></li>
+                <li><a ng-click="getContentsByPage(page+1)" >&raquo;</a></li>
             </div>
             </div>
         </div>

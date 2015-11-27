@@ -8,11 +8,21 @@ adminApp
             getContents: function (page) {
                 var deferred=$q.defer();
                  $http.get(contentsUrl+"?p="+page).success(function (data) {
-                      deferred.resolve(data);
+                     deferred.resolve(data);
                  }).error(function (reason) {
                      deferred.reject(reason);
                  });
                 return deferred.promise;
+            },
+            deleteContent: function (id) {
+                var deferred=$q.defer();
+                $http.delete(contentsUrl+id).success(function (data) {
+                    deferred.resolve(data);
+                }).error(function (reason) {
+                    deferred.reject(reason);
+                });
+                return deferred.promise;
+
             }
         }
     });
