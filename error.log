@@ -1810,7 +1810,6 @@ ReferenceError: g:\WebStorm 10.0.4\weibo\views\users.ejs:14
     15|     <script src="/js/myjs/myjs.js"></script>
     16| </head>
     17| <body class="body_background">
-
 post is not defined
     at eval (eval at <anonymous> (g:\WebStorm 10.0.4\weibo\node_modules\ejs\lib\ejs.js:464:18), <anonymous>:17:23)
     at eval (eval at <anonymous> (g:\WebStorm 10.0.4\weibo\node_modules\ejs\lib\ejs.js:464:18), <anonymous>:23:9)
