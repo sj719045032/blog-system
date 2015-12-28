@@ -11,6 +11,7 @@
     <script src="/admin/adminApp.js"></script>
     <script src="/admin/services/contentService.js"></script>
     <script src="/admin/controllers/contentsController.js"></script>
+    <script src="/admin/directive/myDirective.js"></script>
 </head>
 <body ng-app="adminApp">
 <div class="container">
@@ -24,7 +25,7 @@
             <table class="table table-bordered">
                 <thead>
                 <tr>
-                    <th width="3%"><input type="checkbox" ng-model="checkbox.ch"></th>
+                    <th width="3%"><input type="checkbox"  ng-click="setAllToArray(isSetAll)" ng-model="isSetAll" ></th>
                     <th>标题</th>
                     <th>作者</th>
                     <th class="text-center">操作</th>
@@ -32,7 +33,7 @@
                 </thead>
                 <tbody>
                 <tr ng-repeat="post in contents">
-                    <td><input type="checkbox" ng-checked="checkbox.ch"></td>
+                    <td><input type="checkbox"  ng-model="post.isChecked"  ng-click="setIdToArray(post)"></td>
                     <td><span>{{post.title}}</span></td>
                     <td><span>{{post.name}}</span></td>
                     <td class="text-center">
@@ -42,9 +43,11 @@
                         </div>
                     </td>
                 </tr>
+                <tr><td colspan="4"><button class="btn btn-xs btn-danger" ng-click="deleteContentArray(deleteArray)">批量删除</button></td></tr>
                 </tbody>
 
             </table>
+
             <div class="text-center">
             <div class="pagination" >
                 <li><a ng-click="getContentsByPage(page-1)">&laquo;</a></li>
