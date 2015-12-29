@@ -25,4 +25,8 @@ adminApp
 
             }
         }
+    }).factory('tempContentService', function () {
+        return {
+            tempContent:{}
+        }
     });

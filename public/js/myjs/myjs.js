@@ -2,7 +2,6 @@
  * Created by shijin on 2015/10/27.
  */
 $(function () {
-
     /**
      * dropzone图片上传js代码
      */
@@ -20,6 +19,7 @@ $(function () {
         thumbnailHeight: 120,
         init: function () {
             var dz = this;
+            console.log(xiix);
             this.on('success', function (file, info) {
                 $(".post_form").append("<input id='" + file.name + file.uploadtime + "' name='img' type='hidden' value='" + JSON.stringify(info) + "'>");
             });
@@ -44,7 +44,7 @@ $(function () {
     lightbox.option({
         'resizeDuration': 200,
         'wrapAround': true
-    })
+    });
 
     /**
      * bootstrap弹出框：图片上传
@@ -68,44 +68,7 @@ $(function () {
         }
 
     });
+
+
 });
-
-var httpRest = {
-    get: function (url) {
-        $.ajax({
-            url: url,
-            type: 'GET',
-            success: function (result) {
-                // Do something with the result
-            }
-        });
-    },
-    post: function (url) {
-        $.ajax({
-            url: url,
-            type: 'POST',
-            success: function (result) {
-                // Do something with the result
-            }
-        });
-    }, put: function (url) {
-        $.ajax({
-            url: url,
-            type: 'PUT',
-            success: function (result) {
-                // Do something with the result
-            }
-        });
-    }, delete: function (url) {
-        console.log(url);
-        $.ajax({
-            url: url,
-            type: 'DELETE',
-            success: function (result) {
-
-              window.location.replace(result.url);
-                // Do something with the result
-            }
-        });
-    }
-};
+angular.module('myApp', []);

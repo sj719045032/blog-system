@@ -1,7 +1,7 @@
 /**
  * Created by shijin on 2015/11/26.
  */
-adminApp.controller("contentController", function ($scope, contentService) {
+adminApp.controller("contentController", function ($scope, $location,contentService,tempContentService) {
     $scope.contents = {};
     $scope.page = 1;
     $scope.total = 1;
@@ -74,4 +74,12 @@ adminApp.controller("contentController", function ($scope, contentService) {
             $scope.deleteArray = [];
         }
     };
+    $scope.edit= function (post) {
+   $location.path('/edit').replace();
+        tempContentService.tempContent=post;
+    }
+}).controller('editController', function ($scope, tempContentService) {
+   $scope.post=tempContentService.tempContent;
+    console.log($scope.post);
 });
+

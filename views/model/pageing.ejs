@@ -7,11 +7,11 @@
     <% if (!isLastPage) { %>
     <li class="nextpage"><a title="下一页" href="?p=<%= page + 1 %>">下一页</a></li>
     <% } %>
-    <li class="pagenow"><a><input size="1" class="page_input" ng-model="page">/<%= total %>页</a></li>
-    <li class="pagego"><a title="下一页" href="?p={{page}}">跳转</a></li>
+    <li class="pagenow"><a><input size="1" class="page_input" ng-model="page" >/<%= total %>页</a></li>
+    <li class="pagego"><a title="跳转" href="?p={{page}}">跳转</a></li>
 </div>
 <script>
-    angular.module("myApp",[]).controller("pageCtrl", function ($scope) {
+    angular.module("myApp").controller("pageCtrl", function ($scope) {
         $scope.page="<%= page%>";
         $scope.$watch("page", function (newVal) {
             $scope.page = (newVal+"").replace(/[^\d]/g,"");
