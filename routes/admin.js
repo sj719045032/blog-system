@@ -20,17 +20,36 @@ router.get("/content", function (req, res) {
             if (err)
                 posts = [];
             if (posts)
-                return res.send({posts:posts,total: Math.ceil(total / number)});
+                return res.send({posts: posts, total: Math.ceil(total / number)});
         })
     });
 
 });
+router.post("/content", function (req, res) {
+    var user = req.session.user;
+    var post = new Post(user.name, req.body.title, req.body.post, req.body.img);
+    post.save(function (err) {
+        if (err) {
+            return res.status(404).send("not found");
+        }
+        return res.send("success");
+    });
+});
 router.delete("/content/:_id", function (req, res) {
-        Post.remove(req.params._id, function (err) {
-            if (err) {
-                return res.status(404).send("not found");
-            }
-            return res.send("success");
-        });
+    Post.remove(req.params._id, function (err) {
+        if (err) {
+            return res.status(404).send("not found");
+        }
+        return res.send("success");
+    });
+});
+
+router.put('/content/:id', function (req, res) {
+  Post.update(req.params.id,req.body, function (err) {
+        if (err) {
+            return res.status(404).send("not found");
+        }
+        return res.send("success");
+    })
 });
 module.exports = router;

@@ -7,31 +7,31 @@ var Post = require('../modules/post.js');
 var stateCheck = require('../modules/statecheck');
 router.get('/:_id', stateCheck.checkLogin);
 router.get('/:_id', function (req, res) {
-            contentGet(req,res);
+    contentGet(req, res);
 });
 router.post('/:_id', stateCheck.checkLogin);
 router.post('/:_id', function (req, res) {
     switch (req.body._method) {
         case 'get':
-            contentGet(req,res);
+            contentGet(req, res);
             break;
         case 'update':
-            contentUpdate(req,res);
+            contentUpdate(req, res);
             break;
         case 'delete':
-            contentDelete(req,res);
+            contentDelete(req, res);
             break;
         case 'post':
-            contentPost(req,res);
+            contentPost(req, res);
             break;
         case 'reprint':
-            contentReprint(req,res);
+            contentReprint(req, res);
             break;
     }
 
 
 });
-var contentGet=function (req, res) {
+var contentGet = function (req, res) {
     Post.getOne(req.params._id.toString().trim(), function (err, post) {
         if (err) {
             req.flash('error', err);
@@ -56,7 +56,7 @@ var contentGet=function (req, res) {
     });
 
 };
-var contentPost=function (req, res) {
+var contentPost = function (req, res) {
     var user = req.session.user;
     var post = new Post(user.name, req.body.title, req.body.content, req.body.img);
     post.save(function (err) {
@@ -68,7 +68,7 @@ var contentPost=function (req, res) {
         return res.redirect('back');
     });
 };
-var contentDelete=function (req, res) {
+var contentDelete = function (req, res) {
     var currentUser = req.session.user;
     Post.getOne(req.params._id, function (err, doc) {
         if (err) {
@@ -88,7 +88,7 @@ var contentDelete=function (req, res) {
         });
     });
 };
-var contentUpdate=function (req, res) {
+var contentUpdate = function (req, res) {
     var currentUser = req.session.user;
     Post.getOne(req.params._id, function (err, doc) {
         if (err) {
@@ -98,8 +98,8 @@ var contentUpdate=function (req, res) {
         if (doc.name != currentUser.name)
             return res.redirect('back');
 
-
-        Post.update(req.params._id, req.body.content, function (err) {
+        var post = {post: req.body.content}
+        Post.update(req.params._id, post, function (err) {
             var url = encodeURI('/content/' + req.params._id);
             if (err) {
                 req.flash('error', err);
@@ -110,14 +110,14 @@ var contentUpdate=function (req, res) {
         });
     });
 };
-var contentReprint= function (req, res) {
+var contentReprint = function (req, res) {
     Post.getOne(req.params._id.toString().trim(), function (err, post) {
         if (err) {
             req.flash('error', err);
             return res.redirect(back);
         }
         var currentUser = req.session.user,
-            reprint_from = {name: post.name, day: post.time.day, title: post.title,_id:post._id},
+            reprint_from = {name: post.name, day: post.time.day, title: post.title, _id: post._id},
             reprint_to = {name: currentUser.name, head: currentUser.head};
         Post.reprint(reprint_from, reprint_to, function (err, post) {
             if (err) {

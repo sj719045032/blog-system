@@ -1,7 +1,7 @@
 /**
  * Created by shijin on 2015/11/26.
  */
-adminApp.controller("contentController", function ($scope, $location,contentService,tempContentService) {
+adminApp.controller("contentController", function ($scope, $location, contentService, tempContentService) {
     $scope.contents = {};
     $scope.page = 1;
     $scope.total = 1;
@@ -19,7 +19,7 @@ adminApp.controller("contentController", function ($scope, $location,contentServ
         return contents;
     };
     $scope.getContentsByPage = function (page) {
-        $scope.isSetAll=false;
+        $scope.isSetAll = false;
         if (page > $scope.total || page < 1)
             return true;
         contentService.getContents(page).then(function (data) {
@@ -74,12 +74,50 @@ adminApp.controller("contentController", function ($scope, $location,contentServ
             $scope.deleteArray = [];
         }
     };
-    $scope.edit= function (post) {
-   $location.path('/edit').replace();
-        tempContentService.tempContent=post;
+    $scope.edit = function (post) {
+        $location.path('/edit').replace();
+        tempContentService.tempContent = post;
+    };
+    $scope.postContent = function () {
+        $location.path('/post').replace();
     }
-}).controller('editController', function ($scope, tempContentService) {
-   $scope.post=tempContentService.tempContent;
-    console.log($scope.post);
+
+}).controller('editController', function ($scope, $location, contentService, tempContentService) {
+    $scope.post = tempContentService.tempContent;
+    $scope.updateSubmit = function () {
+        var img = [];
+        for (var i = 0; i < angular.imgs.length; i++) {
+            img.push(angular.imgs[i].value);
+        }
+        $scope.content = {
+            title: $scope.post.title,
+            post: $scope.post.post
+        };
+        if (img.length != 0) {
+            $scope.content.img = img;
+        }
+        contentService.updateContent($scope.post._id, $scope.content).then(function (data) {
+            if (data == 'success') {
+                $location.path('/').replace();
+            }
+        });
+    }
+}).controller('postController', function ($scope, $location, contentService) {
+    $scope.updateSubmit = function () {
+        var img = [];
+        for (var i = 0; i < angular.imgs.length; i++) {
+            img.push(angular.imgs[i].value);
+        }
+        $scope.content = {
+            title: $scope.post.title,
+            post: $scope.post.post,
+            img:img
+        };
+        contentService.postContent($scope.content).then(function (data) {
+            if (data == 'success') {
+                $location.path('/').replace();
+            }
+        });
+    }
 });
 

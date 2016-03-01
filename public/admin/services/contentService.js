@@ -6,23 +6,41 @@ adminApp
     .factory("contentService", function ($http,$q, contentsUrl) {
         return {
             getContents: function (page) {
-                var deferred=$q.defer();
+                var defered=$q.defer();
                  $http.get(contentsUrl+"?p="+page).success(function (data) {
-                     deferred.resolve(data);
+                     defered.resolve(data);
                  }).error(function (reason) {
-                     deferred.reject(reason);
+                     defered.reject(reason);
                  });
-                return deferred.promise;
+                return defered.promise;
             },
             deleteContent: function (id) {
-                var deferred=$q.defer();
+                var defered=$q.defer();
                 $http.delete(contentsUrl+id).success(function (data) {
-                    deferred.resolve(data);
+                    defered.resolve(data);
                 }).error(function (reason) {
-                    deferred.reject(reason);
+                    defered.reject(reason);
                 });
-                return deferred.promise;
+                return defered.promise;
 
+            },
+            updateContent: function (id,content) {
+                var defered=$q.defer();
+                $http.put(contentsUrl+id,content).success(function (data) {
+                    defered.resolve(data);
+                }).error(function (reason) {
+                    defered.reject(reason);
+                });
+                return defered.promise;
+            },
+            postContent: function (content) {
+                var defered=$q.defer();
+                $http.post(contentsUrl,content).success(function (data) {
+                    defered.resolve(data);
+                }).error(function (reason) {
+                    defered.reject(reason);
+                });
+                return defered.promise;
             }
         }
     }).factory('tempContentService', function () {

@@ -30,6 +30,7 @@ var PostSchema = new mongoose.Schema({
 
 var PostModel = mongoose.model('posts', PostSchema);
 Post.prototype.save = function (callback) {
+
     var date = new Date();
     var time = {
         date: date,
@@ -46,7 +47,7 @@ Post.prototype.save = function (callback) {
         title: this.title,
         post: this.post,
         pv: 0,
-        reprint_info: {reprint_from: {index:""}, reprint_to: []},
+        reprint_info: {reprint_from: {index: ""}, reprint_to: []},
         comments: [],
         img: []
     };
@@ -60,10 +61,15 @@ Post.prototype.save = function (callback) {
         }
         else {
             this.img.forEach(function (img) {
-                post.img.push(JSON.parse(img));
+                if (typeof img == 'string') {
+                    post.img.push(JSON.parse(img));
+                } else {
+                    post.img.push(img);
+                }
             });
         }
     var PostEntity = new PostModel(post);
+
     PostEntity.save({safe: true}, function (err) {
         if (err)
             callback(err);
@@ -112,7 +118,6 @@ Post.getOne = function (_id, callback) {
 ;
 
 Post.update = function (_id, post, callback) {
-
     try {
         var query = {
             '_id': new ObjectID(_id)
@@ -120,9 +125,8 @@ Post.update = function (_id, post, callback) {
     } catch (err) {
         return callback(null, null);
     }
-
     PostModel.update(query, {
-        $set: {post: post}
+        $set: post
     }, function (err) {
         callback(err);
     });
@@ -142,42 +146,44 @@ Post.getTotalNumber = function (name, callback) {
 };
 Post.remove = function (_id, callback) {
     async.waterfall([
-        function (cb) {
-            var query = {
-                '_id': new ObjectID(_id)
+            function (cb) {
+                var query = {
+                    '_id': new ObjectID(_id)
 
-            };
-            PostModel.findOne(query, function (err, doc) {
-             if(doc.reprint_info.reprint_from)
-                PostModel.update({
-                    "_id": doc.reprint_info.reprint_from._id
-                }, {$pull: {
-                        "reprint_info.reprint_to": {
-                            "name": doc.name,
-                            "day": doc.time.day,
-                            "title": doc.title
-                        }
-                    }
-                }, function (err) {
-                    if (err)
-                        cb(err);
+                };
+                PostModel.findOne(query, function (err, doc) {
+                    if (doc.reprint_info.reprint_from)
+                        PostModel.update({
+                            "_id": doc.reprint_info.reprint_from._id
+                        }, {
+                            $pull: {
+                                "reprint_info.reprint_to": {
+                                    "name": doc.name,
+                                    "day": doc.time.day,
+                                    "title": doc.title
+                                }
+                            }
+                        }, function (err) {
+                            if (err)
+                                cb(err);
+
+                        });
+                    PostModel.remove(query, function (err) {
+                        cb(err, doc);
+                    });
+
 
                 });
-                PostModel.remove(query, function (err) {
-                    cb(err, doc);
-                });
-
-
-            }); }, function (doc, cb) {
+            }, function (doc, cb) {
                 PostModel.update({username: doc.name}, {$inc: {'article_number': -1}}, function (err) {
                     cb(err);
                 });
 
             }
-            ],
-            function (err) {
-                callback(err);
-            });
+        ],
+        function (err) {
+            callback(err);
+        });
 };
 Post.search = function (keyword, callback) {
 

@@ -2,6 +2,15 @@
     <table class="table table-bordered">
         <thead>
         <tr>
+            <td colspan="4">
+                <button class="btn btn-xs btn-primary" ng-click="postContent()">添加内容
+                </button>
+                <button class="btn btn-xs btn-danger" ng-click="deleteContentArray(deleteArray)">批量删除
+                </button>
+
+            </td>
+        </tr>
+        <tr>
             <th width="3%"><input type="checkbox" ng-click="setAllToArray(isSetAll)" ng-model="isSetAll">
             </th>
             <th>标题</th>
@@ -22,12 +31,7 @@
                 </div>
             </td>
         </tr>
-        <tr>
-            <td colspan="4">
-                <button class="btn btn-xs btn-danger" ng-click="deleteContentArray(deleteArray)">批量删除
-                </button>
-            </td>
-        </tr>
+
         </tbody>
 
     </table>
