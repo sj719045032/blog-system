@@ -7385,3 +7385,6 @@ GET / 200 11141 - 17.242 ms
 ::1 - - [01/Mar/2016:08:21:15 +0000] "GET /search?keyword=dwd HTTP/1.1" 200 8881 "http://localhost:3000/?p=2" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36"
 ::1 - - [01/Mar/2016:08:21:17 +0000] "GET / HTTP/1.1" 200 18168 "http://localhost:3000/search?keyword=dwd" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36"
 ::1 - - [01/Mar/2016:08:24:09 +0000] "GET /users/shitou HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36"
+::ffff:127.0.0.1 - - [01/Mar/2016:10:33:13 +0000] "GET / HTTP/1.1" 200 18216 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36"
+::1 - - [01/Mar/2016:10:33:25 +0000] "GET /admin/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36"
+::1 - - [01/Mar/2016:10:33:26 +0000] "GET /admin/content/?p=1 HTTP/1.1" 200 3499 "http://localhost:3000/admin/" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36"
