@@ -32,7 +32,7 @@ else {
      * Create HTTP server.
      */
     var server = http.createServer(app);
-    server.listen(3000);
+    server.listen(port);
     /**
      * Listen on provided port, on all network interfaces.
      */
