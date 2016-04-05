@@ -41,15 +41,18 @@ router.post('/img', function (req, res) {
             FileManager.remove(storename);
             return res.send(info);
         }
-        thumbnail.thumbnail(storename, function (err,fileurl) {
+       /* thumbnail.thumbnail(storename, function (err,fileurl) {
             var info = {
                 "sourceImg": url,
-                "thumbnailImg":url
-                /*"thumbnailImg":fileurl.substring(fileurl.indexOf('/',fileurl.indexOf('/')+1),fileurl.length)*/
+                "thumbnailImg":fileurl.substring(fileurl.indexOf('/',fileurl.indexOf('/')+1),fileurl.length)
             };
             return res.send(info);
-        });
-
+        });*/
+        info = {
+            "sourceImg": url,
+            "thumbnailImg":url
+        };
+        return res.send(info);
     });
 });
 module.exports = router;
