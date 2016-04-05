@@ -19,7 +19,6 @@ $(function () {
         thumbnailHeight: 120,
         init: function () {
             var dz = this;
-            console.log(xiix);
             this.on('success', function (file, info) {
                 $(".post_form").append("<input id='" + file.name + file.uploadtime + "' name='img' type='hidden' value='" + JSON.stringify(info) + "'>");
             });

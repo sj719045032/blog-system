@@ -46,11 +46,12 @@ a {
 **/
 
 .body_background {
-    background: #73CFF1 url('/images/index_bg.jpg') center top no-repeat;
+    background: #73CFF1 url('../images/index_bg.jpg') center top no-repeat;
 }
 
 .content_item {
     margin-bottom: 30px;
+    padding: 0;
     overflow: hidden;
 }
 
@@ -167,7 +168,7 @@ a {
 **/
 
 .login_background {
-    background: url('/images/lg_bg.jpg') no-repeat;
+    background: url('../images/lg_bg.jpg') no-repeat;
 }
 
 .login_form {
