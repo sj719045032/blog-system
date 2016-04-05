@@ -63,3 +63,9 @@ User.removeAttention = function (username, attentionName, callback) {
 
 
 };
+User.changeArticleNumber= function (username,num,callback) {
+    UserModel.update({name: username}, {$inc: {'article_number': num}}, function (err) {
+        callback(err);
+    });
+
+}

@@ -7,7 +7,7 @@
 var ObjectID = require('mongodb').ObjectID;
 var mongoose = require('./mongooseDb');
 var async = require('async');
-
+var User=require('./user');
 function Post(name, title, post, img) {
     this.name = name;
     this.title = title;
@@ -73,7 +73,8 @@ Post.prototype.save = function (callback) {
     PostEntity.save({safe: true}, function (err) {
         if (err)
             callback(err);
-        PostModel.update({name: post.name}, {$inc: {'article_number': 1}}, function (err) {
+        else
+        User.changeArticleNumber(post.name,1, function (err) {
             callback(err);
         });
 
@@ -175,7 +176,7 @@ Post.remove = function (_id, callback) {
 
                 });
             }, function (doc, cb) {
-                PostModel.update({username: doc.name}, {$inc: {'article_number': -1}}, function (err) {
+                User.changeArticleNumber(doc.name,1, function (err) {
                     cb(err);
                 });
 
@@ -246,6 +247,10 @@ Post.reprint = function (rp_from, rp_to, callback) {
                 cb(err, post);
             });
 
+        }, function (post, cb) {
+            User.changeArticleNumber(post.name,1, function (err) {
+                cb(err,post);
+            });
         }
     ], function (err, post) {
         callback(err, post);
