@@ -14,7 +14,7 @@ var numCPUs = require('os').cpus().length;
  */
 var port = normalizePort(process.env.PORT || '3000');
 if (cluster.isMaster) {
-    for (var i = 0; i < numCPUs; i++) {
+    for (var i = 0; i < 2; i++) {
         cluster.fork();
     }
     cluster.on('fork', function (worker, code, signal) {
