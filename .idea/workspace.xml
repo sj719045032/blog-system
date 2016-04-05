@@ -2,11 +2,217 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="395eb0a9-d9ff-4473-8db4-cfbbfcd7e3f7" name="Default" comment="2015-4-5 工程整理&#10;">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/runConfigurations/bin_www.xml" afterPath="$PROJECT_DIR$/.idea/runConfigurations/bin_www.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/weibo.iml" afterPath="$PROJECT_DIR$/.idea/weibo.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/CHANGELOG.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/nuget/MyGet.ps1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/dist/css/bootstrap-theme.min.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/nuget/bootstrap.less.nuspec" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/dist/css/bootstrap.min.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/nuget/bootstrap.nuspec" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\imgThumbnails\t00d992da6b31b76e8a488ec738a81003.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\imgThumbnails\t04478a090756ae789ca4134a38e9a224.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\imgThumbnails\t07f981439547952d49187f461acfc538.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\imgThumbnails\t09753edc7d7dda6704c23b86dd7e0d64.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\imgThumbnails\t0a19ecc886423b410efd9b66ae46fc58.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\imgThumbnails\t0bf70b8c34e6b8b5407ee5b20dcd0666.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\imgThumbnails\t10cbc03d25fa82c0e8279e6b45d9bbe2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\imgThumbnails\t14b4f1dfdd0957faba8c578641315eab.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\imgThumbnails\t1686a7813ed1758116cc13060c59e5d3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\imgThumbnails\t1bdb13358e8e28a300f6bf9cf24813ea.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\imgThumbnails\t1e4a7f43105f6a69aad43b79e057b264.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\imgThumbnails\t20fc269e4f294feb5f95ca6a30f65a5f.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\imgThumbnails\t224d5794410ad73d428041f9a8b02d7c.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\imgThumbnails\t2361e6b613bf451bb93a6ef470c28e7a.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\imgThumbnails\t250fb0ddee7f4f0a58e02cd4ba847b37.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\imgThumbnails\t25f2ae9fe8f8735929b573e0ac1bd4fe.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\imgThumbnails\t3111fade831616eec454a2a2120938de.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\imgThumbnails\t32ed7ca114d9fb4937f4f2f07074ad5f.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\imgThumbnails\t34bd929e2ce60de7831868b077485d70.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\imgThumbnails\t3672cc2e28e587d6aa17973d93537b7b.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\imgThumbnails\t3a25e5584355e07ee850b86e49a5b1f6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\imgThumbnails\t3c290579c6fd0ecc8aa60939a56cbb81.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\imgThumbnails\t3dd0f118177ebc3ef102901f2b67ae94.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\imgThumbnails\t418539841a63747428e6a6d6137bfe81.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\imgThumbnails\t42f9b5c9c867636734a5849229da28ae.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\imgThumbnails\t43b2c7d10230087783fc1302b4dbfd7b.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\imgThumbnails\t44ccf671fcab27007aa540c8b267342d.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\imgThumbnails\t465fce78b7ea67ee30d14f1a54c4f61c.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\imgThumbnails\t46646d78f239fbe7f8f3f5b4de0964c0.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\imgThumbnails\t482bb636e737afc6142ec5e9d32bcbfd.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\imgThumbnails\t4a6a235f8b725fc3898d774c99da9822.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\imgThumbnails\t4d60e7a657e3306989d41cbfcd1bd2c2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\imgThumbnails\t4eb5b1905ff771ab83be9c0c99de1938.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\imgThumbnails\t511bd79059713f4e848e1245b0dffb9f.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\imgThumbnails\t5223a2db93e0e29be3f6283b6cce30a4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\imgThumbnails\t53a6508ce281cd847655b5528b4aa7b8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\imgThumbnails\t53be5a4152be5051e31d8bd2b55a0897.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\imgThumbnails\t53c49a289657dd263e6e108b338cbe76.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\imgThumbnails\t553f87adde7148ad76bd8c02a3f1fbde.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\imgThumbnails\t5bdea8f7de5b4713fed3505f9a92d9c9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\imgThumbnails\t61c8eb2102cc7e08bb4423b445f6e63d.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\imgThumbnails\t63cf275551df5ab97c1af07c1621b419.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\imgThumbnails\t6510bef02e7e3dfd15169c6f6e449487.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\imgThumbnails\t6709530b251e415f752917c4a70cfde6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\imgThumbnails\t6a6c1d57fa517b7344e49218d9a82e59.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\imgThumbnails\t709719cffef6b21b1bc54d1667638009.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\imgThumbnails\t85a0d40cb7cf6c77e2d55db126545c59.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\imgThumbnails\t85d0a099843bb0b6359d9ea947e9145d.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\imgThumbnails\t893c2a0f6d77ed558df80212d5f96c95.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\imgThumbnails\t8becc1bb6ec886ba04b67493751ee20c.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\imgThumbnails\t8cacdcd4dfedeecd5cdea51b875481fe.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\imgThumbnails\t8fdaa5d1073b7da244874643e80569ab.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\imgThumbnails\t912d6ec1ddbdde7f43af3ff247687fcd.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\imgThumbnails\t95728d623c38637c877f2ad155a06ba7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\imgThumbnails\t95926b0cca450ee3311988fd4f732604.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\imgThumbnails\t960c8485f2c77003c46ab124603361df.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\imgThumbnails\t9a2ed8929ed9c67f120c0b6d42d45f03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\imgThumbnails\t9c4d2b0dde0c62d4b1b723d51a8f43ce.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\imgThumbnails\t9f59b63e37fe5f2b8773d54c54445aa8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\imgThumbnails\t9fd3b609793f12e947904a1631472344.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\imgThumbnails\ta1c8281253f830f35bcbb3984da7ff1c.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\imgThumbnails\ta53d3301c7586569dfb2c4edbdcab9c1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\imgThumbnails\ta59ec674d0e87c8e494a91ea70179fcc.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\imgThumbnails\ta79af4f251712d780ce5f26ff2ec1d9c.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\imgThumbnails\ta91a4f2dd68e8f9da23f1bf30c250ddd.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\imgThumbnails\taea2cc37529cd944f358474cdaf90059.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\imgThumbnails\tb28e1167e1075258ea2168a3d0befcaa.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\imgThumbnails\tb45d8ce04122c1ed3aa89a4bee100e1e.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\imgThumbnails\tb7464ca97f75387194661efb96ba24cc.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\imgThumbnails\tba6c96a2b9d40931dab1823c9cce1a54.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\imgThumbnails\tba8cb1915d70d32c49023a36bb0120d9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\imgThumbnails\tbf86fd870b2b6b9131c0681439051c24.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\imgThumbnails\tc006be4712e97febf3fca496f92d0a6c.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\imgThumbnails\tc04c0531cb877e3620ba02c19f8ba0e9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\imgThumbnails\tc1af2a1089eb2694a1db99c83ca38b70.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\imgThumbnails\tc3c5dd286e6162f7ee8e1f1bbff4b82b.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\imgThumbnails\tc6001ac055e3c149dfe40c61e7fee11f.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\imgThumbnails\tc6ddc3a4a4f4b6d19efd1e497e1ac608.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\imgThumbnails\tce6104963fdcb7dc1839bcedf08af387.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\imgThumbnails\td1d36dfce7d06e49ff78876e56ef1be9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\imgThumbnails\td6fdd10d42c0d590da1003bcbfb457f8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\imgThumbnails\td84ed2389ace76a87b789bb6a2c4bd3b.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\imgThumbnails\tdbbadba4337a4a1a8cd5c4d3b7bcc484.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\imgThumbnails\tdc79e62f5f00ebbfd7d5ac0ccfdba32f.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\imgThumbnails\tded4b09803bb441d744713f868b2913f.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\imgThumbnails\te337ab99bb815e51bbab0b1a1f854098.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\imgThumbnails\te3f34fb1401b4a22c596dd02387b08b8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\imgThumbnails\te4b784236f2b0e6a3c02fc1d456fa6d0.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\imgThumbnails\te55c102fbbea8c91eef4583cd4ee6e90.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\imgThumbnails\te69ac8495e82b61a7fdfa7242273a99c.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\imgThumbnails\te78bcea89e53ffaeb4bc3823b5035d3a.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\imgThumbnails\te9c43c5fffd02c4dbe7c8c57e87eb562.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\imgThumbnails\te9d6a9c7a0aaa089d99319eb21d9f175.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\imgThumbnails\ted3839b8f3796ef82041f6fc551dbea9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\imgThumbnails\tf0d3008daef912d2d8d404af48ec8007.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\imgThumbnails\tf328f12cba3cb9fe2705ae7aa271b91d.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\imgThumbnails\tfa7a06480474e2f5bac77b080f614930.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\img\00d992da6b31b76e8a488ec738a81003.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\img\04478a090756ae789ca4134a38e9a224.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\img\07f981439547952d49187f461acfc538.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\img\0a19ecc886423b410efd9b66ae46fc58.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\img\0bf70b8c34e6b8b5407ee5b20dcd0666.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\img\0ff9b9c1ec09b1a3077fc56610307789.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\img\10cbc03d25fa82c0e8279e6b45d9bbe2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\img\14542d463e12e4bc59437be31f2018f0.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\img\14b4f1dfdd0957faba8c578641315eab.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\img\1686a7813ed1758116cc13060c59e5d3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\img\1bdb13358e8e28a300f6bf9cf24813ea.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\img\1e4a7f43105f6a69aad43b79e057b264.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\img\20fc269e4f294feb5f95ca6a30f65a5f.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\img\224d5794410ad73d428041f9a8b02d7c.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\img\250fb0ddee7f4f0a58e02cd4ba847b37.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\img\25f2ae9fe8f8735929b573e0ac1bd4fe.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\img\3111fade831616eec454a2a2120938de.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\img\32ed7ca114d9fb4937f4f2f07074ad5f.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\img\34bd929e2ce60de7831868b077485d70.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\img\351bdefc18c0bc1828343638ee8ef426.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\img\3672cc2e28e587d6aa17973d93537b7b.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\img\36aab6dcc2b7ca2df8cdf61dfe989ea6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\img\3a25e5584355e07ee850b86e49a5b1f6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\img\3c290579c6fd0ecc8aa60939a56cbb81.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\img\3dd0f118177ebc3ef102901f2b67ae94.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\img\40663bd8eb96a260a655d5b6f1de7e1a.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\img\418539841a63747428e6a6d6137bfe81.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\img\42f9b5c9c867636734a5849229da28ae.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\img\43b2c7d10230087783fc1302b4dbfd7b.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\img\43f8aca2eb1a261cacf17cc70236f49f.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\img\44ccf671fcab27007aa540c8b267342d.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\img\465fce78b7ea67ee30d14f1a54c4f61c.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\img\46646d78f239fbe7f8f3f5b4de0964c0.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\img\482bb636e737afc6142ec5e9d32bcbfd.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\img\4d60e7a657e3306989d41cbfcd1bd2c2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\img\4eb5b1905ff771ab83be9c0c99de1938.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\img\50e0082b04e2b913b7bd66c3635dda6a.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\img\511bd79059713f4e848e1245b0dffb9f.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\img\5223a2db93e0e29be3f6283b6cce30a4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\img\53a6508ce281cd847655b5528b4aa7b8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\img\53be5a4152be5051e31d8bd2b55a0897.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\img\53c49a289657dd263e6e108b338cbe76.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\img\553f87adde7148ad76bd8c02a3f1fbde.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\img\56f8b571162c696366220b8c8cc24a46.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\img\5bdea8f7de5b4713fed3505f9a92d9c9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\img\61c8eb2102cc7e08bb4423b445f6e63d.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\img\63cf275551df5ab97c1af07c1621b419.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\img\6510bef02e7e3dfd15169c6f6e449487.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\img\6709530b251e415f752917c4a70cfde6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\img\6a6c1d57fa517b7344e49218d9a82e59.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\img\702cc83dda38a1da019d789034c49b97.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\img\709719cffef6b21b1bc54d1667638009.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\img\85a0d40cb7cf6c77e2d55db126545c59.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\img\85d0a099843bb0b6359d9ea947e9145d.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\img\893c2a0f6d77ed558df80212d5f96c95.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\img\8cacdcd4dfedeecd5cdea51b875481fe.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\img\8d8504e6e9111531d021610c5cdc2137.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\img\8fdaa5d1073b7da244874643e80569ab.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\img\95728d623c38637c877f2ad155a06ba7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\img\95926b0cca450ee3311988fd4f732604.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\img\95ffb333deea7a5084673c2228467bef.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\img\960c8485f2c77003c46ab124603361df.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\img\9a2ed8929ed9c67f120c0b6d42d45f03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\img\9c4d2b0dde0c62d4b1b723d51a8f43ce.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\img\9f59b63e37fe5f2b8773d54c54445aa8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\img\9fd3b609793f12e947904a1631472344.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\img\a1c8281253f830f35bcbb3984da7ff1c.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\img\a25d86b39f7e4cefbe47377323e3a558.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\img\a59ec674d0e87c8e494a91ea70179fcc.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\img\a79af4f251712d780ce5f26ff2ec1d9c.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\img\a91a4f2dd68e8f9da23f1bf30c250ddd.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\img\aea2cc37529cd944f358474cdaf90059.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\img\b28e1167e1075258ea2168a3d0befcaa.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\img\b45d8ce04122c1ed3aa89a4bee100e1e.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\img\b7464ca97f75387194661efb96ba24cc.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\img\ba6c96a2b9d40931dab1823c9cce1a54.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\img\ba8cb1915d70d32c49023a36bb0120d9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\img\bf86fd870b2b6b9131c0681439051c24.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\img\c006be4712e97febf3fca496f92d0a6c.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\img\c04c0531cb877e3620ba02c19f8ba0e9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\img\c1af2a1089eb2694a1db99c83ca38b70.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\img\c3c5dd286e6162f7ee8e1f1bbff4b82b.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\img\c6001ac055e3c149dfe40c61e7fee11f.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\img\c6ddc3a4a4f4b6d19efd1e497e1ac608.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\img\ce6104963fdcb7dc1839bcedf08af387.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\img\d1d36dfce7d06e49ff78876e56ef1be9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\img\d6fdd10d42c0d590da1003bcbfb457f8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\img\d84ed2389ace76a87b789bb6a2c4bd3b.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\img\dbbadba4337a4a1a8cd5c4d3b7bcc484.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\img\dc79e62f5f00ebbfd7d5ac0ccfdba32f.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\img\ded4b09803bb441d744713f868b2913f.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\img\e0a465ff6268ad51056fb381833b61fe.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\img\e337ab99bb815e51bbab0b1a1f854098.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\img\e3f34fb1401b4a22c596dd02387b08b8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\img\e4b784236f2b0e6a3c02fc1d456fa6d0.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\img\e55c102fbbea8c91eef4583cd4ee6e90.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\img\e69ac8495e82b61a7fdfa7242273a99c.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\img\e9c43c5fffd02c4dbe7c8c57e87eb562.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\img\e9d6a9c7a0aaa089d99319eb21d9f175.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\img\f0d3008daef912d2d8d404af48ec8007.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\webstormproject\blog-system\uploads\img\f328f12cba3cb9fe2705ae7aa271b91d.jpg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/access.log" afterPath="$PROJECT_DIR$/access.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/error.log" afterPath="$PROJECT_DIR$/error.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/index.ejs" afterPath="$PROJECT_DIR$/views/index.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/search.ejs" afterPath="$PROJECT_DIR$/views/search.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/users.ejs" afterPath="$PROJECT_DIR$/views/users.ejs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/www.js" afterPath="$PROJECT_DIR$/bin/www.js" />
     </list>
     <list id="9a1cf839-5de9-4115-8c68-1ca382a28eef" name="Failed commit: Default" comment="2015-11-2 rest风格优化" />
     <ignored path="weibo.iws" />
@@ -20,7 +226,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CreatePatchCommitExecutor">
-    <option name="PATCH_PATH" value="" />
+    <option name="PATCH_PATH" value="H:\webstormproject\blog-system" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
@@ -28,60 +234,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="mongooseDb.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/mongooseDb.js">
+      <file leaf-file-name="myjs.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/js/myjs/myjs.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <caret line="21" column="54" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="54" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/settings.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-              <folding>
-                <marker date="1459847354363" expanded="true" signature="60:228" placeholder="{&quot;cookieSecret&quot;: 'stone'...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="51" column="21" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.ejs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/index.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.2727275">
-              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="53" column="14" selection-start-line="53" selection-start-column="14" selection-end-line="53" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="search.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/search.js">
+      <file leaf-file-name="dropzone.min.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/bower_components/dropzone/dist/min/dropzone.min.css">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -90,41 +254,71 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="myjs.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/js/myjs/myjs.js">
+      <file leaf-file-name="test.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+            <state vertical-scroll-proportion="-8.0">
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="www.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/bin/www.js">
+      <file leaf-file-name="upload.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/upload.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.92561984">
-              <caret line="34" column="22" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="53" column="9" selection-start-line="50" selection-start-column="15" selection-end-line="53" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="reg.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/reg.js">
+      <file leaf-file-name="dropzone.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/bower_components/dropzone/dist/dropzone.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="44" column="40" selection-start-line="44" selection-start-column="40" selection-end-line="44" selection-end-column="40" />
+            <state vertical-scroll-proportion="-14.322034">
+              <caret line="1316" column="0" selection-start-line="1316" selection-start-column="0" selection-end-line="1316" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/user.js">
+      <file leaf-file-name="index.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/index.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+            <state vertical-scroll-proportion="-2.909091">
+              <caret line="72" column="6" selection-start-line="72" selection-start-column="6" selection-end-line="72" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="users.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/users.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.4545455">
+              <caret line="13" column="55" selection-start-line="13" selection-start-column="55" selection-end-line="13" selection-end-column="55" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="search.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/search.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-9.454545">
+              <caret line="13" column="60" selection-start-line="13" selection-start-column="60" selection-end-line="13" selection-end-column="60" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0661157">
+              <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -151,7 +345,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/routes/users.js" />
         <option value="$PROJECT_DIR$/views/error.ejs" />
         <option value="$PROJECT_DIR$/bin/www" />
         <option value="$PROJECT_DIR$/routes/reprint.js" />
@@ -170,15 +363,12 @@
         <option value="$PROJECT_DIR$/access.log" />
         <option value="$PROJECT_DIR$/error.log" />
         <option value="$PROJECT_DIR$/public/admin/derective/checkBoxDirective.js" />
-        <option value="$PROJECT_DIR$/test.html" />
         <option value="$PROJECT_DIR$/public/admin/directive/myDirective.js" />
         <option value="$PROJECT_DIR$/views/adminViews/list.html" />
-        <option value="$PROJECT_DIR$/views/users.ejs" />
         <option value="$PROJECT_DIR$/views/model/pageing.ejs" />
         <option value="$PROJECT_DIR$/views/model/postModel.ejs" />
         <option value="$PROJECT_DIR$/views/login.ejs" />
         <option value="$PROJECT_DIR$/public/admin/services/contentService.js" />
-        <option value="$PROJECT_DIR$/routes/upload.js" />
         <option value="$PROJECT_DIR$/views/admin.ejs" />
         <option value="$PROJECT_DIR$/routes/content.js" />
         <option value="$PROJECT_DIR$/public/admin/adminViews/edit.html" />
@@ -186,20 +376,26 @@
         <option value="$PROJECT_DIR$/public/admin/adminApp.js" />
         <option value="$PROJECT_DIR$/public/admin/adminViews/post.html" />
         <option value="$PROJECT_DIR$/routes/admin.js" />
-        <option value="$PROJECT_DIR$/modules/post.js" />
         <option value="$PROJECT_DIR$/public/admin/adminViews/list.html" />
         <option value="$PROJECT_DIR$/learn.html" />
         <option value="$PROJECT_DIR$/webpack.config.js" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/modules/mongooseDb.js" />
         <option value="$PROJECT_DIR$/routes/reg.js" />
         <option value="$PROJECT_DIR$/settings.js" />
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/public/stylesheets/style.css" />
-        <option value="$PROJECT_DIR$/views/index.ejs" />
-        <option value="$PROJECT_DIR$/public/js/myjs/myjs.js" />
         <option value="$PROJECT_DIR$/bin/www.js" />
+        <option value="$PROJECT_DIR$/routes/upload.js" />
+        <option value="$PROJECT_DIR$/modules/post.js" />
+        <option value="$PROJECT_DIR$/test.html" />
+        <option value="$PROJECT_DIR$/public/bower_components/dropzone/dist/dropzone.js" />
+        <option value="$PROJECT_DIR$/public/js/myjs/myjs.js" />
+        <option value="$PROJECT_DIR$/public/bower_components/dropzone/dist/min/dropzone.min.js" />
+        <option value="$PROJECT_DIR$/views/users.ejs" />
+        <option value="$PROJECT_DIR$/views/index.ejs" />
+        <option value="$PROJECT_DIR$/views/search.ejs" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -267,7 +463,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="bin" />
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -504,7 +700,43 @@
       <option name="project" value="LOCAL" />
       <updated>1459852141092</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="2015-4-5 工程整理&#10;">
+      <created>1459852370599</created>
+      <option name="number" value="00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1459852370599</updated>
+    </task>
+    <task id="LOCAL-00023" summary="2015-4-5 工程整理&#10;">
+      <created>1459852911946</created>
+      <option name="number" value="00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1459852911946</updated>
+    </task>
+    <task id="LOCAL-00024" summary="2015-4-5 工程整理&#10;">
+      <created>1459853072034</created>
+      <option name="number" value="00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1459853072034</updated>
+    </task>
+    <task id="LOCAL-00025" summary="2015-4-5 工程整理&#10;">
+      <created>1459854189754</created>
+      <option name="number" value="00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1459854189754</updated>
+    </task>
+    <task id="LOCAL-00026" summary="2015-4-5 工程整理&#10;">
+      <created>1459854534036</created>
+      <option name="number" value="00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1459854534036</updated>
+    </task>
+    <task id="LOCAL-00027" summary="2015-4-5 使用贴图网进行图片上传&#10;">
+      <created>1459863588288</created>
+      <option name="number" value="00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1459863588288</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TodoView">
@@ -520,7 +752,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23660715" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23660715" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32649574" sideWeight="0.49435824" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32914925" sideWeight="0.49435824" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31241283" sideWeight="0.51410437" order="11" side_tool="true" content_ui="tabs" />
@@ -587,74 +819,14 @@
     <MESSAGE value="2015-12-28  后天添加编辑" />
     <MESSAGE value="2015-3-1  后台页面编辑" />
     <MESSAGE value="2015-4-5 工程整理&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="2015-4-5 工程整理&#10;" />
+    <MESSAGE value="2015-4-5 使用贴图网进行图片上传&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="2015-4-5 使用贴图网进行图片上传&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/modules/comment.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="48" column="14" selection-start-line="48" selection-start-column="14" selection-end-line="48" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/error.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/logout.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/users.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.4379085">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/comment.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="34" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/images/icon.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/error.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1811" column="38" selection-start-line="1811" selection-start-column="38" selection-end-line="1811" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/access.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.73741794">
-          <caret line="6453" column="0" selection-start-line="6453" selection-start-column="0" selection-end-line="6453" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/article.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -662,24 +834,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/users.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.0689654">
-          <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/model/top.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-11.206897">
           <caret line="44" column="16" selection-start-line="44" selection-start-column="16" selection-end-line="44" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/model/imgupload.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.8965516">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -694,20 +852,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="28" column="40" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/model/updateModel.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="67" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/model/postModel.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -726,22 +870,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/dropzone.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="374" column="10" selection-start-line="374" selection-start-column="10" selection-end-line="374" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/upload.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="43" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/routes/content.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -754,6 +882,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#form#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#2;n#form#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#2;n#form#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#div#2;n#div#0;n#div#0;n#div#2;n#form#0;n#div#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -761,6 +895,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -771,28 +906,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/admin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#43#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/post.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="66" column="39" selection-start-line="66" selection-start-column="39" selection-end-line="66" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/admin/adminViews/list.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -827,6 +945,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="67" column="23" selection-start-line="67" selection-start-column="23" selection-end-line="67" selection-end-column="23" />
+          <folding>
+            <element signature="n#style#0;n#form#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#2;n#form#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#2;n#form#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#div#2;n#div#0;n#div#0;n#div#2;n#form#0;n#div#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -834,14 +958,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="13" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -939,16 +1055,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
           <folding>
-            <marker date="1459847354363" expanded="true" signature="60:228" placeholder="{&quot;cookieSecret&quot;: 'stone'...}" />
+            <marker date="1459847354363" expanded="true" signature="-1:-1" placeholder="{&quot;cookieSecret&quot;: 'stone'...}" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="51" column="21" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -960,10 +1068,118 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/index.ejs">
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/NodeJS/lib/NodeJS.jar!/com/jetbrains/nodejs/library/node-globals-stub.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.2727275">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state vertical-scroll-proportion="2.1184573">
+          <caret line="133" column="5" selection-start-line="133" selection-start-column="5" selection-end-line="133" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/www.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="51" column="21" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/admin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#43#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/comment.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="34" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/post.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/dropzone.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1618" column="0" selection-start-line="1618" selection-start-column="0" selection-end-line="1619" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/jsx/lib/js/js/web.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2577" column="24" selection-start-line="2577" selection-start-column="24" selection-end-line="2577" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/optimist/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.368705">
+          <caret line="47" column="4" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/model/postModel.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-27.636364">
+          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/model/imgupload.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="20" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
+          <folding>
+            <element signature="n#div#1;n#div#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/model/updateModel.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.6969697">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/upload.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="53" column="9" selection-start-line="50" selection-start-column="15" selection-end-line="53" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/bower_components/dropzone/dist/dropzone.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.322034">
+          <caret line="1316" column="0" selection-start-line="1316" selection-start-column="0" selection-end-line="1316" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -971,15 +1187,63 @@
     <entry file="file://$PROJECT_DIR$/public/js/myjs/myjs.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+          <caret line="21" column="54" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="54" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin/www.js">
+    <entry file="file://$PROJECT_DIR$/test.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.92561984">
-          <caret line="34" column="22" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
+        <state vertical-scroll-proportion="-8.0">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/bower_components/dropzone/dist/min/dropzone.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="4.594203">
+          <caret line="0" column="27342" selection-start-line="0" selection-start-column="27342" selection-end-line="0" selection-end-column="27342" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/bower_components/dropzone/dist/min/dropzone.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/index.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.909091">
+          <caret line="72" column="6" selection-start-line="72" selection-start-column="6" selection-end-line="72" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/search.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.454545">
+          <caret line="13" column="60" selection-start-line="13" selection-start-column="60" selection-end-line="13" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/users.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.4545455">
+          <caret line="13" column="55" selection-start-line="13" selection-start-column="55" selection-end-line="13" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0661157">
+          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
           <folding />
         </state>
       </provider>
