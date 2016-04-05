@@ -9796,3 +9796,147 @@ Error: Not Found
     at Function.process_params (h:\webstormproject\blog-system\node_modules\express\lib\router\index.js:330:12)
     at next (h:\webstormproject\blog-system\node_modules\express\lib\router\index.js:271:10)
     at Immediate.<anonymous> (h:\webstormproject\blog-system\node_modules\express-session\index.js:432:7)
+[Tue Apr 05 2016 18:49:39 GMT+0800 (中国标准时间)]/imgThumbnails/t/app/uploads/img/upload_eaa0fd3fb902e6edcbfd23679eeb48a2.png
+Error: Not Found
+    at h:\webstormproject\blog-system\app.js:61:15
+    at Layer.handle [as handle_request] (h:\webstormproject\blog-system\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (h:\webstormproject\blog-system\node_modules\express\lib\router\index.js:312:13)
+    at h:\webstormproject\blog-system\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (h:\webstormproject\blog-system\node_modules\express\lib\router\index.js:330:12)
+    at next (h:\webstormproject\blog-system\node_modules\express\lib\router\index.js:271:10)
+    at h:\webstormproject\blog-system\node_modules\express\lib\router\index.js:618:15
+    at next (h:\webstormproject\blog-system\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (h:\webstormproject\blog-system\node_modules\express\lib\router\index.js:176:3)
+    at router (h:\webstormproject\blog-system\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (h:\webstormproject\blog-system\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (h:\webstormproject\blog-system\node_modules\express\lib\router\index.js:312:13)
+    at h:\webstormproject\blog-system\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (h:\webstormproject\blog-system\node_modules\express\lib\router\index.js:330:12)
+    at next (h:\webstormproject\blog-system\node_modules\express\lib\router\index.js:271:10)
+    at logger (h:\webstormproject\blog-system\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (h:\webstormproject\blog-system\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (h:\webstormproject\blog-system\node_modules\express\lib\router\index.js:312:13)
+    at h:\webstormproject\blog-system\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (h:\webstormproject\blog-system\node_modules\express\lib\router\index.js:330:12)
+    at next (h:\webstormproject\blog-system\node_modules\express\lib\router\index.js:271:10)
+    at MongoStore.<anonymous> (h:\webstormproject\blog-system\node_modules\express-session\index.js:432:7)
+[Tue Apr 05 2016 18:49:43 GMT+0800 (中国标准时间)]/imgThumbnails/t/app/uploads/img/upload_d00bf4e634695fda90e7836270616b30.png
+Error: Not Found
+    at h:\webstormproject\blog-system\app.js:61:15
+    at Layer.handle [as handle_request] (h:\webstormproject\blog-system\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (h:\webstormproject\blog-system\node_modules\express\lib\router\index.js:312:13)
+    at h:\webstormproject\blog-system\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (h:\webstormproject\blog-system\node_modules\express\lib\router\index.js:330:12)
+    at next (h:\webstormproject\blog-system\node_modules\express\lib\router\index.js:271:10)
+    at h:\webstormproject\blog-system\node_modules\express\lib\router\index.js:618:15
+    at next (h:\webstormproject\blog-system\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (h:\webstormproject\blog-system\node_modules\express\lib\router\index.js:176:3)
+    at router (h:\webstormproject\blog-system\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (h:\webstormproject\blog-system\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (h:\webstormproject\blog-system\node_modules\express\lib\router\index.js:312:13)
+    at h:\webstormproject\blog-system\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (h:\webstormproject\blog-system\node_modules\express\lib\router\index.js:330:12)
+    at next (h:\webstormproject\blog-system\node_modules\express\lib\router\index.js:271:10)
+    at logger (h:\webstormproject\blog-system\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (h:\webstormproject\blog-system\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (h:\webstormproject\blog-system\node_modules\express\lib\router\index.js:312:13)
+    at h:\webstormproject\blog-system\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (h:\webstormproject\blog-system\node_modules\express\lib\router\index.js:330:12)
+    at next (h:\webstormproject\blog-system\node_modules\express\lib\router\index.js:271:10)
+    at MongoStore.<anonymous> (h:\webstormproject\blog-system\node_modules\express-session\index.js:432:7)
+[Tue Apr 05 2016 18:56:20 GMT+0800 (中国标准时间)]/imgThumbnails/t/app/uploads/img/upload_eaa0fd3fb902e6edcbfd23679eeb48a2.png
+Error: Not Found
+    at h:\webstormproject\blog-system\app.js:61:15
+    at Layer.handle [as handle_request] (h:\webstormproject\blog-system\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (h:\webstormproject\blog-system\node_modules\express\lib\router\index.js:312:13)
+    at h:\webstormproject\blog-system\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (h:\webstormproject\blog-system\node_modules\express\lib\router\index.js:330:12)
+    at next (h:\webstormproject\blog-system\node_modules\express\lib\router\index.js:271:10)
+    at h:\webstormproject\blog-system\node_modules\express\lib\router\index.js:618:15
+    at next (h:\webstormproject\blog-system\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (h:\webstormproject\blog-system\node_modules\express\lib\router\index.js:176:3)
+    at router (h:\webstormproject\blog-system\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (h:\webstormproject\blog-system\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (h:\webstormproject\blog-system\node_modules\express\lib\router\index.js:312:13)
+    at h:\webstormproject\blog-system\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (h:\webstormproject\blog-system\node_modules\express\lib\router\index.js:330:12)
+    at next (h:\webstormproject\blog-system\node_modules\express\lib\router\index.js:271:10)
+    at logger (h:\webstormproject\blog-system\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (h:\webstormproject\blog-system\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (h:\webstormproject\blog-system\node_modules\express\lib\router\index.js:312:13)
+    at h:\webstormproject\blog-system\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (h:\webstormproject\blog-system\node_modules\express\lib\router\index.js:330:12)
+    at next (h:\webstormproject\blog-system\node_modules\express\lib\router\index.js:271:10)
+    at MongoStore.<anonymous> (h:\webstormproject\blog-system\node_modules\express-session\index.js:432:7)
+[Tue Apr 05 2016 18:56:24 GMT+0800 (中国标准时间)]/imgThumbnails/t/app/uploads/img/upload_d00bf4e634695fda90e7836270616b30.png
+Error: Not Found
+    at h:\webstormproject\blog-system\app.js:61:15
+    at Layer.handle [as handle_request] (h:\webstormproject\blog-system\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (h:\webstormproject\blog-system\node_modules\express\lib\router\index.js:312:13)
+    at h:\webstormproject\blog-system\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (h:\webstormproject\blog-system\node_modules\express\lib\router\index.js:330:12)
+    at next (h:\webstormproject\blog-system\node_modules\express\lib\router\index.js:271:10)
+    at h:\webstormproject\blog-system\node_modules\express\lib\router\index.js:618:15
+    at next (h:\webstormproject\blog-system\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (h:\webstormproject\blog-system\node_modules\express\lib\router\index.js:176:3)
+    at router (h:\webstormproject\blog-system\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (h:\webstormproject\blog-system\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (h:\webstormproject\blog-system\node_modules\express\lib\router\index.js:312:13)
+    at h:\webstormproject\blog-system\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (h:\webstormproject\blog-system\node_modules\express\lib\router\index.js:330:12)
+    at next (h:\webstormproject\blog-system\node_modules\express\lib\router\index.js:271:10)
+    at logger (h:\webstormproject\blog-system\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (h:\webstormproject\blog-system\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (h:\webstormproject\blog-system\node_modules\express\lib\router\index.js:312:13)
+    at h:\webstormproject\blog-system\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (h:\webstormproject\blog-system\node_modules\express\lib\router\index.js:330:12)
+    at next (h:\webstormproject\blog-system\node_modules\express\lib\router\index.js:271:10)
+    at MongoStore.<anonymous> (h:\webstormproject\blog-system\node_modules\express-session\index.js:432:7)
+[Tue Apr 05 2016 18:58:21 GMT+0800 (中国标准时间)]/imgThumbnails/t/app/uploads/img/upload_eaa0fd3fb902e6edcbfd23679eeb48a2.png
+Error: Not Found
+    at h:\webstormproject\blog-system\app.js:61:15
+    at Layer.handle [as handle_request] (h:\webstormproject\blog-system\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (h:\webstormproject\blog-system\node_modules\express\lib\router\index.js:312:13)
+    at h:\webstormproject\blog-system\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (h:\webstormproject\blog-system\node_modules\express\lib\router\index.js:330:12)
+    at next (h:\webstormproject\blog-system\node_modules\express\lib\router\index.js:271:10)
+    at h:\webstormproject\blog-system\node_modules\express\lib\router\index.js:618:15
+    at next (h:\webstormproject\blog-system\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (h:\webstormproject\blog-system\node_modules\express\lib\router\index.js:176:3)
+    at router (h:\webstormproject\blog-system\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (h:\webstormproject\blog-system\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (h:\webstormproject\blog-system\node_modules\express\lib\router\index.js:312:13)
+    at h:\webstormproject\blog-system\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (h:\webstormproject\blog-system\node_modules\express\lib\router\index.js:330:12)
+    at next (h:\webstormproject\blog-system\node_modules\express\lib\router\index.js:271:10)
+    at logger (h:\webstormproject\blog-system\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (h:\webstormproject\blog-system\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (h:\webstormproject\blog-system\node_modules\express\lib\router\index.js:312:13)
+    at h:\webstormproject\blog-system\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (h:\webstormproject\blog-system\node_modules\express\lib\router\index.js:330:12)
+    at next (h:\webstormproject\blog-system\node_modules\express\lib\router\index.js:271:10)
+    at MongoStore.<anonymous> (h:\webstormproject\blog-system\node_modules\express-session\index.js:432:7)
+[Tue Apr 05 2016 18:58:21 GMT+0800 (中国标准时间)]/imgThumbnails/t/app/uploads/img/upload_d00bf4e634695fda90e7836270616b30.png
+Error: Not Found
+    at h:\webstormproject\blog-system\app.js:61:15
+    at Layer.handle [as handle_request] (h:\webstormproject\blog-system\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (h:\webstormproject\blog-system\node_modules\express\lib\router\index.js:312:13)
+    at h:\webstormproject\blog-system\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (h:\webstormproject\blog-system\node_modules\express\lib\router\index.js:330:12)
+    at next (h:\webstormproject\blog-system\node_modules\express\lib\router\index.js:271:10)
+    at h:\webstormproject\blog-system\node_modules\express\lib\router\index.js:618:15
+    at next (h:\webstormproject\blog-system\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (h:\webstormproject\blog-system\node_modules\express\lib\router\index.js:176:3)
+    at router (h:\webstormproject\blog-system\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (h:\webstormproject\blog-system\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (h:\webstormproject\blog-system\node_modules\express\lib\router\index.js:312:13)
+    at h:\webstormproject\blog-system\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (h:\webstormproject\blog-system\node_modules\express\lib\router\index.js:330:12)
+    at next (h:\webstormproject\blog-system\node_modules\express\lib\router\index.js:271:10)
+    at logger (h:\webstormproject\blog-system\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (h:\webstormproject\blog-system\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (h:\webstormproject\blog-system\node_modules\express\lib\router\index.js:312:13)
+    at h:\webstormproject\blog-system\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (h:\webstormproject\blog-system\node_modules\express\lib\router\index.js:330:12)
+    at next (h:\webstormproject\blog-system\node_modules\express\lib\router\index.js:271:10)
+    at MongoStore.<anonymous> (h:\webstormproject\blog-system\node_modules\express-session\index.js:432:7)

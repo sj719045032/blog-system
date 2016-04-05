@@ -31,7 +31,7 @@ var PostSchema = new mongoose.Schema({
 var PostModel = mongoose.model('posts', PostSchema);
 Post.prototype.save = function (callback) {
 
-    var date = new Date();
+    var date = new Date(Date.now() + (8 * 60 * 60 * 1000));
     var time = {
         date: date,
         year: date.getFullYear(),
