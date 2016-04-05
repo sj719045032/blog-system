@@ -44,7 +44,8 @@ router.post('/img', function (req, res) {
         thumbnail.thumbnail(storename, function (err,fileurl) {
             var info = {
                 "sourceImg": url,
-                "thumbnailImg":fileurl.substring(fileurl.indexOf('/',fileurl.indexOf('/')+1),fileurl.length)
+                "thumbnailImg":url
+                /*"thumbnailImg":fileurl.substring(fileurl.indexOf('/',fileurl.indexOf('/')+1),fileurl.length)*/
             };
             return res.send(info);
         });
