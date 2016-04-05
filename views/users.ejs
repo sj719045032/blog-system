@@ -50,11 +50,11 @@
                 </div>
                 <div class="panel-footer clearfix">
                     <% if (user && (user.name == post.name)) { %>
+                    <% include model/updateModel.ejs %>
                     <form action="/content/<%= post._id %>" style="display: inline" method="post">
                         <div class="btn-group pull-right ">
                             <a class="edit btn btn-primary btn-sm" href="#" data-toggle="modal"
                                data-target="#<%= post._id %>">编辑</a>
-                            <% include model/updateModel.ejs %>
                             <input value="delete" type="hidden" name="_method">
                             <input class=" btn btn-primary btn-sm" type="submit" value="删除">
                         </div>
