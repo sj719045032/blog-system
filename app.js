@@ -44,7 +44,7 @@ app.use(session({secret: settings.cookieSecret, store: new MongoStore({url: sett
 var accessLogStream = fs.createWriteStream(__dirname + '/access.log', {flags: 'a'});
 var errorLogStream = fs.createWriteStream(__dirname + '/error.log', {flags: 'a'});
 // setup the logger
-app.use(logger('combined', {stream: accessLogStream}));
+//app.use(logger('combined', {stream: accessLogStream}));
 app.use('/', index);
 app.use('/content',content);
 app.use('/users', users);
@@ -71,7 +71,7 @@ if (app.get('env') === 'development') {
     app.use(function (err, req, res, next) {
         res.status(err.status || 500);
         var meta = '['+new Date()+']' + req.url + '\n';
-        errorLogStream.write(meta+err.stack+'\n');
+        //errorLogStream.write(meta+err.stack+'\n');
 
         res.render('error', {
             message: err.message,
