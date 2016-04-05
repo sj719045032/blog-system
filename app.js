@@ -37,7 +37,7 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.static(path.join(__dirname, 'uploads')));
-app.use(session({secret: settings.cookieSecret, store: new MongoStore({db: settings.db}),proxy: true,
+app.use(session({secret: settings.cookieSecret, store: new MongoStore({url: settings.url}),proxy: true,
     resave: true,
     saveUninitialized: true}));
 // create a write stream (in append mode)

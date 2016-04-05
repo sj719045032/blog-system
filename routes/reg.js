@@ -40,12 +40,14 @@ router.post('/', function (req, res, next) {
             err = "用户名已存在"
         }
         if (err) {
+            console.log(err);
             req.flash('error', err);
             return res.redirect('/reg');
         }
 
         newUser.save(function (err) {
             if (err) {
+                console.log(err);
                 req.flash('error', err);
                 return res.redirect('/reg');
             }
