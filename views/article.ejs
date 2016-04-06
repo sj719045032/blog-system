@@ -71,7 +71,10 @@
             <% flag = 0 %>
             <% } %>
             <% if (flag) { %>
-            <a class="edit btn btn-primary btn-sm" href="/reprint/<%= post._id %>">转载</a>
+            <form action="/content/<%= post._id %>" style="display: inline" method="post">
+                <input value="reprint" type="hidden" name="_method">
+                <input type="submit" class="edit btn btn-primary btn-sm" value="转载">
+            </form>
             <% } %>
 
         </div>
