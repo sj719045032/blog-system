@@ -7,12 +7,6 @@
     <link rel='stylesheet' href='/stylesheets/style.css'/>
     <link rel="stylesheet" href="/bower_components/lightbox2/dist/css/lightbox.css">
     <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css"/>
-    <script src="/bower_components/jquery/dist/jquery.min.js"></script>
-    <script src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="/bower_components/dropzone/dist/min/dropzone.min.js"></script>
-    <script src="/bower_components/lightbox2/dist/js/lightbox.min.js" defer></script>
-    <script src="/bower_components/angular/angular.min.js"></script>
-    <script src="/js/myjs/myjs.js"></script>
     <script>
         function delcfm() {
             if (!confirm("确认要删除？")) {
@@ -85,6 +79,8 @@
     <%- include model/comment.ejs %>
     <% include model/bottom.ejs %>
 </div>
+<script src="/js/bundle.js"></script>
+<script src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
 </html>
 
