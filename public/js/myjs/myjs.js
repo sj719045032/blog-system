@@ -80,6 +80,10 @@ $(function () {
 
     });
 
+    $('ul.nav > li').removeClass('active');
+    $('#' + '<%=type%>').addClass('active');
+
+
 
 });
 angular.module('myApp', []);

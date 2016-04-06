@@ -11,6 +11,6 @@ gulp.task('concat', function () {
     gulp.src(['**/jquery/dist/jquery.min.js',
         '**/dropzone/dist/min/dropzone.min.js',
         '**/lightbox2/dist/js/lightbox.min.js',
-        '**/angular/angular.min.js',
-    '**/js/myjs/myjs.js']).pipe(concat('bundle.js')).pipe(minify()).pipe(gulp.dest('./public/js'));
+        '**/angular/angular.js',
+    '**/js/myjs/myjs.js']).pipe(concat('bundle.js')).pipe(gulp.dest('./public/js'));
 });
