@@ -2,7 +2,7 @@
  * Created by shijin on 2015/11/26.
  */
 adminApp
-    .constant("contentsUrl", "http://localhost:3000/admin/content/")
+    .constant("contentsUrl", "/admin/content/")
     .factory("contentService", function ($http,$q, contentsUrl) {
         return {
             getContents: function (page) {
