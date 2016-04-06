@@ -12,21 +12,23 @@
     "connect-flash": "*",
     "connect-mongo": "*",
     "mongodb": "2.0.46",
-    "formidable":"*",
+    "formidable": "*",
     "generic-pool": "*",
     "async": "*",
-    "thumbnail":"*",
-    "gm":"*",
+    "thumbnail": "*",
+    "gm": "*",
     "mongoose": "4.2.4",
-    "debug":"*",
-    "cookie-parser":"*",
-    "body-parser":"*",
-    "morgan":"*",
+    "debug": "*",
+    "cookie-parser": "*",
+    "body-parser": "*",
+    "morgan": "*",
     "jquery": "^2.2.1",
     "jsx": "^0.9.89",
     "react": "^0.14.7"
   },
   "devDependencies": {
-
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-minify": "0.0.7"
   }
 }

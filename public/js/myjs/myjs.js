@@ -37,7 +37,7 @@ $(function () {
                 formData.append("Token", "88f0c33e127164112ae68aa79ea7745091f54f7a:Y2FCUWJoN2RYYUFVNl9oUG1QM0FqN3I3X0U0PQ==:eyJkZWFkbGluZSI6MTQ1OTg2MDEyOSwiYWN0aW9uIjoiZ2V0IiwidWlkIjoiNTYxODc1IiwiYWlkIjoiMTIxMzQwNiIsImZyb20iOiJmaWxlIn0=");
                 formData.append("aid",1213406);
                 formData.append("deadline",new Date().getMilliseconds()+60);
-                 formData.append("form","file");
+                formData.append("form","file");
             });
             $(".close").on('click', function () {
                 dz.removeAllFiles();
@@ -50,6 +50,7 @@ $(function () {
 
     /**
      * lightbox配置信息
+
      */
     lightbox.option({
         'resizeDuration': 200,
