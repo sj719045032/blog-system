@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title %></title>
+    <link rel="stylesheet" href="/bower_components/lightbox2/dist/css/lightbox.css" >
+    <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css"/>
+    <link rel='stylesheet' href='/stylesheets/style.css'/>
+    <script src="/bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="/bower_components/dropzone/dist/min/dropzone.min.js"></script>
+    <script src="/bower_components/lightbox2/dist/js/lightbox.min.js" defer></script>
+    <script  src="/bower_components/angular/angular.min.js"></script>
+    <script src="/js/myjs/myjs.js"></script>
+</head>
+<body class="body_background" >
+
+<% include model/top.ejs %>
+<div class="container">
+    <% include model/prompt.ejs %>
+    <div class="row">
+        <% if(posts) %>
+        <% posts.forEach(function (post) { %>
+        <div class="panel  panel-default col-md-12 col-sm-12 table-bordered content_item">
+            <div class="panel-heading"><a class="h3 panel-title " href="/content/<%= post._id %>"><%= post.title %></a>
+                <div class="content_info">作者：<a href="/users/<%= post.name %>"><%= post.name %></a> |
+                    日期：<%= post.time.minute %> |
+                    点击量：<%= post.pv ? post.pv : "0" %> | 转载：
+                    <% if (post.reprint_info.reprint_to) { %>
+                    <%= post.reprint_info.reprint_to.length %>
+                    <% } else { %>
+                    <%= 0 %>
+                    <% } %>
+                </div>
+            </div>
+            <div class="panel-body"><div class="content_text"><%- post.post %></div>
+                <% if(post.img) { %>
+                <% post.img.forEach(function (img) { %>
+                <a target="_blank" data-lightbox="roadtrip<%= post._id %>" href=<%= img.sourceImg %>><img
+                            class="content_img" src=<%= img.thumbnailImg %>></a>
+                <% }) %>
+                <% } %></div>
+            <div class="panel-footer clearfix">
+
+
+                <div class="btn-group pull-right ">
+                    <% var flag = 1 %>
+                    <% if (user && (user.name != post.name)) { %>
+                    <% if ((post.reprint_info.reprint_from != undefined) && (user.name == post.reprint_info.reprint_from.name)) { %>
+                    <% flag = 0 %>
+                    <% } %>
+                    <% if ((post.reprint_info.reprint_to != undefined)) { %>
+                    <% post.reprint_info.reprint_to.forEach(function (reprint_to) { %>
+                    <% if (user.name == reprint_to.name) { %>
+                    <% flag = 0 %>
+                    <% } %>
+                    <% }) %>
+                    <% } %>
+                    <% } else { %>
+                    <% flag = 0 %>
+                    <% } %>
+                    <% if (flag) { %>
+                    <form action="/content/<%= post._id %>" style="display: inline" method="post">
+                        <input value="reprint" type="hidden" name="_method">
+                        <input type="submit" class="edit btn btn-primary btn-sm" value="转载">
+                        </form>
+                    <% } %>
+                </div>
+            </div>
+        </div>
+        <% }) %>
+    </div>
+    <% include model/pageing.ejs %>
+    <% include model/bottom.ejs %>
+</div>
+</body>
+</html>
+
+
+

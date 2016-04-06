@@ -1,0 +1,32 @@
+{
+  "name": "blog",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www.js"
+  },
+  "dependencies": {
+    "express-session": "*",
+    "ejs": "*",
+    "express": "*",
+    "connect-flash": "*",
+    "connect-mongo": "*",
+    "mongodb": "2.0.46",
+    "formidable":"*",
+    "generic-pool": "*",
+    "async": "*",
+    "thumbnail":"*",
+    "gm":"*",
+    "mongoose": "4.2.4",
+    "debug":"*",
+    "cookie-parser":"*",
+    "body-parser":"*",
+    "morgan":"*",
+    "jquery": "^2.2.1",
+    "jsx": "^0.9.89",
+    "react": "^0.14.7"
+  },
+  "devDependencies": {
+
+  }
+}
