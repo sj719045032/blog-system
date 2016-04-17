@@ -176,7 +176,7 @@ Post.remove = function (_id, callback) {
 
                 });
             }, function (doc, cb) {
-                User.changeArticleNumber(doc.name,1, function (err) {
+                User.changeArticleNumber(doc.name,-1, function (err) {
                     cb(err);
                 });
 

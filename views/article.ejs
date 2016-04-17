@@ -48,8 +48,9 @@
             <% if (user && (user.name == post.name)) { %>
             <form action="/content/<%= post._id %>" style="display: inline" method="post">
                 <div class="btn-group pull-right ">
+					<% include model/updateModel.ejs %>
                     <a class="edit btn btn-primary btn-sm" href="#" data-toggle="modal"
-                       data-target="#updateModal">编辑</a>
+                       data-target="#<%= post._id %>">编辑</a>
                     <input value="delete" type="hidden" name="_method">
                     <input class=" btn btn-primary btn-sm" type="submit" value="删除">
                 </div>
@@ -81,6 +82,7 @@
 </div>
 <script src="/js/bundle.js"></script>
 <script src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
 </body>
 </html>
 
